@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Manatan Community Extensions</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css?v=20260611-inline">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap nav">
+        <a class="brand" href="./">Manatan Extensions</a>
+        <nav class="nav-links" aria-label="Primary links">
+          <a href="#catalog">Catalog</a>
+          <a href="add-repo/">Add Repo</a>
+          <a href="https://github.com/Manatan-Community/extensions-source/tree/main/docs">Docs</a>
+          <a class="icon-link" href="https://github.com/Manatan-Community/extensions" aria-label="GitHub repository" title="GitHub">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 .5C5.7.5.7 5.6.7 11.9c0 5 3.3 9.3 8 10.8.6.1.8-.3.8-.6v-2c-3.3.7-4-1.4-4-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 .1.7 2.1 2.8 1.5.1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2.9-.3 1.9-.4 2.9-.4s2 .1 2.9.4c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.7-1.6 8-5.8 8-10.8C23.3 5.6 18.3.5 12 .5Z"/>
+            </svg>
+          </a>
+          <a class="icon-link" href="https://discord.gg/KnrPX7Pq" aria-label="Discord" title="Discord">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M19.5 4.7A18.6 18.6 0 0 0 15 3.3l-.2.4c1.6.4 2.3 1 2.3 1A15.2 15.2 0 0 0 12 3.8c-1.7 0-3.4.3-5.1.9 0 0 .7-.7 2.4-1l-.2-.4a18.6 18.6 0 0 0-4.6 1.4C1.7 8.8 1 12.8 1.4 16.8A18.9 18.9 0 0 0 7 19.6l.7-1.1c-1.2-.4-2.3-1-3.3-1.8l.8.4c3.1 1.4 6.4 1.9 10.1.4a13 13 0 0 0 3.5-1.9c-1 .8-2.1 1.4-3.4 1.8l.7 1.1a18.7 18.7 0 0 0 5.6-2.8c.5-4.7-.8-8.6-2.2-11Zm-11 9.7c-1.1 0-2-1-2-2.1s.9-2.1 2-2.1 2 1 2 2.1-.9 2.1-2 2.1Zm7 0c-1.1 0-2-1-2-2.1s.9-2.1 2-2.1 2 1 2 2.1-.9 2.1-2 2.1Z"/>
+            </svg>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="wrap hero-grid">
+          <div class="hero-copy">
+            <h1>Manga, video, and novel extensions in one index.</h1>
+            <p class="lede">Browse Manatan-native `.manatan` packages and add community repositories to Manatan.</p>
+            <div class="hero-actions">
+              <a class="button primary" href="add-repo/">Add to Manatan</a>
+              <a class="button" href="#catalog">Browse catalog</a>
+              <a class="button" href="https://github.com/Manatan-Community/extensions">GitHub</a>
+              <a class="button" href="https://github.com/Manatan-Community/extensions-source">Build an extension</a>
+            </div>
+          </div>
+          <div class="media-strip" aria-label="Media indexes">
+            <a class="media-card manga" href="#catalog" data-jump-media="manga">
+              <span>Manga</span>
+              <strong id="manga-count">0</strong>
+              <small>chapters and pages</small>
+            </a>
+            <a class="media-card video" href="#catalog" data-jump-media="video">
+              <span>Video</span>
+              <strong id="video-count">0</strong>
+              <small>episodes and streams</small>
+            </a>
+            <a class="media-card novel" href="#catalog" data-jump-media="novel">
+              <span>Novel</span>
+              <strong id="novel-count">0</strong>
+              <small>chapters and text</small>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="catalog" class="wrap catalog-section">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Catalog</p>
+            <h2>Available Extensions</h2>
+          </div>
+          <p id="result-count">Loading extensions...</p>
+        </div>
+
+        <div class="toolbar" aria-label="Catalog controls">
+          <div class="tabs" role="tablist" aria-label="Media type">
+            <button class="tab active" type="button" data-media="all">All <span id="total-count">0</span></button>
+            <button class="tab" type="button" data-media="manga">Manga</button>
+            <button class="tab" type="button" data-media="video">Video</button>
+            <button class="tab" type="button" data-media="novel">Novel</button>
+          </div>
+          <div class="filters">
+            <label class="field">
+              <span>Language</span>
+              <select id="language-filter">
+                <option value="all">All languages</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Verification</span>
+              <select id="verification-filter">
+                <option value="all">All packages</option>
+                <option value="verified">Verified only</option>
+                <option value="unverified">Unverified only</option>
+              </select>
+            </label>
+            <label class="field search">
+              <span>Search</span>
+              <input id="search" type="search" placeholder="Name, package ID, source">
+            </label>
+          </div>
+        </div>
+
+        <div class="index-actions" aria-label="Index endpoints">
+          <button type="button" class="copy-button" data-copy="https://manatan-community.github.io/extensions/manga.min.json">Copy manga index</button>
+          <button type="button" class="copy-button" data-copy="https://manatan-community.github.io/extensions/video.min.json">Copy video index</button>
+          <button type="button" class="copy-button" data-copy="https://manatan-community.github.io/extensions/novel.min.json">Copy novel index</button>
+          <button type="button" class="copy-button" data-copy="https://manatan-community.github.io/extensions/catalog.min.json">Copy full catalog</button>
+        </div>
+
+        <div id="catalog-list" class="catalog" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <script src="app.js?v=20260611-inline"></script>
+  </body>
+</html>

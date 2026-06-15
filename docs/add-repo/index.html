@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Add Manatan Community Repositories</title>
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="../styles.css?v=20260611-inline">
+  </head>
+  <body data-page="add-repo">
+    <header class="site-header">
+      <div class="wrap nav">
+        <a class="brand" href="../">Manatan Extensions</a>
+        <nav class="nav-links" aria-label="Primary links">
+          <a href="../">Catalog</a>
+          <a href="https://github.com/Manatan-Community/extensions-source/tree/main/docs">Docs</a>
+          <a class="icon-link" href="https://github.com/Manatan-Community/extensions" aria-label="GitHub repository" title="GitHub">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 .5C5.7.5.7 5.6.7 11.9c0 5 3.3 9.3 8 10.8.6.1.8-.3.8-.6v-2c-3.3.7-4-1.4-4-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 .1.7 2.1 2.8 1.5.1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2.9-.3 1.9-.4 2.9-.4s2 .1 2.9.4c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.7-1.6 8-5.8 8-10.8C23.3 5.6 18.3.5 12 .5Z"/>
+            </svg>
+          </a>
+          <a class="icon-link" href="https://discord.gg/KnrPX7Pq" aria-label="Discord" title="Discord">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M19.5 4.7A18.6 18.6 0 0 0 15 3.3l-.2.4c1.6.4 2.3 1 2.3 1A15.2 15.2 0 0 0 12 3.8c-1.7 0-3.4.3-5.1.9 0 0 .7-.7 2.4-1l-.2-.4a18.6 18.6 0 0 0-4.6 1.4C1.7 8.8 1 12.8 1.4 16.8A18.9 18.9 0 0 0 7 19.6l.7-1.1c-1.2-.4-2.3-1-3.3-1.8l.8.4c3.1 1.4 6.4 1.9 10.1.4a13 13 0 0 0 3.5-1.9c-1 .8-2.1 1.4-3.4 1.8l.7 1.1a18.7 18.7 0 0 0 5.6-2.8c.5-4.7-.8-8.6-2.2-11Zm-11 9.7c-1.1 0-2-1-2-2.1s.9-2.1 2-2.1 2 1 2 2.1-.9 2.1-2 2.1Zm7 0c-1.1 0-2-1-2-2.1s.9-2.1 2-2.1 2 1 2 2.1-.9 2.1-2 2.1Z"/>
+            </svg>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="add-hero">
+        <div class="wrap add-grid">
+          <div>
+            <p class="eyebrow">One tap setup</p>
+            <h1>Add Manatan Community repositories.</h1>
+            <p class="lede">Open Manatan with the community repository URLs prefilled, including Mihon and Aidoku manga feeds plus Aniyomi video extensions. If your platform does not open the app automatically, use the manual URLs below.</p>
+            <div class="hero-actions">
+              <a id="auto-open" class="button primary" href="#">Open Manatan</a>
+              <a class="button" href="#manual">Manual URLs</a>
+            </div>
+            <p id="status" class="add-status" role="status">Preparing repository link...</p>
+          </div>
+
+          <div class="install-panel add-panel" aria-label="Repository selection">
+            <div class="panel-head">
+              <span>Repository set</span>
+              <button id="copy-callback" type="button" class="copy-button">Copy callback</button>
+            </div>
+            <div class="repo-options" role="group" aria-label="Repository type">
+              <button type="button" class="repo-option active" data-repo="bundle">All repos</button>
+              <button type="button" class="repo-option" data-repo="manga">Manga</button>
+              <button type="button" class="repo-option" data-repo="video">Video</button>
+              <button type="button" class="repo-option" data-repo="novel">Novel</button>
+            </div>
+            <code id="callback-url"></code>
+            <div class="endpoint-grid single">
+              <a id="android-intent" href="#">Android intent</a>
+              <a id="scheme-link" href="#">Universal callback</a>
+              <a id="fallback-link" href="../">Catalog</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="manual" class="wrap manual-section">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Manual setup</p>
+            <h2>Repository URLs</h2>
+          </div>
+          <button type="button" class="copy-button" data-copy-all>Copy all repos</button>
+        </div>
+
+        <div class="manual-grid">
+          <article class="manual-card">
+            <h3>Manatan manga</h3>
+            <p>Use this for Manatan-native manga extensions.</p>
+            <code data-url="manga"></code>
+            <button type="button" class="copy-button" data-copy-url="manga">Copy</button>
+          </article>
+          <article class="manual-card">
+            <h3>Manatan video</h3>
+            <p>Use this for Manatan-native video extensions.</p>
+            <code data-url="video"></code>
+            <button type="button" class="copy-button" data-copy-url="video">Copy</button>
+          </article>
+          <article class="manual-card">
+            <h3>Manatan novel</h3>
+            <p>Use this for Manatan-native novel extensions.</p>
+            <code data-url="novel"></code>
+            <button type="button" class="copy-button" data-copy-url="novel">Copy</button>
+          </article>
+          <article class="manual-card">
+            <h3>Manga Preview Index</h3>
+            <p>Manual only. Includes verified and unverified Manatan manga packages.</p>
+            <code data-url="mangaPreview"></code>
+            <button type="button" class="copy-button" data-copy-url="mangaPreview">Copy</button>
+          </article>
+          <article class="manual-card">
+            <h3>Video Preview Index</h3>
+            <p>Manual only. Includes verified and unverified Manatan video packages.</p>
+            <code data-url="videoPreview"></code>
+            <button type="button" class="copy-button" data-copy-url="videoPreview">Copy</button>
+          </article>
+          <article class="manual-card">
+            <h3>Novel Preview Index</h3>
+            <p>Manual only. Includes verified and unverified Manatan novel packages.</p>
+            <code data-url="novelPreview"></code>
+            <button type="button" class="copy-button" data-copy-url="novelPreview">Copy</button>
+          </article>
+          <article class="manual-card">
+            <h3>Mihon Manga Extensions</h3>
+            <p>Use this manga extension feed while the Manatan catalog is still growing.</p>
+            <code data-url="mihonManga"></code>
+            <button type="button" class="copy-button" data-copy-url="mihonManga">Copy</button>
+          </article>
+          <article class="manual-card">
+            <h3>Aidoku Manga Sources</h3>
+            <p>Use this manga source feed while the Manatan catalog is still growing.</p>
+            <code data-url="aidokuManga"></code>
+            <button type="button" class="copy-button" data-copy-url="aidokuManga">Copy</button>
+          </article>
+          <article class="manual-card">
+            <h3>Aniyomi Video Extensions</h3>
+            <p>Use this video extension feed while the Manatan catalog is still growing.</p>
+            <code data-url="aniyomiVideo"></code>
+            <button type="button" class="copy-button" data-copy-url="aniyomiVideo">Copy</button>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script src="../add-repo.js?v=20260615-preview-indexes"></script>
+  </body>
+</html>
