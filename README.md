@@ -6,7 +6,7 @@ It takes one click and helps more Manatan users and extension authors find the c
 
 [![Website](https://img.shields.io/badge/website-catalog-0f766e)](https://manatan-community.github.io/extensions/)
 [![Add Repo](https://img.shields.io/badge/add-repo-2563eb)](https://manatan-community.github.io/extensions/add-repo/)
-[![Discord](https://img.shields.io/badge/discord-join-5865F2)](https://discord.gg/KnrPX7Pq)
+[![Discord](https://img.shields.io/badge/discord-join-5865F2)](https://discord.gg/Aabn2HadF3)
 
 ## Usage
 
@@ -47,7 +47,7 @@ https://github.com/Manatan-Community/extensions-source/issues
 
 ## Others
 
-- [Discord](https://discord.gg/KnrPX7Pq)
+- [Discord](https://discord.gg/Aabn2HadF3)
 - [Extension catalog](https://manatan-community.github.io/extensions/)
 - [Source repository](https://github.com/Manatan-Community/extensions-source)
 
