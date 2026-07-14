@@ -1,25 +1,12 @@
 const repoUrls = {
   manga: "https://manatan-community.github.io/extensions/manga.min.json",
   video: "https://manatan-community.github.io/extensions/video.min.json",
-  novel: "https://manatan-community.github.io/extensions/novel.min.json",
-  mangaPreview: "https://manatan-community.github.io/extensions/manga.preview.min.json",
-  videoPreview: "https://manatan-community.github.io/extensions/video.preview.min.json",
-  novelPreview: "https://manatan-community.github.io/extensions/novel.preview.min.json",
-  mihonManga: "https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.min.json",
-  aidokuManga: "https://aidoku-community.github.io/sources/index.min.json",
-  aniyomiVideo: "https://raw.githubusercontent.com/yuzono/anime-repo/repo/index.min.json"
+  novel: "https://manatan-community.github.io/extensions/novel.min.json"
 };
 
 const reposByMedia = {
-  manga: [
-    { label: "Manatan manga", url: repoUrls.manga },
-    { label: "Mihon Manga Extensions", url: repoUrls.mihonManga },
-    { label: "Aidoku Manga Sources", url: repoUrls.aidokuManga }
-  ],
-  video: [
-    { label: "Manatan video", url: repoUrls.video },
-    { label: "Aniyomi Video Extensions", url: repoUrls.aniyomiVideo }
-  ],
+  manga: [{ label: "Manatan manga", url: repoUrls.manga }],
+  video: [{ label: "Manatan video", url: repoUrls.video }],
   novel: [
     { label: "Manatan novel", url: repoUrls.novel }
   ]

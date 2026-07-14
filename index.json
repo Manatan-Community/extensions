@@ -1,1 +1,25 @@
-{"indexes":[{"media":"manga","index":"manga.min.json","count":2},{"media":"video","index":"video.min.json","count":1},{"media":"novel","index":"novel.min.json","count":0}]}
+{
+  "schemaVersion": 2,
+  "apiVersion": 2,
+  "extensionType": "manatan2",
+  "indexes": [
+    {
+      "media": "manga",
+      "index": "manga.min.json",
+      "count": 9,
+      "verifiedOnly": true
+    },
+    {
+      "media": "video",
+      "index": "video.min.json",
+      "count": 5,
+      "verifiedOnly": true
+    },
+    {
+      "media": "novel",
+      "index": "novel.min.json",
+      "count": 3,
+      "verifiedOnly": true
+    }
+  ]
+}
