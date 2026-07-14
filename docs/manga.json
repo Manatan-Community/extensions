@@ -5,9 +5,9 @@
     "id": "mangafire",
     "packageId": "mangafire",
     "name": "MangaFire",
-    "versionName": "1.0.0",
-    "version": "1.0.0",
-    "versionCode": 1,
+    "versionName": "1.0.1",
+    "version": "1.0.1",
+    "versionCode": 2,
     "contentType": "manga",
     "media": "manga",
     "mediaKind": "manga",
@@ -17,9 +17,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/manga/all/mangafire.manatan2",
     "packagePath": "packages/manga/all/mangafire.manatan2",
-    "sha256": "02f8addf1dd62f1eb8d7217880a724ab33ad5c8f4ba2fa3d00aa0ed7943b4949",
-    "size": 1079058,
-    "sizeBytes": 1079058,
+    "sha256": "dcdc5e51891798a38ba08c02f679dab6d991df8b23e8c268c41d3ed78c28c2fa",
+    "size": 1079068,
+    "sizeBytes": 1079068,
     "iconUrl": "icons/manga/all/mangafire.png",
     "sourceIds": [
       "mangafire"
@@ -77,8 +77,8 @@
       "schemaVersion": 2,
       "id": "mangafire",
       "name": "MangaFire",
-      "version": "1.0.0",
-      "versionCode": 1,
+      "version": "1.0.1",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "manga",
@@ -92,17 +92,17 @@
       "permissions": {
         "network": {
           "allow": [
-            "mangafire.to",
-            "static.mfcdn.nl",
-            "k99.mfcdn1.xyz",
-            "k99.mfcdn2.xyz",
-            "l1n.mfcdn3.xyz",
-            "m3z.mfcdn2.xyz",
-            "m3z.mfcdn3.xyz",
-            "nw8.mfcdn1.xyz",
-            "nw8.mfcdn3.xyz",
-            "o48.mfcdn1.xyz",
-            "o48.mfcdn2.xyz"
+            "https://mangafire.to",
+            "https://static.mfcdn.nl",
+            "https://k99.mfcdn1.xyz",
+            "https://k99.mfcdn2.xyz",
+            "https://l1n.mfcdn3.xyz",
+            "https://m3z.mfcdn2.xyz",
+            "https://m3z.mfcdn3.xyz",
+            "https://nw8.mfcdn1.xyz",
+            "https://nw8.mfcdn3.xyz",
+            "https://o48.mfcdn1.xyz",
+            "https://o48.mfcdn2.xyz"
           ]
         },
         "webview": false,
@@ -172,9 +172,9 @@
     "id": "lhtranslation",
     "packageId": "lhtranslation",
     "name": "LHTranslation",
-    "versionName": "1.0.0",
-    "version": "1.0.0",
-    "versionCode": 1,
+    "versionName": "1.0.1",
+    "version": "1.0.1",
+    "versionCode": 2,
     "contentType": "manga",
     "media": "manga",
     "mediaKind": "manga",
@@ -184,9 +184,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/manga/en/lhtranslation.manatan2",
     "packagePath": "packages/manga/en/lhtranslation.manatan2",
-    "sha256": "d574e50346f7d4935be380f2082eab757c0abc2c26bf224d1c90f6ad5e1829be",
-    "size": 1163743,
-    "sizeBytes": 1163743,
+    "sha256": "eb7c7483e67a47bb21c2f4b1ae95176bfb51d15c3613c14c375bb18567ff1ba6",
+    "size": 1163749,
+    "sizeBytes": 1163749,
     "iconUrl": "icons/manga/en/lhtranslation.png",
     "sourceIds": [
       "lhtranslation"
@@ -244,8 +244,8 @@
       "schemaVersion": 2,
       "id": "lhtranslation",
       "name": "LHTranslation",
-      "version": "1.0.0",
-      "versionCode": 1,
+      "version": "1.0.1",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "manga",
@@ -259,8 +259,8 @@
       "permissions": {
         "network": {
           "allow": [
-            "lhtranslation.net",
-            "cdn.lhtranslation.net"
+            "https://lhtranslation.net",
+            "https://cdn.lhtranslation.net"
           ]
         },
         "webview": false,
@@ -330,9 +330,9 @@
     "id": "mangamaniacs",
     "packageId": "mangamaniacs",
     "name": "MangaManiacs",
-    "versionName": "1.0.0",
-    "version": "1.0.0",
-    "versionCode": 1,
+    "versionName": "1.0.1",
+    "version": "1.0.1",
+    "versionCode": 2,
     "contentType": "manga",
     "media": "manga",
     "mediaKind": "manga",
@@ -342,9 +342,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/manga/en/mangamaniacs.manatan2",
     "packagePath": "packages/manga/en/mangamaniacs.manatan2",
-    "sha256": "2e8ec0d4fe11142e84c2406cdf414e189798d94e42b2f610f49718fbf2a5b652",
-    "size": 1161109,
-    "sizeBytes": 1161109,
+    "sha256": "fd496561821cbdc4ff47b9df7d18dde1e290599acdb58d125e62c244c7b94053",
+    "size": 1161117,
+    "sizeBytes": 1161117,
     "iconUrl": "icons/manga/en/mangamaniacs.png",
     "sourceIds": [
       "mangamaniacs"
@@ -402,8 +402,8 @@
       "schemaVersion": 2,
       "id": "mangamaniacs",
       "name": "MangaManiacs",
-      "version": "1.0.0",
-      "versionCode": 1,
+      "version": "1.0.1",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "manga",
@@ -417,8 +417,8 @@
       "permissions": {
         "network": {
           "allow": [
-            "mangamaniacs.org",
-            "images.mangamaniacs.org"
+            "https://mangamaniacs.org",
+            "https://images.mangamaniacs.org"
           ]
         },
         "webview": false,
@@ -488,9 +488,9 @@
     "id": "manhuahot",
     "packageId": "manhuahot",
     "name": "ManhuaHot",
-    "versionName": "1.0.0",
-    "version": "1.0.0",
-    "versionCode": 1,
+    "versionName": "1.0.1",
+    "version": "1.0.1",
+    "versionCode": 2,
     "contentType": "manga",
     "media": "manga",
     "mediaKind": "manga",
@@ -500,9 +500,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/manga/en/manhuahot.manatan2",
     "packagePath": "packages/manga/en/manhuahot.manatan2",
-    "sha256": "4c3c344a52b40776b7f1c10c960fdcaec156780f0b3cbceddeb4fae724e9c107",
-    "size": 1187115,
-    "sizeBytes": 1187115,
+    "sha256": "3fa98e6b47eec223516cd6b709e4fae3554652cc0754880c803a942c41331ef1",
+    "size": 1187119,
+    "sizeBytes": 1187119,
     "iconUrl": "icons/manga/en/manhuahot.png",
     "sourceIds": [
       "manhuahot"
@@ -560,8 +560,8 @@
       "schemaVersion": 2,
       "id": "manhuahot",
       "name": "ManhuaHot",
-      "version": "1.0.0",
-      "versionCode": 1,
+      "version": "1.0.1",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "manga",
@@ -575,8 +575,8 @@
       "permissions": {
         "network": {
           "allow": [
-            "manhuahot.com",
-            "cdn.manhuahot.com"
+            "https://manhuahot.com",
+            "https://cdn.manhuahot.com"
           ]
         },
         "webview": false,
@@ -646,9 +646,9 @@
     "id": "pawmanga",
     "packageId": "pawmanga",
     "name": "Paw Manga",
-    "versionName": "1.0.0",
-    "version": "1.0.0",
-    "versionCode": 1,
+    "versionName": "1.0.1",
+    "version": "1.0.1",
+    "versionCode": 2,
     "contentType": "manga",
     "media": "manga",
     "mediaKind": "manga",
@@ -658,9 +658,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/manga/en/pawmanga.manatan2",
     "packagePath": "packages/manga/en/pawmanga.manatan2",
-    "sha256": "7d425eaf12cabe87bf085be01726392fa22526e1b2ffc18f5b593a28c0fd84d1",
-    "size": 1168615,
-    "sizeBytes": 1168615,
+    "sha256": "0dd0d51b7774202ce9fe9279c9faa9c3b9fe33ddd29b8dd5451f26a38789a576",
+    "size": 1168621,
+    "sizeBytes": 1168621,
     "iconUrl": "icons/manga/en/pawmanga.png",
     "sourceIds": [
       "pawmanga"
@@ -718,8 +718,8 @@
       "schemaVersion": 2,
       "id": "pawmanga",
       "name": "Paw Manga",
-      "version": "1.0.0",
-      "versionCode": 1,
+      "version": "1.0.1",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "manga",
@@ -733,8 +733,8 @@
       "permissions": {
         "network": {
           "allow": [
-            "pawmanga.com",
-            "image.pawmanga.com"
+            "https://pawmanga.com",
+            "https://image.pawmanga.com"
           ]
         },
         "webview": false,
@@ -804,9 +804,9 @@
     "id": "kmansin09",
     "packageId": "kmansin09",
     "name": "Kmansin09",
-    "versionName": "1.0.0",
-    "version": "1.0.0",
-    "versionCode": 1,
+    "versionName": "1.0.1",
+    "version": "1.0.1",
+    "versionCode": 2,
     "contentType": "manga",
     "media": "manga",
     "mediaKind": "manga",
@@ -816,9 +816,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/manga/ja/kmansin09.manatan2",
     "packagePath": "packages/manga/ja/kmansin09.manatan2",
-    "sha256": "43f15319e44aa6c3839fe01589d1802028bd89ed1f00bcdf48f5827368284b55",
-    "size": 1176720,
-    "sizeBytes": 1176720,
+    "sha256": "199493343082e4cf5d3644cdca0056661b103546af99e2f52a8dcb8a01842796",
+    "size": 1176729,
+    "sizeBytes": 1176729,
     "iconUrl": "icons/manga/ja/kmansin09.png",
     "sourceIds": [
       "kmansin09"
@@ -876,8 +876,8 @@
       "schemaVersion": 2,
       "id": "kmansin09",
       "name": "Kmansin09",
-      "version": "1.0.0",
-      "versionCode": 1,
+      "version": "1.0.1",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "manga",
@@ -891,8 +891,8 @@
       "permissions": {
         "network": {
           "allow": [
-            "kmansin09.top",
-            "post-phinf.pstatic.net"
+            "https://kmansin09.top",
+            "https://post-phinf.pstatic.net"
           ]
         },
         "webview": false,
@@ -962,9 +962,9 @@
     "id": "raw1001",
     "packageId": "raw1001",
     "name": "Raw1001",
-    "versionName": "1.0.0",
-    "version": "1.0.0",
-    "versionCode": 1,
+    "versionName": "1.0.1",
+    "version": "1.0.1",
+    "versionCode": 2,
     "contentType": "manga",
     "media": "manga",
     "mediaKind": "manga",
@@ -974,9 +974,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/manga/ja/raw1001.manatan2",
     "packagePath": "packages/manga/ja/raw1001.manatan2",
-    "sha256": "132f3372a0e3862446d2cc2a200595d4a71680560ac63f81e10e20fcbab75dc0",
-    "size": 2033332,
-    "sizeBytes": 2033332,
+    "sha256": "e91bf6455e56fc0d903bebde1ae5a90427de65cdfccc06f2a37829ea2518ae3c",
+    "size": 2033337,
+    "sizeBytes": 2033337,
     "iconUrl": "icons/manga/ja/raw1001.png",
     "sourceIds": [
       "raw1001"
@@ -1034,8 +1034,8 @@
       "schemaVersion": 2,
       "id": "raw1001",
       "name": "Raw1001",
-      "version": "1.0.0",
-      "versionCode": 1,
+      "version": "1.0.1",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "manga",
@@ -1049,9 +1049,9 @@
       "permissions": {
         "network": {
           "allow": [
-            "raw1001.net",
-            "sg.cdnkk.top",
-            "mgraw1111.wordpress.com"
+            "https://raw1001.net",
+            "https://sg.cdnkk.top",
+            "https://mgraw1111.wordpress.com"
           ]
         },
         "webview": false,
@@ -1121,9 +1121,9 @@
     "id": "rawkuma",
     "packageId": "rawkuma",
     "name": "Rawkuma",
-    "versionName": "1.0.0",
-    "version": "1.0.0",
-    "versionCode": 1,
+    "versionName": "1.0.1",
+    "version": "1.0.1",
+    "versionCode": 2,
     "contentType": "manga",
     "media": "manga",
     "mediaKind": "manga",
@@ -1133,9 +1133,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/manga/ja/rawkuma.manatan2",
     "packagePath": "packages/manga/ja/rawkuma.manatan2",
-    "sha256": "7ee6991809916b5050201545c82f27195e83e9804bc33544412473f94d77e59f",
-    "size": 2064447,
-    "sizeBytes": 2064447,
+    "sha256": "dd4deef2ba9aac69d7486ef736839df1192caf3352d17b3ca3ce425fdff037ad",
+    "size": 2064457,
+    "sizeBytes": 2064457,
     "iconUrl": "icons/manga/ja/rawkuma.png",
     "sourceIds": [
       "rawkuma"
@@ -1193,8 +1193,8 @@
       "schemaVersion": 2,
       "id": "rawkuma",
       "name": "Rawkuma",
-      "version": "1.0.0",
-      "versionCode": 1,
+      "version": "1.0.1",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "manga",
@@ -1208,7 +1208,7 @@
       "permissions": {
         "network": {
           "allow": [
-            "rawkuma.net"
+            "https://rawkuma.net"
           ]
         },
         "webview": false,
@@ -1278,9 +1278,9 @@
     "id": "cat300",
     "packageId": "cat300",
     "name": "Cat300",
-    "versionName": "1.0.0",
-    "version": "1.0.0",
-    "versionCode": 1,
+    "versionName": "1.0.1",
+    "version": "1.0.1",
+    "versionCode": 2,
     "contentType": "manga",
     "media": "manga",
     "mediaKind": "manga",
@@ -1290,9 +1290,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/manga/th/cat300.manatan2",
     "packagePath": "packages/manga/th/cat300.manatan2",
-    "sha256": "b658d99b2f43d4354817326bf30eb9463d670652c1ef567bb2b07dcc043150d5",
-    "size": 1177290,
-    "sizeBytes": 1177290,
+    "sha256": "d8290e0f25fc06d11a059e2edb12edcab41e6047c5137da35da792ecce32e67e",
+    "size": 1177296,
+    "sizeBytes": 1177296,
     "iconUrl": "icons/manga/th/cat300.png",
     "sourceIds": [
       "cat300"
@@ -1350,8 +1350,8 @@
       "schemaVersion": 2,
       "id": "cat300",
       "name": "Cat300",
-      "version": "1.0.0",
-      "versionCode": 1,
+      "version": "1.0.1",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "manga",
@@ -1365,7 +1365,7 @@
       "permissions": {
         "network": {
           "allow": [
-            "cat-300.com"
+            "https://cat-300.com"
           ]
         },
         "webview": false,

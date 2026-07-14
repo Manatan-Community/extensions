@@ -5,9 +5,9 @@
     "id": "aniwave",
     "packageId": "aniwave",
     "name": "AniWave (Unoriginal)",
-    "versionName": "0.1.0",
-    "version": "0.1.0",
-    "versionCode": 2,
+    "versionName": "0.1.1",
+    "version": "0.1.1",
+    "versionCode": 3,
     "contentType": "video",
     "media": "video",
     "mediaKind": "video",
@@ -17,9 +17,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/video/en/aniwave.manatan2",
     "packagePath": "packages/video/en/aniwave.manatan2",
-    "sha256": "18b5dec881f384ecf8b5cf4a15a1985b0759743285674525a1dba9b215626dd2",
-    "size": 2330531,
-    "sizeBytes": 2330531,
+    "sha256": "6b5a6a132ebfedba00abb4c1f848e470d788ada2e99323df3e65dc6259527bb3",
+    "size": 2330548,
+    "sizeBytes": 2330548,
     "iconUrl": "icons/video/en/aniwave.png",
     "sourceIds": [
       "aniwave"
@@ -81,8 +81,8 @@
       "schemaVersion": 2,
       "id": "aniwave",
       "name": "AniWave (Unoriginal)",
-      "version": "0.1.0",
-      "versionCode": 2,
+      "version": "0.1.1",
+      "versionCode": 3,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "video",
@@ -96,29 +96,29 @@
       "permissions": {
         "network": {
           "allow": [
-            "animewave.to",
-            "aniwave.cz",
-            "cdn.anipixcdn.co",
-            "mapper.nekostream.site",
-            "*.nekostream.site",
-            "mewcdn.online",
-            "*.mewcdn.online",
-            "*.ibyteimg.com",
-            "*.tiktokcdn.com",
-            "vidplay.site",
-            "*.vidplay.site",
-            "vidplay.org",
-            "*.vidplay.org",
-            "megacloud.blog",
-            "*.megacloud.blog",
-            "megacloud.club",
-            "*.megacloud.club",
-            "rabbitstream.net",
-            "*.rabbitstream.net",
-            "kwik.cx",
-            "*.kwik.cx",
-            "vidstream.pro",
-            "*.vidstream.pro"
+            "https://animewave.to",
+            "https://aniwave.cz",
+            "https://cdn.anipixcdn.co",
+            "https://mapper.nekostream.site",
+            "https://*.nekostream.site",
+            "https://mewcdn.online",
+            "https://*.mewcdn.online",
+            "https://*.ibyteimg.com",
+            "https://*.tiktokcdn.com",
+            "https://vidplay.site",
+            "https://*.vidplay.site",
+            "https://vidplay.org",
+            "https://*.vidplay.org",
+            "https://megacloud.blog",
+            "https://*.megacloud.blog",
+            "https://megacloud.club",
+            "https://*.megacloud.club",
+            "https://rabbitstream.net",
+            "https://*.rabbitstream.net",
+            "https://kwik.cx",
+            "https://*.kwik.cx",
+            "https://vidstream.pro",
+            "https://*.vidstream.pro"
           ]
         },
         "webview": false,
@@ -192,9 +192,9 @@
     "id": "anikoto",
     "packageId": "anikoto",
     "name": "Anikoto",
-    "versionName": "0.1.0",
-    "version": "0.1.0",
-    "versionCode": 1,
+    "versionName": "0.1.1",
+    "version": "0.1.1",
+    "versionCode": 2,
     "contentType": "video",
     "media": "video",
     "mediaKind": "video",
@@ -204,9 +204,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/video/en/anikoto.manatan2",
     "packagePath": "packages/video/en/anikoto.manatan2",
-    "sha256": "c60b42e5bb6132632f14b5c75a629061b13e06081cdf50acea5f373d64a2cc2a",
-    "size": 2331876,
-    "sizeBytes": 2331876,
+    "sha256": "0fa91104f9ab82f883582d62b22cf240a7f653b063ef3f6c1954a537a140b6e1",
+    "size": 2331885,
+    "sizeBytes": 2331885,
     "iconUrl": "icons/video/en/anikoto.png",
     "sourceIds": [
       "anikoto"
@@ -264,8 +264,8 @@
       "schemaVersion": 2,
       "id": "anikoto",
       "name": "Anikoto",
-      "version": "0.1.0",
-      "versionCode": 1,
+      "version": "0.1.1",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "video",
@@ -279,33 +279,33 @@
       "permissions": {
         "network": {
           "allow": [
-            "anikototv.to",
-            "anikoto.bz",
-            "anikoto.cz",
-            "anikoto.me",
-            "anikoto.net",
-            "anikototv.se",
-            "cdn.anipixcdn.co",
-            "mapper.nekostream.site",
-            "*.nekostream.site",
-            "mewcdn.online",
-            "*.mewcdn.online",
-            "*.ibyteimg.com",
-            "*.tiktokcdn.com",
-            "vidplay.site",
-            "*.vidplay.site",
-            "vidplay.org",
-            "*.vidplay.org",
-            "megacloud.blog",
-            "*.megacloud.blog",
-            "megacloud.club",
-            "*.megacloud.club",
-            "rabbitstream.net",
-            "*.rabbitstream.net",
-            "kwik.cx",
-            "*.kwik.cx",
-            "vidstream.pro",
-            "*.vidstream.pro"
+            "https://anikototv.to",
+            "https://anikoto.bz",
+            "https://anikoto.cz",
+            "https://anikoto.me",
+            "https://anikoto.net",
+            "https://anikototv.se",
+            "https://cdn.anipixcdn.co",
+            "https://mapper.nekostream.site",
+            "https://*.nekostream.site",
+            "https://mewcdn.online",
+            "https://*.mewcdn.online",
+            "https://*.ibyteimg.com",
+            "https://*.tiktokcdn.com",
+            "https://vidplay.site",
+            "https://*.vidplay.site",
+            "https://vidplay.org",
+            "https://*.vidplay.org",
+            "https://megacloud.blog",
+            "https://*.megacloud.blog",
+            "https://megacloud.club",
+            "https://*.megacloud.club",
+            "https://rabbitstream.net",
+            "https://*.rabbitstream.net",
+            "https://kwik.cx",
+            "https://*.kwik.cx",
+            "https://vidstream.pro",
+            "https://*.vidstream.pro"
           ]
         },
         "webview": false,
@@ -375,9 +375,9 @@
     "id": "kotokai",
     "packageId": "kotokai",
     "name": "AnimeKai (Unoriginal)",
-    "versionName": "0.1.0",
-    "version": "0.1.0",
-    "versionCode": 1,
+    "versionName": "0.1.1",
+    "version": "0.1.1",
+    "versionCode": 2,
     "contentType": "video",
     "media": "video",
     "mediaKind": "video",
@@ -387,9 +387,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/video/en/kotokai.manatan2",
     "packagePath": "packages/video/en/kotokai.manatan2",
-    "sha256": "8039aaddf9287b638c07f5ff50565c14bb4b2c9e178f32e4bb153685966277f9",
-    "size": 2327922,
-    "sizeBytes": 2327922,
+    "sha256": "bb51909216b3a1f6a37783ad529a38579b32cd6b8351d59e8cd5ad4c2ad5ae84",
+    "size": 2327933,
+    "sizeBytes": 2327933,
     "iconUrl": "icons/video/en/kotokai.png",
     "sourceIds": [
       "kotokai"
@@ -447,8 +447,8 @@
       "schemaVersion": 2,
       "id": "kotokai",
       "name": "AnimeKai (Unoriginal)",
-      "version": "0.1.0",
-      "versionCode": 1,
+      "version": "0.1.1",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "video",
@@ -462,31 +462,31 @@
       "permissions": {
         "network": {
           "allow": [
-            "animekaitv.to",
-            "anikaitv.to",
-            "animekai.se",
-            "anikai.se",
-            "cdn.anipixcdn.co",
-            "mapper.nekostream.site",
-            "*.nekostream.site",
-            "mewcdn.online",
-            "*.mewcdn.online",
-            "*.ibyteimg.com",
-            "*.tiktokcdn.com",
-            "vidplay.site",
-            "*.vidplay.site",
-            "vidplay.org",
-            "*.vidplay.org",
-            "megacloud.blog",
-            "*.megacloud.blog",
-            "megacloud.club",
-            "*.megacloud.club",
-            "rabbitstream.net",
-            "*.rabbitstream.net",
-            "kwik.cx",
-            "*.kwik.cx",
-            "vidstream.pro",
-            "*.vidstream.pro"
+            "https://animekaitv.to",
+            "https://anikaitv.to",
+            "https://animekai.se",
+            "https://anikai.se",
+            "https://cdn.anipixcdn.co",
+            "https://mapper.nekostream.site",
+            "https://*.nekostream.site",
+            "https://mewcdn.online",
+            "https://*.mewcdn.online",
+            "https://*.ibyteimg.com",
+            "https://*.tiktokcdn.com",
+            "https://vidplay.site",
+            "https://*.vidplay.site",
+            "https://vidplay.org",
+            "https://*.vidplay.org",
+            "https://megacloud.blog",
+            "https://*.megacloud.blog",
+            "https://megacloud.club",
+            "https://*.megacloud.club",
+            "https://rabbitstream.net",
+            "https://*.rabbitstream.net",
+            "https://kwik.cx",
+            "https://*.kwik.cx",
+            "https://vidstream.pro",
+            "https://*.vidstream.pro"
           ]
         },
         "webview": false,
@@ -556,9 +556,9 @@
     "id": "animesogo",
     "packageId": "animesogo",
     "name": "AnimeSogo",
-    "versionName": "0.1.0",
-    "version": "0.1.0",
-    "versionCode": 1,
+    "versionName": "0.1.1",
+    "version": "0.1.1",
+    "versionCode": 2,
     "contentType": "video",
     "media": "video",
     "mediaKind": "video",
@@ -568,9 +568,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/video/en/animesogo.manatan2",
     "packagePath": "packages/video/en/animesogo.manatan2",
-    "sha256": "b56d84a3c03d105f9577e9374335f0dcd8ff560b84723e7628f18ab2e3e614b6",
-    "size": 2335453,
-    "sizeBytes": 2335453,
+    "sha256": "144dd6949d045b65a33ce1090c5591dd1060620a40bf2839a99b0b7df718daff",
+    "size": 2335466,
+    "sizeBytes": 2335466,
     "iconUrl": "icons/video/en/animesogo.png",
     "sourceIds": [
       "animesogo"
@@ -628,8 +628,8 @@
       "schemaVersion": 2,
       "id": "animesogo",
       "name": "AnimeSogo",
-      "version": "0.1.0",
-      "versionCode": 1,
+      "version": "0.1.1",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "video",
@@ -643,28 +643,28 @@
       "permissions": {
         "network": {
           "allow": [
-            "animesogo.to",
-            "cdn.anipixcdn.co",
-            "mapper.nekostream.site",
-            "*.nekostream.site",
-            "mewcdn.online",
-            "*.mewcdn.online",
-            "*.ibyteimg.com",
-            "*.tiktokcdn.com",
-            "vidplay.site",
-            "*.vidplay.site",
-            "vidplay.org",
-            "*.vidplay.org",
-            "megacloud.blog",
-            "*.megacloud.blog",
-            "megacloud.club",
-            "*.megacloud.club",
-            "rabbitstream.net",
-            "*.rabbitstream.net",
-            "kwik.cx",
-            "*.kwik.cx",
-            "vidstream.pro",
-            "*.vidstream.pro"
+            "https://animesogo.to",
+            "https://cdn.anipixcdn.co",
+            "https://mapper.nekostream.site",
+            "https://*.nekostream.site",
+            "https://mewcdn.online",
+            "https://*.mewcdn.online",
+            "https://*.ibyteimg.com",
+            "https://*.tiktokcdn.com",
+            "https://vidplay.site",
+            "https://*.vidplay.site",
+            "https://vidplay.org",
+            "https://*.vidplay.org",
+            "https://megacloud.blog",
+            "https://*.megacloud.blog",
+            "https://megacloud.club",
+            "https://*.megacloud.club",
+            "https://rabbitstream.net",
+            "https://*.rabbitstream.net",
+            "https://kwik.cx",
+            "https://*.kwik.cx",
+            "https://vidstream.pro",
+            "https://*.vidstream.pro"
           ]
         },
         "webview": false,
@@ -734,9 +734,9 @@
     "id": "animetsu",
     "packageId": "animetsu",
     "name": "Animetsu",
-    "versionName": "0.1.0",
-    "version": "0.1.0",
-    "versionCode": 1,
+    "versionName": "0.1.1",
+    "version": "0.1.1",
+    "versionCode": 2,
     "contentType": "video",
     "media": "video",
     "mediaKind": "video",
@@ -746,9 +746,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/video/all/animetsu.manatan2",
     "packagePath": "packages/video/all/animetsu.manatan2",
-    "sha256": "4a2b70ab9fec4d12fde93a53104c3a080182accceea0b4fd7bf693505412460d",
-    "size": 1910219,
-    "sizeBytes": 1910219,
+    "sha256": "9168f94a50bcb8da41304963cbae154be3081389946f04473ff2e989b812d591",
+    "size": 1910231,
+    "sizeBytes": 1910231,
     "iconUrl": "icons/video/all/animetsu.png",
     "sourceIds": [
       "animetsu"
@@ -834,8 +834,8 @@
       "schemaVersion": 2,
       "id": "animetsu",
       "name": "Animetsu",
-      "version": "0.1.0",
-      "versionCode": 1,
+      "version": "0.1.1",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "video",
@@ -849,12 +849,12 @@
       "permissions": {
         "network": {
           "allow": [
-            "animetsu.net",
-            "animetsu.live",
-            "animetsu.bz",
-            "animetsu.cc",
-            "s4.anilist.co",
-            "swiftstream.top"
+            "https://animetsu.net",
+            "https://animetsu.live",
+            "https://animetsu.bz",
+            "https://animetsu.cc",
+            "https://s4.anilist.co",
+            "https://swiftstream.top"
           ]
         },
         "webview": true,
@@ -952,9 +952,9 @@
     "id": "cat300",
     "packageId": "cat300",
     "name": "Cat300",
-    "versionName": "1.0.0",
-    "version": "1.0.0",
-    "versionCode": 1,
+    "versionName": "1.0.1",
+    "version": "1.0.1",
+    "versionCode": 2,
     "contentType": "manga",
     "media": "manga",
     "mediaKind": "manga",
@@ -964,9 +964,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/manga/th/cat300.manatan2",
     "packagePath": "packages/manga/th/cat300.manatan2",
-    "sha256": "b658d99b2f43d4354817326bf30eb9463d670652c1ef567bb2b07dcc043150d5",
-    "size": 1177290,
-    "sizeBytes": 1177290,
+    "sha256": "d8290e0f25fc06d11a059e2edb12edcab41e6047c5137da35da792ecce32e67e",
+    "size": 1177296,
+    "sizeBytes": 1177296,
     "iconUrl": "icons/manga/th/cat300.png",
     "sourceIds": [
       "cat300"
@@ -1024,8 +1024,8 @@
       "schemaVersion": 2,
       "id": "cat300",
       "name": "Cat300",
-      "version": "1.0.0",
-      "versionCode": 1,
+      "version": "1.0.1",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "manga",
@@ -1039,7 +1039,7 @@
       "permissions": {
         "network": {
           "allow": [
-            "cat-300.com"
+            "https://cat-300.com"
           ]
         },
         "webview": false,
@@ -1109,9 +1109,9 @@
     "id": "clicknovel",
     "packageId": "clicknovel",
     "name": "ClickNovel",
-    "versionName": "0.1.0",
-    "version": "0.1.0",
-    "versionCode": 2,
+    "versionName": "0.1.1",
+    "version": "0.1.1",
+    "versionCode": 3,
     "contentType": "novel",
     "media": "novel",
     "mediaKind": "novel",
@@ -1121,9 +1121,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/novel/en/clicknovel.manatan2",
     "packagePath": "packages/novel/en/clicknovel.manatan2",
-    "sha256": "1fc092ac31523f9b0f00a9253bc5464d2234f95d7323e8bcd3866d5308e5ba90",
-    "size": 2205642,
-    "sizeBytes": 2205642,
+    "sha256": "ee75f58b1866b03921dfa716c63a4117ba4551666280b1363e9bf573936ee6dc",
+    "size": 2205641,
+    "sizeBytes": 2205641,
     "iconUrl": "icons/novel/en/clicknovel.png",
     "sourceIds": [
       "clicknovel"
@@ -1184,8 +1184,8 @@
       "schemaVersion": 2,
       "id": "clicknovel",
       "name": "ClickNovel",
-      "version": "0.1.0",
-      "versionCode": 2,
+      "version": "0.1.1",
+      "versionCode": 3,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "novel",
@@ -1199,7 +1199,7 @@
       "permissions": {
         "network": {
           "allow": [
-            "clicknovel.net"
+            "https://clicknovel.net"
           ]
         },
         "webview": false,
@@ -1272,9 +1272,9 @@
     "id": "firstkissnovel",
     "packageId": "firstkissnovel",
     "name": "FirstKissNovel",
-    "versionName": "0.1.0",
-    "version": "0.1.0",
-    "versionCode": 2,
+    "versionName": "0.1.1",
+    "version": "0.1.1",
+    "versionCode": 3,
     "contentType": "novel",
     "media": "novel",
     "mediaKind": "novel",
@@ -1284,9 +1284,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/novel/en/firstkissnovel.manatan2",
     "packagePath": "packages/novel/en/firstkissnovel.manatan2",
-    "sha256": "b4946f6b10a96c957e3be4ad3a07fb80dde376d753a782ba1359465e210d4586",
-    "size": 2189471,
-    "sizeBytes": 2189471,
+    "sha256": "eacbe4610e9d1f20f9f950c2a9e1f229983d0a1f47ab2407287a02baca35a0b2",
+    "size": 2189473,
+    "sizeBytes": 2189473,
     "iconUrl": "icons/novel/en/firstkissnovel.png",
     "sourceIds": [
       "firstkissnovel"
@@ -1347,8 +1347,8 @@
       "schemaVersion": 2,
       "id": "firstkissnovel",
       "name": "FirstKissNovel",
-      "version": "0.1.0",
-      "versionCode": 2,
+      "version": "0.1.1",
+      "versionCode": 3,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "novel",
@@ -1362,7 +1362,7 @@
       "permissions": {
         "network": {
           "allow": [
-            "1stkissnovel.love"
+            "https://1stkissnovel.love"
           ]
         },
         "webview": false,
@@ -1435,9 +1435,9 @@
     "id": "kmansin09",
     "packageId": "kmansin09",
     "name": "Kmansin09",
-    "versionName": "1.0.0",
-    "version": "1.0.0",
-    "versionCode": 1,
+    "versionName": "1.0.1",
+    "version": "1.0.1",
+    "versionCode": 2,
     "contentType": "manga",
     "media": "manga",
     "mediaKind": "manga",
@@ -1447,9 +1447,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/manga/ja/kmansin09.manatan2",
     "packagePath": "packages/manga/ja/kmansin09.manatan2",
-    "sha256": "43f15319e44aa6c3839fe01589d1802028bd89ed1f00bcdf48f5827368284b55",
-    "size": 1176720,
-    "sizeBytes": 1176720,
+    "sha256": "199493343082e4cf5d3644cdca0056661b103546af99e2f52a8dcb8a01842796",
+    "size": 1176729,
+    "sizeBytes": 1176729,
     "iconUrl": "icons/manga/ja/kmansin09.png",
     "sourceIds": [
       "kmansin09"
@@ -1507,8 +1507,8 @@
       "schemaVersion": 2,
       "id": "kmansin09",
       "name": "Kmansin09",
-      "version": "1.0.0",
-      "versionCode": 1,
+      "version": "1.0.1",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "manga",
@@ -1522,8 +1522,8 @@
       "permissions": {
         "network": {
           "allow": [
-            "kmansin09.top",
-            "post-phinf.pstatic.net"
+            "https://kmansin09.top",
+            "https://post-phinf.pstatic.net"
           ]
         },
         "webview": false,
@@ -1593,9 +1593,9 @@
     "id": "lhtranslation",
     "packageId": "lhtranslation",
     "name": "LHTranslation",
-    "versionName": "1.0.0",
-    "version": "1.0.0",
-    "versionCode": 1,
+    "versionName": "1.0.1",
+    "version": "1.0.1",
+    "versionCode": 2,
     "contentType": "manga",
     "media": "manga",
     "mediaKind": "manga",
@@ -1605,9 +1605,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/manga/en/lhtranslation.manatan2",
     "packagePath": "packages/manga/en/lhtranslation.manatan2",
-    "sha256": "d574e50346f7d4935be380f2082eab757c0abc2c26bf224d1c90f6ad5e1829be",
-    "size": 1163743,
-    "sizeBytes": 1163743,
+    "sha256": "eb7c7483e67a47bb21c2f4b1ae95176bfb51d15c3613c14c375bb18567ff1ba6",
+    "size": 1163749,
+    "sizeBytes": 1163749,
     "iconUrl": "icons/manga/en/lhtranslation.png",
     "sourceIds": [
       "lhtranslation"
@@ -1665,8 +1665,8 @@
       "schemaVersion": 2,
       "id": "lhtranslation",
       "name": "LHTranslation",
-      "version": "1.0.0",
-      "versionCode": 1,
+      "version": "1.0.1",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "manga",
@@ -1680,8 +1680,8 @@
       "permissions": {
         "network": {
           "allow": [
-            "lhtranslation.net",
-            "cdn.lhtranslation.net"
+            "https://lhtranslation.net",
+            "https://cdn.lhtranslation.net"
           ]
         },
         "webview": false,
@@ -1751,9 +1751,9 @@
     "id": "mtlnovelclub",
     "packageId": "mtlnovelclub",
     "name": "MTLNovelClub",
-    "versionName": "0.1.0",
-    "version": "0.1.0",
-    "versionCode": 2,
+    "versionName": "0.1.1",
+    "version": "0.1.1",
+    "versionCode": 3,
     "contentType": "novel",
     "media": "novel",
     "mediaKind": "novel",
@@ -1763,9 +1763,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/novel/en/mtlnovelclub.manatan2",
     "packagePath": "packages/novel/en/mtlnovelclub.manatan2",
-    "sha256": "3230c0fb2ec5e8b57db46aa95f11e349af76116e110c6efb548dfb2ef6faefe0",
-    "size": 2182224,
-    "sizeBytes": 2182224,
+    "sha256": "74126354453e29dd63e904455ce7b5311627d84d9d6fc0f1fc25d8248e47f8b6",
+    "size": 2182226,
+    "sizeBytes": 2182226,
     "iconUrl": "icons/novel/en/mtlnovelclub.png",
     "sourceIds": [
       "mtlnovelclub"
@@ -1826,8 +1826,8 @@
       "schemaVersion": 2,
       "id": "mtlnovelclub",
       "name": "MTLNovelClub",
-      "version": "0.1.0",
-      "versionCode": 2,
+      "version": "0.1.1",
+      "versionCode": 3,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "novel",
@@ -1841,7 +1841,7 @@
       "permissions": {
         "network": {
           "allow": [
-            "mtlnovel.club"
+            "https://mtlnovel.club"
           ]
         },
         "webview": false,
@@ -1914,9 +1914,9 @@
     "id": "mangafire",
     "packageId": "mangafire",
     "name": "MangaFire",
-    "versionName": "1.0.0",
-    "version": "1.0.0",
-    "versionCode": 1,
+    "versionName": "1.0.1",
+    "version": "1.0.1",
+    "versionCode": 2,
     "contentType": "manga",
     "media": "manga",
     "mediaKind": "manga",
@@ -1926,9 +1926,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/manga/all/mangafire.manatan2",
     "packagePath": "packages/manga/all/mangafire.manatan2",
-    "sha256": "02f8addf1dd62f1eb8d7217880a724ab33ad5c8f4ba2fa3d00aa0ed7943b4949",
-    "size": 1079058,
-    "sizeBytes": 1079058,
+    "sha256": "dcdc5e51891798a38ba08c02f679dab6d991df8b23e8c268c41d3ed78c28c2fa",
+    "size": 1079068,
+    "sizeBytes": 1079068,
     "iconUrl": "icons/manga/all/mangafire.png",
     "sourceIds": [
       "mangafire"
@@ -1986,8 +1986,8 @@
       "schemaVersion": 2,
       "id": "mangafire",
       "name": "MangaFire",
-      "version": "1.0.0",
-      "versionCode": 1,
+      "version": "1.0.1",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "manga",
@@ -2001,17 +2001,17 @@
       "permissions": {
         "network": {
           "allow": [
-            "mangafire.to",
-            "static.mfcdn.nl",
-            "k99.mfcdn1.xyz",
-            "k99.mfcdn2.xyz",
-            "l1n.mfcdn3.xyz",
-            "m3z.mfcdn2.xyz",
-            "m3z.mfcdn3.xyz",
-            "nw8.mfcdn1.xyz",
-            "nw8.mfcdn3.xyz",
-            "o48.mfcdn1.xyz",
-            "o48.mfcdn2.xyz"
+            "https://mangafire.to",
+            "https://static.mfcdn.nl",
+            "https://k99.mfcdn1.xyz",
+            "https://k99.mfcdn2.xyz",
+            "https://l1n.mfcdn3.xyz",
+            "https://m3z.mfcdn2.xyz",
+            "https://m3z.mfcdn3.xyz",
+            "https://nw8.mfcdn1.xyz",
+            "https://nw8.mfcdn3.xyz",
+            "https://o48.mfcdn1.xyz",
+            "https://o48.mfcdn2.xyz"
           ]
         },
         "webview": false,
@@ -2081,9 +2081,9 @@
     "id": "mangamaniacs",
     "packageId": "mangamaniacs",
     "name": "MangaManiacs",
-    "versionName": "1.0.0",
-    "version": "1.0.0",
-    "versionCode": 1,
+    "versionName": "1.0.1",
+    "version": "1.0.1",
+    "versionCode": 2,
     "contentType": "manga",
     "media": "manga",
     "mediaKind": "manga",
@@ -2093,9 +2093,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/manga/en/mangamaniacs.manatan2",
     "packagePath": "packages/manga/en/mangamaniacs.manatan2",
-    "sha256": "2e8ec0d4fe11142e84c2406cdf414e189798d94e42b2f610f49718fbf2a5b652",
-    "size": 1161109,
-    "sizeBytes": 1161109,
+    "sha256": "fd496561821cbdc4ff47b9df7d18dde1e290599acdb58d125e62c244c7b94053",
+    "size": 1161117,
+    "sizeBytes": 1161117,
     "iconUrl": "icons/manga/en/mangamaniacs.png",
     "sourceIds": [
       "mangamaniacs"
@@ -2153,8 +2153,8 @@
       "schemaVersion": 2,
       "id": "mangamaniacs",
       "name": "MangaManiacs",
-      "version": "1.0.0",
-      "versionCode": 1,
+      "version": "1.0.1",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "manga",
@@ -2168,8 +2168,8 @@
       "permissions": {
         "network": {
           "allow": [
-            "mangamaniacs.org",
-            "images.mangamaniacs.org"
+            "https://mangamaniacs.org",
+            "https://images.mangamaniacs.org"
           ]
         },
         "webview": false,
@@ -2239,9 +2239,9 @@
     "id": "manhuahot",
     "packageId": "manhuahot",
     "name": "ManhuaHot",
-    "versionName": "1.0.0",
-    "version": "1.0.0",
-    "versionCode": 1,
+    "versionName": "1.0.1",
+    "version": "1.0.1",
+    "versionCode": 2,
     "contentType": "manga",
     "media": "manga",
     "mediaKind": "manga",
@@ -2251,9 +2251,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/manga/en/manhuahot.manatan2",
     "packagePath": "packages/manga/en/manhuahot.manatan2",
-    "sha256": "4c3c344a52b40776b7f1c10c960fdcaec156780f0b3cbceddeb4fae724e9c107",
-    "size": 1187115,
-    "sizeBytes": 1187115,
+    "sha256": "3fa98e6b47eec223516cd6b709e4fae3554652cc0754880c803a942c41331ef1",
+    "size": 1187119,
+    "sizeBytes": 1187119,
     "iconUrl": "icons/manga/en/manhuahot.png",
     "sourceIds": [
       "manhuahot"
@@ -2311,8 +2311,8 @@
       "schemaVersion": 2,
       "id": "manhuahot",
       "name": "ManhuaHot",
-      "version": "1.0.0",
-      "versionCode": 1,
+      "version": "1.0.1",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "manga",
@@ -2326,8 +2326,8 @@
       "permissions": {
         "network": {
           "allow": [
-            "manhuahot.com",
-            "cdn.manhuahot.com"
+            "https://manhuahot.com",
+            "https://cdn.manhuahot.com"
           ]
         },
         "webview": false,
@@ -2397,9 +2397,9 @@
     "id": "novelmultiverse",
     "packageId": "novelmultiverse",
     "name": "NovelMultiverse",
-    "versionName": "0.1.0",
-    "version": "0.1.0",
-    "versionCode": 2,
+    "versionName": "0.1.1",
+    "version": "0.1.1",
+    "versionCode": 3,
     "contentType": "novel",
     "media": "novel",
     "mediaKind": "novel",
@@ -2409,9 +2409,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/novel/en/novelmultiverse.manatan2",
     "packagePath": "packages/novel/en/novelmultiverse.manatan2",
-    "sha256": "d34ebf75d6f201e4545daaae011a26432aca06445ee822a6210d659ae245b5b0",
-    "size": 2226189,
-    "sizeBytes": 2226189,
+    "sha256": "625cbf7fe4b16a219bd095d9528844157666810453cfb3f5390a5038f3d0917d",
+    "size": 2226190,
+    "sizeBytes": 2226190,
     "iconUrl": "icons/novel/en/novelmultiverse.png",
     "sourceIds": [
       "novelmultiverse"
@@ -2472,8 +2472,8 @@
       "schemaVersion": 2,
       "id": "novelmultiverse",
       "name": "NovelMultiverse",
-      "version": "0.1.0",
-      "versionCode": 2,
+      "version": "0.1.1",
+      "versionCode": 3,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "novel",
@@ -2487,7 +2487,7 @@
       "permissions": {
         "network": {
           "allow": [
-            "www.novelmultiverse.com"
+            "https://www.novelmultiverse.com"
           ]
         },
         "webview": false,
@@ -2560,9 +2560,9 @@
     "id": "noveltranslate",
     "packageId": "noveltranslate",
     "name": "NovelTranslate",
-    "versionName": "0.1.0",
-    "version": "0.1.0",
-    "versionCode": 2,
+    "versionName": "0.1.1",
+    "version": "0.1.1",
+    "versionCode": 3,
     "contentType": "novel",
     "media": "novel",
     "mediaKind": "novel",
@@ -2572,9 +2572,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/novel/en/noveltranslate.manatan2",
     "packagePath": "packages/novel/en/noveltranslate.manatan2",
-    "sha256": "6d0b4e21bb505be8d777e43f6e7b9dd9ad53326bc2a7af3a52b1628607f3e673",
-    "size": 2213587,
-    "sizeBytes": 2213587,
+    "sha256": "a216bf0ec9540440fa5b8744cf48365e7e7505d5ee2390430f8de6bde71ea097",
+    "size": 2213588,
+    "sizeBytes": 2213588,
     "iconUrl": "icons/novel/en/noveltranslate.png",
     "sourceIds": [
       "noveltranslate"
@@ -2635,8 +2635,8 @@
       "schemaVersion": 2,
       "id": "noveltranslate",
       "name": "NovelTranslate",
-      "version": "0.1.0",
-      "versionCode": 2,
+      "version": "0.1.1",
+      "versionCode": 3,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "novel",
@@ -2650,7 +2650,7 @@
       "permissions": {
         "network": {
           "allow": [
-            "noveltranslate.com"
+            "https://noveltranslate.com"
           ]
         },
         "webview": false,
@@ -2723,9 +2723,9 @@
     "id": "pawmanga",
     "packageId": "pawmanga",
     "name": "Paw Manga",
-    "versionName": "1.0.0",
-    "version": "1.0.0",
-    "versionCode": 1,
+    "versionName": "1.0.1",
+    "version": "1.0.1",
+    "versionCode": 2,
     "contentType": "manga",
     "media": "manga",
     "mediaKind": "manga",
@@ -2735,9 +2735,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/manga/en/pawmanga.manatan2",
     "packagePath": "packages/manga/en/pawmanga.manatan2",
-    "sha256": "7d425eaf12cabe87bf085be01726392fa22526e1b2ffc18f5b593a28c0fd84d1",
-    "size": 1168615,
-    "sizeBytes": 1168615,
+    "sha256": "0dd0d51b7774202ce9fe9279c9faa9c3b9fe33ddd29b8dd5451f26a38789a576",
+    "size": 1168621,
+    "sizeBytes": 1168621,
     "iconUrl": "icons/manga/en/pawmanga.png",
     "sourceIds": [
       "pawmanga"
@@ -2795,8 +2795,8 @@
       "schemaVersion": 2,
       "id": "pawmanga",
       "name": "Paw Manga",
-      "version": "1.0.0",
-      "versionCode": 1,
+      "version": "1.0.1",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "manga",
@@ -2810,8 +2810,8 @@
       "permissions": {
         "network": {
           "allow": [
-            "pawmanga.com",
-            "image.pawmanga.com"
+            "https://pawmanga.com",
+            "https://image.pawmanga.com"
           ]
         },
         "webview": false,
@@ -2881,9 +2881,9 @@
     "id": "raw1001",
     "packageId": "raw1001",
     "name": "Raw1001",
-    "versionName": "1.0.0",
-    "version": "1.0.0",
-    "versionCode": 1,
+    "versionName": "1.0.1",
+    "version": "1.0.1",
+    "versionCode": 2,
     "contentType": "manga",
     "media": "manga",
     "mediaKind": "manga",
@@ -2893,9 +2893,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/manga/ja/raw1001.manatan2",
     "packagePath": "packages/manga/ja/raw1001.manatan2",
-    "sha256": "132f3372a0e3862446d2cc2a200595d4a71680560ac63f81e10e20fcbab75dc0",
-    "size": 2033332,
-    "sizeBytes": 2033332,
+    "sha256": "e91bf6455e56fc0d903bebde1ae5a90427de65cdfccc06f2a37829ea2518ae3c",
+    "size": 2033337,
+    "sizeBytes": 2033337,
     "iconUrl": "icons/manga/ja/raw1001.png",
     "sourceIds": [
       "raw1001"
@@ -2953,8 +2953,8 @@
       "schemaVersion": 2,
       "id": "raw1001",
       "name": "Raw1001",
-      "version": "1.0.0",
-      "versionCode": 1,
+      "version": "1.0.1",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "manga",
@@ -2968,9 +2968,9 @@
       "permissions": {
         "network": {
           "allow": [
-            "raw1001.net",
-            "sg.cdnkk.top",
-            "mgraw1111.wordpress.com"
+            "https://raw1001.net",
+            "https://sg.cdnkk.top",
+            "https://mgraw1111.wordpress.com"
           ]
         },
         "webview": false,
@@ -3040,9 +3040,9 @@
     "id": "rawkuma",
     "packageId": "rawkuma",
     "name": "Rawkuma",
-    "versionName": "1.0.0",
-    "version": "1.0.0",
-    "versionCode": 1,
+    "versionName": "1.0.1",
+    "version": "1.0.1",
+    "versionCode": 2,
     "contentType": "manga",
     "media": "manga",
     "mediaKind": "manga",
@@ -3052,9 +3052,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/manga/ja/rawkuma.manatan2",
     "packagePath": "packages/manga/ja/rawkuma.manatan2",
-    "sha256": "7ee6991809916b5050201545c82f27195e83e9804bc33544412473f94d77e59f",
-    "size": 2064447,
-    "sizeBytes": 2064447,
+    "sha256": "dd4deef2ba9aac69d7486ef736839df1192caf3352d17b3ca3ce425fdff037ad",
+    "size": 2064457,
+    "sizeBytes": 2064457,
     "iconUrl": "icons/manga/ja/rawkuma.png",
     "sourceIds": [
       "rawkuma"
@@ -3112,8 +3112,8 @@
       "schemaVersion": 2,
       "id": "rawkuma",
       "name": "Rawkuma",
-      "version": "1.0.0",
-      "versionCode": 1,
+      "version": "1.0.1",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "manga",
@@ -3127,7 +3127,7 @@
       "permissions": {
         "network": {
           "allow": [
-            "rawkuma.net"
+            "https://rawkuma.net"
           ]
         },
         "webview": false,
@@ -3197,9 +3197,9 @@
     "id": "syosetu",
     "packageId": "syosetu",
     "name": "Syosetu",
-    "versionName": "1.1.4",
-    "version": "1.1.4",
-    "versionCode": 1,
+    "versionName": "1.1.5",
+    "version": "1.1.5",
+    "versionCode": 2,
     "contentType": "novel",
     "media": "novel",
     "mediaKind": "novel",
@@ -3209,9 +3209,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/novel/ja/syosetu.manatan2",
     "packagePath": "packages/novel/ja/syosetu.manatan2",
-    "sha256": "8ec53b2235e117d292ff24cbb261b6335dd2aa66d73959fea16e4dddd9294b28",
-    "size": 1240624,
-    "sizeBytes": 1240624,
+    "sha256": "37067686597fad9e7ac027b1a59a7633fc0fef0fd691414cbac2fee3fb6bd5ac",
+    "size": 1240627,
+    "sizeBytes": 1240627,
     "iconUrl": "icons/novel/ja/syosetu.png",
     "sourceIds": [
       "yomou.syosetu"
@@ -3263,8 +3263,8 @@
       "schemaVersion": 2,
       "id": "syosetu",
       "name": "Syosetu",
-      "version": "1.1.4",
-      "versionCode": 1,
+      "version": "1.1.5",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "novel",
@@ -3278,9 +3278,9 @@
       "permissions": {
         "network": {
           "allow": [
-            "yomou.syosetu.com",
-            "ncode.syosetu.com",
-            "*.mitemin.net"
+            "https://yomou.syosetu.com",
+            "https://ncode.syosetu.com",
+            "https://*.mitemin.net"
           ]
         },
         "webview": false,
@@ -3344,9 +3344,9 @@
     "id": "kakuyomu",
     "packageId": "kakuyomu",
     "name": "kakuyomu",
-    "versionName": "1.0.0",
-    "version": "1.0.0",
-    "versionCode": 1,
+    "versionName": "1.0.1",
+    "version": "1.0.1",
+    "versionCode": 2,
     "contentType": "novel",
     "media": "novel",
     "mediaKind": "novel",
@@ -3356,9 +3356,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/novel/ja/kakuyomu.manatan2",
     "packagePath": "packages/novel/ja/kakuyomu.manatan2",
-    "sha256": "b5fb536f8519cc205e5ea1de5ed149f32a06292a5af50139e5914b2d7202d126",
-    "size": 1175366,
-    "sizeBytes": 1175366,
+    "sha256": "6998af8015787eea60b065f093b276f76333a71ee8f88ebe144793119f4249c3",
+    "size": 1175370,
+    "sizeBytes": 1175370,
     "iconUrl": "icons/novel/ja/kakuyomu.png",
     "sourceIds": [
       "kakuyomu"
@@ -3410,8 +3410,8 @@
       "schemaVersion": 2,
       "id": "kakuyomu",
       "name": "kakuyomu",
-      "version": "1.0.0",
-      "versionCode": 1,
+      "version": "1.0.1",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "novel",
@@ -3425,9 +3425,9 @@
       "permissions": {
         "network": {
           "allow": [
-            "kakuyomu.jp",
-            "cdn-static.kakuyomu.jp",
-            "cdn-ak.f.st-hatena.com"
+            "https://kakuyomu.jp",
+            "https://cdn-static.kakuyomu.jp",
+            "https://cdn-ak.f.st-hatena.com"
           ]
         },
         "webview": false,
