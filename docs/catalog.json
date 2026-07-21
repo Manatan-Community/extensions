@@ -5,21 +5,21 @@
     "id": "aniwave",
     "packageId": "aniwave",
     "name": "AniWave (Unoriginal)",
-    "versionName": "0.1.1",
-    "version": "0.1.1",
-    "versionCode": 3,
+    "versionName": "0.1.3",
+    "version": "0.1.3",
+    "versionCode": 4,
     "contentType": "video",
     "media": "video",
     "mediaKind": "video",
     "lang": "en",
     "language": "en",
-    "contentRating": "safe",
+    "contentRating": "suggestive",
     "extensionType": "manatan2",
     "packageUrl": "packages/video/en/aniwave.manatan2",
     "packagePath": "packages/video/en/aniwave.manatan2",
-    "sha256": "6b5a6a132ebfedba00abb4c1f848e470d788ada2e99323df3e65dc6259527bb3",
-    "size": 2330548,
-    "sizeBytes": 2330548,
+    "sha256": "685426d86d2a0108856efdff51a778b6570a1ca69db57111c26486b80cf3e55d",
+    "size": 2347985,
+    "sizeBytes": 2347985,
     "iconUrl": "icons/video/en/aniwave.png",
     "sourceIds": [
       "aniwave"
@@ -28,6 +28,11 @@
       "AniWave (Unoriginal)"
     ],
     "verified": true,
+    "publisher": {
+      "id": "org.manatan.community.extensions",
+      "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+      "signature": "45ddc17ba3945b740733d846f0ca77c1947e6f388c2d845931718b7228b688e99ded3f82ae9226310489ee6d80216d8fc27648679338c05c1eb3d444331eee0a"
+    },
     "sources": [
       {
         "id": "aniwave",
@@ -35,7 +40,7 @@
         "lang": "en",
         "contentType": "video",
         "baseUrl": "https://animewave.to",
-        "contentRating": "safe",
+        "contentRating": "suggestive",
         "capabilities": {
           "operations": [],
           "search": true,
@@ -81,11 +86,16 @@
       "schemaVersion": 2,
       "id": "aniwave",
       "name": "AniWave (Unoriginal)",
-      "version": "0.1.1",
-      "versionCode": 3,
+      "version": "0.1.3",
+      "versionCode": 4,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "video",
+      "publisher": {
+        "id": "org.manatan.community.extensions",
+        "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+        "signature": "45ddc17ba3945b740733d846f0ca77c1947e6f388c2d845931718b7228b688e99ded3f82ae9226310489ee6d80216d8fc27648679338c05c1eb3d444331eee0a"
+      },
       "description": "English anime catalog and streams from AniWave.",
       "author": "Manatan Community",
       "homepage": "https://animewave.to",
@@ -118,7 +128,10 @@
             "https://kwik.cx",
             "https://*.kwik.cx",
             "https://vidstream.pro",
-            "https://*.vidstream.pro"
+            "https://*.vidstream.pro",
+            "https://vidtube.site",
+            "https://megaplay.buzz",
+            "https://vidwish.live"
           ]
         },
         "webview": false,
@@ -142,7 +155,7 @@
           "lang": "en",
           "contentType": "video",
           "baseUrl": "https://animewave.to",
-          "contentRating": "safe",
+          "contentRating": "suggestive",
           "capabilities": {
             "operations": [],
             "search": true,
@@ -188,25 +201,196 @@
   },
   {
     "schemaVersion": 2,
+    "pkgName": "manatan:anizone",
+    "id": "anizone",
+    "packageId": "anizone",
+    "name": "AniZone",
+    "versionName": "0.1.0",
+    "version": "0.1.0",
+    "versionCode": 1,
+    "contentType": "video",
+    "media": "video",
+    "mediaKind": "video",
+    "lang": "all",
+    "language": "all",
+    "contentRating": "suggestive",
+    "extensionType": "manatan2",
+    "packageUrl": "packages/video/all/anizone.manatan2",
+    "packagePath": "packages/video/all/anizone.manatan2",
+    "sha256": "abcb2a1d6a84bb90db0085e73e6328860a7c27cf728ff7becf7c5fa72c364ae8",
+    "size": 2308011,
+    "sizeBytes": 2308011,
+    "iconUrl": "icons/video/all/anizone.png",
+    "sourceIds": [
+      "anizone"
+    ],
+    "sourceNames": [
+      "AniZone"
+    ],
+    "verified": true,
+    "publisher": {
+      "id": "org.manatan.community.extensions",
+      "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+      "signature": "7d711881ae9061f1dfb266cd831afc93946f6bc7c4a3cc7e877aeae7c968f23c6f90bcafe2d29b4fa45784d54e921ee5111457b0813c7ed3e5a1aeaa6ce89c06"
+    },
+    "sources": [
+      {
+        "id": "anizone",
+        "name": "AniZone",
+        "lang": "all",
+        "contentType": "video",
+        "baseUrl": "https://anizone.to",
+        "contentRating": "suggestive",
+        "capabilities": {
+          "operations": [],
+          "search": true,
+          "latest": true,
+          "filters": true,
+          "preferences": true,
+          "home": false,
+          "hosterResolution": false,
+          "seasons": false,
+          "urlResolution": true,
+          "chapterPagination": false,
+          "pageProcessing": false,
+          "mediaProcessing": false,
+          "authentication": false,
+          "unmetered": false
+        },
+        "listings": [
+          {
+            "id": "popular",
+            "name": "Popular"
+          },
+          {
+            "id": "latest",
+            "name": "Latest"
+          }
+        ],
+        "urlPatterns": [
+          {
+            "pattern": "https://anizone.to/anime/*",
+            "kind": "item-or-episode"
+          }
+        ],
+        "tags": [
+          "anizone",
+          "subtitles"
+        ]
+      }
+    ],
+    "manifest": {
+      "schemaVersion": 2,
+      "id": "anizone",
+      "name": "AniZone",
+      "version": "0.1.0",
+      "versionCode": 1,
+      "apiVersion": 2,
+      "wasm": "extension.wasm",
+      "contentType": "video",
+      "publisher": {
+        "id": "org.manatan.community.extensions",
+        "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+        "signature": "7d711881ae9061f1dfb266cd831afc93946f6bc7c4a3cc7e877aeae7c968f23c6f90bcafe2d29b4fa45784d54e921ee5111457b0813c7ed3e5a1aeaa6ce89c06"
+      },
+      "description": "All-language anime catalog, subtitles, and streams from AniZone with enforced safe-search filtering.",
+      "author": "Manatan Community",
+      "homepage": "https://anizone.to",
+      "repository": "https://github.com/Manatan-Community/extensions-source",
+      "license": "Apache-2.0",
+      "icon": "assets/icon.png",
+      "minimumManatanVersion": "0.3.1",
+      "permissions": {
+        "network": {
+          "allow": [
+            "https://anizone.to",
+            "https://*.vid-cdn.xyz",
+            "https://*.xin-cdn.xyz"
+          ]
+        },
+        "webview": false,
+        "cookies": true,
+        "storage": false,
+        "assets": false,
+        "javascript": false,
+        "services": []
+      },
+      "assets": [
+        {
+          "path": "assets/icon.png",
+          "mimeType": "image/png",
+          "sha256": "6f9900740db5d0413f7af9c430adce0cfeb45c066a2711d1467932960cf1d426"
+        }
+      ],
+      "sources": [
+        {
+          "id": "anizone",
+          "name": "AniZone",
+          "lang": "all",
+          "contentType": "video",
+          "baseUrl": "https://anizone.to",
+          "contentRating": "suggestive",
+          "capabilities": {
+            "operations": [],
+            "search": true,
+            "latest": true,
+            "filters": true,
+            "preferences": true,
+            "home": false,
+            "hosterResolution": false,
+            "seasons": false,
+            "urlResolution": true,
+            "chapterPagination": false,
+            "pageProcessing": false,
+            "mediaProcessing": false,
+            "authentication": false,
+            "unmetered": false
+          },
+          "listings": [
+            {
+              "id": "popular",
+              "name": "Popular"
+            },
+            {
+              "id": "latest",
+              "name": "Latest"
+            }
+          ],
+          "urlPatterns": [
+            {
+              "pattern": "https://anizone.to/anime/*",
+              "kind": "item-or-episode"
+            }
+          ],
+          "tags": [
+            "anizone",
+            "subtitles"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "schemaVersion": 2,
     "pkgName": "manatan:anikoto",
     "id": "anikoto",
     "packageId": "anikoto",
     "name": "Anikoto",
-    "versionName": "0.1.1",
-    "version": "0.1.1",
-    "versionCode": 2,
+    "versionName": "0.1.3",
+    "version": "0.1.3",
+    "versionCode": 3,
     "contentType": "video",
     "media": "video",
     "mediaKind": "video",
     "lang": "en",
     "language": "en",
-    "contentRating": "safe",
+    "contentRating": "suggestive",
     "extensionType": "manatan2",
     "packageUrl": "packages/video/en/anikoto.manatan2",
     "packagePath": "packages/video/en/anikoto.manatan2",
-    "sha256": "0fa91104f9ab82f883582d62b22cf240a7f653b063ef3f6c1954a537a140b6e1",
-    "size": 2331885,
-    "sizeBytes": 2331885,
+    "sha256": "5630febc313ca3eba0f6afa1c2270f0a4e14a42c3ddb552e24890f3f1ca90706",
+    "size": 2349347,
+    "sizeBytes": 2349347,
     "iconUrl": "icons/video/en/anikoto.png",
     "sourceIds": [
       "anikoto"
@@ -215,6 +399,11 @@
       "Anikoto"
     ],
     "verified": true,
+    "publisher": {
+      "id": "org.manatan.community.extensions",
+      "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+      "signature": "6d3d0205d55fdc034c2a0db60e5a4eb252b150b3e9cd94eb7ae292b7f1b3113ba239d1f9324413313dd2ca325ad89d48c090558008a5aab001013b99a4bebb0f"
+    },
     "sources": [
       {
         "id": "anikoto",
@@ -222,7 +411,7 @@
         "lang": "en",
         "contentType": "video",
         "baseUrl": "https://anikototv.to",
-        "contentRating": "safe",
+        "contentRating": "suggestive",
         "capabilities": {
           "operations": [],
           "search": true,
@@ -264,11 +453,16 @@
       "schemaVersion": 2,
       "id": "anikoto",
       "name": "Anikoto",
-      "version": "0.1.1",
-      "versionCode": 2,
+      "version": "0.1.3",
+      "versionCode": 3,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "video",
+      "publisher": {
+        "id": "org.manatan.community.extensions",
+        "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+        "signature": "6d3d0205d55fdc034c2a0db60e5a4eb252b150b3e9cd94eb7ae292b7f1b3113ba239d1f9324413313dd2ca325ad89d48c090558008a5aab001013b99a4bebb0f"
+      },
       "description": "English anime catalog and streams from Anikoto.",
       "author": "Manatan Community",
       "homepage": "https://anikototv.to",
@@ -305,7 +499,10 @@
             "https://kwik.cx",
             "https://*.kwik.cx",
             "https://vidstream.pro",
-            "https://*.vidstream.pro"
+            "https://*.vidstream.pro",
+            "https://vidtube.site",
+            "https://megaplay.buzz",
+            "https://vidwish.live"
           ]
         },
         "webview": false,
@@ -329,7 +526,7 @@
           "lang": "en",
           "contentType": "video",
           "baseUrl": "https://anikototv.to",
-          "contentRating": "safe",
+          "contentRating": "suggestive",
           "capabilities": {
             "operations": [],
             "search": true,
@@ -371,400 +568,205 @@
   },
   {
     "schemaVersion": 2,
-    "pkgName": "manatan:kotokai",
-    "id": "kotokai",
-    "packageId": "kotokai",
-    "name": "AnimeKai (Unoriginal)",
-    "versionName": "0.1.1",
-    "version": "0.1.1",
-    "versionCode": 2,
-    "contentType": "video",
-    "media": "video",
-    "mediaKind": "video",
-    "lang": "en",
-    "language": "en",
-    "contentRating": "safe",
-    "extensionType": "manatan2",
-    "packageUrl": "packages/video/en/kotokai.manatan2",
-    "packagePath": "packages/video/en/kotokai.manatan2",
-    "sha256": "bb51909216b3a1f6a37783ad529a38579b32cd6b8351d59e8cd5ad4c2ad5ae84",
-    "size": 2327933,
-    "sizeBytes": 2327933,
-    "iconUrl": "icons/video/en/kotokai.png",
-    "sourceIds": [
-      "kotokai"
-    ],
-    "sourceNames": [
-      "AnimeKai (Unoriginal)"
-    ],
-    "verified": true,
-    "sources": [
-      {
-        "id": "kotokai",
-        "name": "AnimeKai (Unoriginal)",
-        "lang": "en",
-        "contentType": "video",
-        "baseUrl": "https://animekaitv.to",
-        "contentRating": "safe",
-        "capabilities": {
-          "operations": [],
-          "search": true,
-          "latest": true,
-          "filters": true,
-          "preferences": true,
-          "home": false,
-          "hosterResolution": true,
-          "seasons": false,
-          "urlResolution": true,
-          "chapterPagination": false,
-          "pageProcessing": false,
-          "mediaProcessing": true,
-          "authentication": false,
-          "unmetered": false
-        },
-        "listings": [
-          {
-            "id": "popular",
-            "name": "Popular"
-          },
-          {
-            "id": "latest",
-            "name": "Latest"
-          }
-        ],
-        "urlPatterns": [
-          {
-            "pattern": "https://animekaitv.to/watch/*",
-            "kind": "item-or-episode"
-          }
-        ],
-        "tags": [
-          "anikoto"
-        ]
-      }
-    ],
-    "manifest": {
-      "schemaVersion": 2,
-      "id": "kotokai",
-      "name": "AnimeKai (Unoriginal)",
-      "version": "0.1.1",
-      "versionCode": 2,
-      "apiVersion": 2,
-      "wasm": "extension.wasm",
-      "contentType": "video",
-      "description": "English anime catalog and streams from AnimeKai.",
-      "author": "Manatan Community",
-      "homepage": "https://animekaitv.to",
-      "repository": "https://github.com/Manatan-Community/extensions-source",
-      "license": "Apache-2.0",
-      "icon": "assets/icon.png",
-      "minimumManatanVersion": null,
-      "permissions": {
-        "network": {
-          "allow": [
-            "https://animekaitv.to",
-            "https://anikaitv.to",
-            "https://animekai.se",
-            "https://anikai.se",
-            "https://cdn.anipixcdn.co",
-            "https://mapper.nekostream.site",
-            "https://*.nekostream.site",
-            "https://mewcdn.online",
-            "https://*.mewcdn.online",
-            "https://*.ibyteimg.com",
-            "https://*.tiktokcdn.com",
-            "https://vidplay.site",
-            "https://*.vidplay.site",
-            "https://vidplay.org",
-            "https://*.vidplay.org",
-            "https://megacloud.blog",
-            "https://*.megacloud.blog",
-            "https://megacloud.club",
-            "https://*.megacloud.club",
-            "https://rabbitstream.net",
-            "https://*.rabbitstream.net",
-            "https://kwik.cx",
-            "https://*.kwik.cx",
-            "https://vidstream.pro",
-            "https://*.vidstream.pro"
-          ]
-        },
-        "webview": false,
-        "cookies": true,
-        "storage": false,
-        "assets": false,
-        "javascript": false,
-        "services": []
-      },
-      "assets": [
-        {
-          "path": "assets/icon.png",
-          "mimeType": "image/png",
-          "sha256": "1233db32b27d6e1028096a6a3f63dd90d522d08146bb0e07dc37abff0ff80298"
-        }
-      ],
-      "sources": [
-        {
-          "id": "kotokai",
-          "name": "AnimeKai (Unoriginal)",
-          "lang": "en",
-          "contentType": "video",
-          "baseUrl": "https://animekaitv.to",
-          "contentRating": "safe",
-          "capabilities": {
-            "operations": [],
-            "search": true,
-            "latest": true,
-            "filters": true,
-            "preferences": true,
-            "home": false,
-            "hosterResolution": true,
-            "seasons": false,
-            "urlResolution": true,
-            "chapterPagination": false,
-            "pageProcessing": false,
-            "mediaProcessing": true,
-            "authentication": false,
-            "unmetered": false
-          },
-          "listings": [
-            {
-              "id": "popular",
-              "name": "Popular"
-            },
-            {
-              "id": "latest",
-              "name": "Latest"
-            }
-          ],
-          "urlPatterns": [
-            {
-              "pattern": "https://animekaitv.to/watch/*",
-              "kind": "item-or-episode"
-            }
-          ],
-          "tags": [
-            "anikoto"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "schemaVersion": 2,
-    "pkgName": "manatan:animesogo",
-    "id": "animesogo",
-    "packageId": "animesogo",
-    "name": "AnimeSogo",
-    "versionName": "0.1.1",
-    "version": "0.1.1",
-    "versionCode": 2,
-    "contentType": "video",
-    "media": "video",
-    "mediaKind": "video",
-    "lang": "en",
-    "language": "en",
-    "contentRating": "safe",
-    "extensionType": "manatan2",
-    "packageUrl": "packages/video/en/animesogo.manatan2",
-    "packagePath": "packages/video/en/animesogo.manatan2",
-    "sha256": "144dd6949d045b65a33ce1090c5591dd1060620a40bf2839a99b0b7df718daff",
-    "size": 2335466,
-    "sizeBytes": 2335466,
-    "iconUrl": "icons/video/en/animesogo.png",
-    "sourceIds": [
-      "animesogo"
-    ],
-    "sourceNames": [
-      "AnimeSogo"
-    ],
-    "verified": true,
-    "sources": [
-      {
-        "id": "animesogo",
-        "name": "AnimeSogo",
-        "lang": "en",
-        "contentType": "video",
-        "baseUrl": "https://animesogo.to",
-        "contentRating": "safe",
-        "capabilities": {
-          "operations": [],
-          "search": true,
-          "latest": true,
-          "filters": true,
-          "preferences": true,
-          "home": false,
-          "hosterResolution": true,
-          "seasons": false,
-          "urlResolution": true,
-          "chapterPagination": false,
-          "pageProcessing": false,
-          "mediaProcessing": true,
-          "authentication": false,
-          "unmetered": false
-        },
-        "listings": [
-          {
-            "id": "popular",
-            "name": "Popular"
-          },
-          {
-            "id": "latest",
-            "name": "Latest"
-          }
-        ],
-        "urlPatterns": [
-          {
-            "pattern": "https://animesogo.to/watch/*",
-            "kind": "item-or-episode"
-          }
-        ],
-        "tags": [
-          "anikoto"
-        ]
-      }
-    ],
-    "manifest": {
-      "schemaVersion": 2,
-      "id": "animesogo",
-      "name": "AnimeSogo",
-      "version": "0.1.1",
-      "versionCode": 2,
-      "apiVersion": 2,
-      "wasm": "extension.wasm",
-      "contentType": "video",
-      "description": "English anime catalog and streams from AnimeSogo.",
-      "author": "Manatan Community",
-      "homepage": "https://animesogo.to",
-      "repository": "https://github.com/Manatan-Community/extensions-source",
-      "license": "Apache-2.0",
-      "icon": "assets/icon.png",
-      "minimumManatanVersion": null,
-      "permissions": {
-        "network": {
-          "allow": [
-            "https://animesogo.to",
-            "https://cdn.anipixcdn.co",
-            "https://mapper.nekostream.site",
-            "https://*.nekostream.site",
-            "https://mewcdn.online",
-            "https://*.mewcdn.online",
-            "https://*.ibyteimg.com",
-            "https://*.tiktokcdn.com",
-            "https://vidplay.site",
-            "https://*.vidplay.site",
-            "https://vidplay.org",
-            "https://*.vidplay.org",
-            "https://megacloud.blog",
-            "https://*.megacloud.blog",
-            "https://megacloud.club",
-            "https://*.megacloud.club",
-            "https://rabbitstream.net",
-            "https://*.rabbitstream.net",
-            "https://kwik.cx",
-            "https://*.kwik.cx",
-            "https://vidstream.pro",
-            "https://*.vidstream.pro"
-          ]
-        },
-        "webview": false,
-        "cookies": true,
-        "storage": false,
-        "assets": false,
-        "javascript": false,
-        "services": []
-      },
-      "assets": [
-        {
-          "path": "assets/icon.png",
-          "mimeType": "image/png",
-          "sha256": "391b65ededed2fc6c0a0124512d46c1aec248ee0a79fefc34749ac0dd8fc34e2"
-        }
-      ],
-      "sources": [
-        {
-          "id": "animesogo",
-          "name": "AnimeSogo",
-          "lang": "en",
-          "contentType": "video",
-          "baseUrl": "https://animesogo.to",
-          "contentRating": "safe",
-          "capabilities": {
-            "operations": [],
-            "search": true,
-            "latest": true,
-            "filters": true,
-            "preferences": true,
-            "home": false,
-            "hosterResolution": true,
-            "seasons": false,
-            "urlResolution": true,
-            "chapterPagination": false,
-            "pageProcessing": false,
-            "mediaProcessing": true,
-            "authentication": false,
-            "unmetered": false
-          },
-          "listings": [
-            {
-              "id": "popular",
-              "name": "Popular"
-            },
-            {
-              "id": "latest",
-              "name": "Latest"
-            }
-          ],
-          "urlPatterns": [
-            {
-              "pattern": "https://animesogo.to/watch/*",
-              "kind": "item-or-episode"
-            }
-          ],
-          "tags": [
-            "anikoto"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "schemaVersion": 2,
-    "pkgName": "manatan:animetsu",
-    "id": "animetsu",
-    "packageId": "animetsu",
-    "name": "Animetsu",
-    "versionName": "0.1.1",
-    "version": "0.1.1",
-    "versionCode": 2,
+    "pkgName": "manatan:animeonsen",
+    "id": "animeonsen",
+    "packageId": "animeonsen",
+    "name": "AnimeOnsen",
+    "versionName": "0.1.0",
+    "version": "0.1.0",
+    "versionCode": 1,
     "contentType": "video",
     "media": "video",
     "mediaKind": "video",
     "lang": "all",
     "language": "all",
-    "contentRating": "adult",
+    "contentRating": "suggestive",
     "extensionType": "manatan2",
-    "packageUrl": "packages/video/all/animetsu.manatan2",
-    "packagePath": "packages/video/all/animetsu.manatan2",
-    "sha256": "9168f94a50bcb8da41304963cbae154be3081389946f04473ff2e989b812d591",
-    "size": 1910231,
-    "sizeBytes": 1910231,
-    "iconUrl": "icons/video/all/animetsu.png",
+    "packageUrl": "packages/video/all/animeonsen.manatan2",
+    "packagePath": "packages/video/all/animeonsen.manatan2",
+    "sha256": "2d6ac83b7269eabfd382888ade0d159911462ffefca3139cef53652811ae946f",
+    "size": 1692140,
+    "sizeBytes": 1692140,
+    "iconUrl": null,
     "sourceIds": [
-      "animetsu"
+      "animeonsen"
     ],
     "sourceNames": [
-      "Animetsu"
+      "AnimeOnsen"
     ],
     "verified": true,
+    "publisher": {
+      "id": "org.manatan.community.extensions",
+      "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+      "signature": "9fbd7bfed19cf87cffa22640526053c680d856d738672e4a7f1bb8d5e3bbc231aaad496bab2dea9eea41e28382a7f158c84357851fbfa0399e0ab526d27a680d"
+    },
     "sources": [
       {
-        "id": "animetsu",
-        "name": "Animetsu",
+        "id": "animeonsen",
+        "name": "AnimeOnsen",
         "lang": "all",
         "contentType": "video",
-        "baseUrl": "https://animetsu.net",
-        "contentRating": "adult",
+        "baseUrl": "https://www.animeonsen.xyz",
+        "contentRating": "suggestive",
+        "capabilities": {
+          "operations": [],
+          "search": true,
+          "latest": false,
+          "filters": true,
+          "preferences": false,
+          "home": false,
+          "hosterResolution": false,
+          "seasons": false,
+          "urlResolution": true,
+          "chapterPagination": false,
+          "pageProcessing": false,
+          "mediaProcessing": false,
+          "authentication": false,
+          "unmetered": false
+        },
+        "listings": [
+          {
+            "id": "popular",
+            "name": "Popular"
+          }
+        ],
+        "urlPatterns": [
+          {
+            "pattern": "https://www.animeonsen.xyz/details/*",
+            "kind": "item"
+          }
+        ],
+        "tags": [
+          "animeonsen",
+          "subtitles"
+        ]
+      }
+    ],
+    "manifest": {
+      "schemaVersion": 2,
+      "id": "animeonsen",
+      "name": "AnimeOnsen",
+      "version": "0.1.0",
+      "versionCode": 1,
+      "apiVersion": 2,
+      "wasm": "extension.wasm",
+      "contentType": "video",
+      "publisher": {
+        "id": "org.manatan.community.extensions",
+        "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+        "signature": "9fbd7bfed19cf87cffa22640526053c680d856d738672e4a7f1bb8d5e3bbc231aaad496bab2dea9eea41e28382a7f158c84357851fbfa0399e0ab526d27a680d"
+      },
+      "description": "All-language anime catalog and streams from AnimeOnsen with Play-safe catalog filtering.",
+      "author": "Manatan Community",
+      "homepage": "https://www.animeonsen.xyz",
+      "repository": "https://github.com/Manatan-Community/extensions-source",
+      "license": "Apache-2.0",
+      "icon": null,
+      "minimumManatanVersion": "0.3.1",
+      "permissions": {
+        "network": {
+          "allow": [
+            "https://www.animeonsen.xyz",
+            "https://auth.animeonsen.xyz",
+            "https://api.animeonsen.xyz",
+            "https://search.animeonsen.xyz",
+            "https://cdn.animeonsen.xyz"
+          ]
+        },
+        "webview": false,
+        "cookies": false,
+        "storage": false,
+        "assets": false,
+        "javascript": false,
+        "services": []
+      },
+      "assets": [],
+      "sources": [
+        {
+          "id": "animeonsen",
+          "name": "AnimeOnsen",
+          "lang": "all",
+          "contentType": "video",
+          "baseUrl": "https://www.animeonsen.xyz",
+          "contentRating": "suggestive",
+          "capabilities": {
+            "operations": [],
+            "search": true,
+            "latest": false,
+            "filters": true,
+            "preferences": false,
+            "home": false,
+            "hosterResolution": false,
+            "seasons": false,
+            "urlResolution": true,
+            "chapterPagination": false,
+            "pageProcessing": false,
+            "mediaProcessing": false,
+            "authentication": false,
+            "unmetered": false
+          },
+          "listings": [
+            {
+              "id": "popular",
+              "name": "Popular"
+            }
+          ],
+          "urlPatterns": [
+            {
+              "pattern": "https://www.animeonsen.xyz/details/*",
+              "kind": "item"
+            }
+          ],
+          "tags": [
+            "animeonsen",
+            "subtitles"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "schemaVersion": 2,
+    "pkgName": "manatan:mangadex",
+    "id": "mangadex",
+    "packageId": "mangadex",
+    "name": "MangaDex",
+    "versionName": "1.0.0",
+    "version": "1.0.0",
+    "versionCode": 1,
+    "contentType": "manga",
+    "media": "manga",
+    "mediaKind": "manga",
+    "lang": "all",
+    "language": "all",
+    "contentRating": "suggestive",
+    "extensionType": "manatan2",
+    "packageUrl": "packages/manga/all/mangadex.manatan2",
+    "packagePath": "packages/manga/all/mangadex.manatan2",
+    "sha256": "92cae8f2fa5838ec021e2bd20a310314639758f14b55d9abcc7ffd7c2ad16370",
+    "size": 649334,
+    "sizeBytes": 649334,
+    "iconUrl": null,
+    "sourceIds": [
+      "mangadex"
+    ],
+    "sourceNames": [
+      "MangaDex"
+    ],
+    "verified": true,
+    "publisher": {
+      "id": "org.manatan.community.extensions",
+      "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+      "signature": "35ecca994ada185100f77ef2899960febd2a7312814026bb44c3055805f2243ee0befed27f8198bfafc60e4dc5d307dfb990ccf569a747a9d372de86fddebd0a"
+    },
+    "sources": [
+      {
+        "id": "mangadex",
+        "name": "MangaDex",
+        "lang": "all",
+        "contentType": "manga",
+        "baseUrl": "https://mangadex.org",
+        "contentRating": "suggestive",
         "capabilities": {
           "operations": [],
           "search": true,
@@ -772,12 +774,12 @@
           "filters": true,
           "preferences": true,
           "home": false,
-          "hosterResolution": true,
+          "hosterResolution": false,
           "seasons": false,
           "urlResolution": true,
           "chapterPagination": false,
-          "pageProcessing": false,
-          "mediaProcessing": true,
+          "pageProcessing": true,
+          "mediaProcessing": false,
           "authentication": false,
           "unmetered": false
         },
@@ -793,92 +795,76 @@
         ],
         "urlPatterns": [
           {
-            "pattern": "https://animetsu.net/anime/*",
+            "pattern": "https://mangadex.org/title/*",
             "kind": "item"
           },
           {
-            "pattern": "https://animetsu.net/watch/*",
-            "kind": "item-or-episode"
+            "pattern": "https://mangadex.org/chapter/*",
+            "kind": "item-or-chapter"
           },
           {
-            "pattern": "https://animetsu.live/anime/*",
+            "pattern": "https://canary.mangadex.dev/title/*",
             "kind": "item"
           },
           {
-            "pattern": "https://animetsu.live/watch/*",
-            "kind": "item-or-episode"
-          },
-          {
-            "pattern": "https://animetsu.bz/anime/*",
-            "kind": "item"
-          },
-          {
-            "pattern": "https://animetsu.bz/watch/*",
-            "kind": "item-or-episode"
-          },
-          {
-            "pattern": "https://animetsu.cc/anime/*",
-            "kind": "item"
-          },
-          {
-            "pattern": "https://animetsu.cc/watch/*",
-            "kind": "item-or-episode"
+            "pattern": "https://canary.mangadex.dev/chapter/*",
+            "kind": "item-or-chapter"
           }
         ],
         "tags": [
-          "animetsu"
+          "official-api",
+          "safe-only",
+          "lazy-pages"
         ]
       }
     ],
     "manifest": {
       "schemaVersion": 2,
-      "id": "animetsu",
-      "name": "Animetsu",
-      "version": "0.1.1",
-      "versionCode": 2,
+      "id": "mangadex",
+      "name": "MangaDex",
+      "version": "1.0.0",
+      "versionCode": 1,
       "apiVersion": 2,
       "wasm": "extension.wasm",
-      "contentType": "video",
-      "description": "All-language anime catalog and streams from Animetsu.",
+      "contentType": "manga",
+      "publisher": {
+        "id": "org.manatan.community.extensions",
+        "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+        "signature": "35ecca994ada185100f77ef2899960febd2a7312814026bb44c3055805f2243ee0befed27f8198bfafc60e4dc5d307dfb990ccf569a747a9d372de86fddebd0a"
+      },
+      "description": "MangaDex through its public API, restricted to safe and suggestive titles.",
       "author": "Manatan Community",
-      "homepage": "https://animetsu.net",
+      "homepage": "https://mangadex.org",
       "repository": "https://github.com/Manatan-Community/extensions-source",
       "license": "Apache-2.0",
-      "icon": "assets/icon.png",
+      "icon": null,
       "minimumManatanVersion": null,
       "permissions": {
         "network": {
           "allow": [
-            "https://animetsu.net",
-            "https://animetsu.live",
-            "https://animetsu.bz",
-            "https://animetsu.cc",
-            "https://s4.anilist.co",
-            "https://swiftstream.top"
+            "https://api.mangadex.org",
+            "https://mangadex.org",
+            "https://canary.mangadex.dev",
+            "https://uploads.mangadex.org",
+            "https://*.mangadex.network"
           ]
         },
-        "webview": true,
-        "cookies": true,
+        "webview": false,
+        "cookies": false,
         "storage": false,
         "assets": false,
         "javascript": false,
         "services": []
       },
-      "assets": [
-        {
-          "path": "assets/icon.png",
-          "mimeType": "image/png",
-          "sha256": "0ae72203aa6a1fd47bd5c31afb1b3a8cd920d1404e0420feff5604b1224075e7"
-        }
-      ],
+      "assets": [],
       "sources": [
         {
-          "id": "animetsu",
-          "name": "Animetsu",
+          "id": "mangadex",
+          "name": "MangaDex",
           "lang": "all",
-          "contentType": "video",
-          "baseUrl": "https://animetsu.net",
-          "contentRating": "adult",
+          "contentType": "manga",
+          "baseUrl": "https://mangadex.org",
+          "contentRating": "suggestive",
           "capabilities": {
             "operations": [],
             "search": true,
@@ -886,196 +872,11 @@
             "filters": true,
             "preferences": true,
             "home": false,
-            "hosterResolution": true,
+            "hosterResolution": false,
             "seasons": false,
             "urlResolution": true,
             "chapterPagination": false,
-            "pageProcessing": false,
-            "mediaProcessing": true,
-            "authentication": false,
-            "unmetered": false
-          },
-          "listings": [
-            {
-              "id": "popular",
-              "name": "Popular"
-            },
-            {
-              "id": "latest",
-              "name": "Latest"
-            }
-          ],
-          "urlPatterns": [
-            {
-              "pattern": "https://animetsu.net/anime/*",
-              "kind": "item"
-            },
-            {
-              "pattern": "https://animetsu.net/watch/*",
-              "kind": "item-or-episode"
-            },
-            {
-              "pattern": "https://animetsu.live/anime/*",
-              "kind": "item"
-            },
-            {
-              "pattern": "https://animetsu.live/watch/*",
-              "kind": "item-or-episode"
-            },
-            {
-              "pattern": "https://animetsu.bz/anime/*",
-              "kind": "item"
-            },
-            {
-              "pattern": "https://animetsu.bz/watch/*",
-              "kind": "item-or-episode"
-            },
-            {
-              "pattern": "https://animetsu.cc/anime/*",
-              "kind": "item"
-            },
-            {
-              "pattern": "https://animetsu.cc/watch/*",
-              "kind": "item-or-episode"
-            }
-          ],
-          "tags": [
-            "animetsu"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "schemaVersion": 2,
-    "pkgName": "manatan:cat300",
-    "id": "cat300",
-    "packageId": "cat300",
-    "name": "Cat300",
-    "versionName": "1.0.1",
-    "version": "1.0.1",
-    "versionCode": 2,
-    "contentType": "manga",
-    "media": "manga",
-    "mediaKind": "manga",
-    "lang": "th",
-    "language": "th",
-    "contentRating": "adult",
-    "extensionType": "manatan2",
-    "packageUrl": "packages/manga/th/cat300.manatan2",
-    "packagePath": "packages/manga/th/cat300.manatan2",
-    "sha256": "d8290e0f25fc06d11a059e2edb12edcab41e6047c5137da35da792ecce32e67e",
-    "size": 1177296,
-    "sizeBytes": 1177296,
-    "iconUrl": "icons/manga/th/cat300.png",
-    "sourceIds": [
-      "cat300"
-    ],
-    "sourceNames": [
-      "Cat300"
-    ],
-    "verified": true,
-    "sources": [
-      {
-        "id": "cat300",
-        "name": "Cat300",
-        "lang": "th",
-        "contentType": "manga",
-        "baseUrl": "https://cat-300.com",
-        "contentRating": "adult",
-        "capabilities": {
-          "operations": [],
-          "search": true,
-          "latest": true,
-          "filters": true,
-          "preferences": false,
-          "home": false,
-          "hosterResolution": false,
-          "seasons": false,
-          "urlResolution": false,
-          "chapterPagination": false,
-          "pageProcessing": false,
-          "mediaProcessing": false,
-          "authentication": false,
-          "unmetered": false
-        },
-        "listings": [
-          {
-            "id": "popular",
-            "name": "Popular"
-          },
-          {
-            "id": "latest",
-            "name": "Latest"
-          }
-        ],
-        "urlPatterns": [
-          {
-            "pattern": "https://cat-300.com/manga/*",
-            "kind": "manga"
-          }
-        ],
-        "tags": [
-          "madara"
-        ]
-      }
-    ],
-    "manifest": {
-      "schemaVersion": 2,
-      "id": "cat300",
-      "name": "Cat300",
-      "version": "1.0.1",
-      "versionCode": 2,
-      "apiVersion": 2,
-      "wasm": "extension.wasm",
-      "contentType": "manga",
-      "description": "Thai manga from Cat300.",
-      "author": "Manatan Community",
-      "homepage": "https://cat-300.com",
-      "repository": "https://github.com/Manatan-Community/extensions-source",
-      "license": "Apache-2.0",
-      "icon": "assets/icon.png",
-      "minimumManatanVersion": null,
-      "permissions": {
-        "network": {
-          "allow": [
-            "https://cat-300.com"
-          ]
-        },
-        "webview": false,
-        "cookies": false,
-        "storage": false,
-        "assets": false,
-        "javascript": false,
-        "services": []
-      },
-      "assets": [
-        {
-          "path": "assets/icon.png",
-          "mimeType": "image/png",
-          "sha256": "54599cd7486d4c979888c34520b65c9894dcce1c6fe054a35cd47dee962167dc"
-        }
-      ],
-      "sources": [
-        {
-          "id": "cat300",
-          "name": "Cat300",
-          "lang": "th",
-          "contentType": "manga",
-          "baseUrl": "https://cat-300.com",
-          "contentRating": "adult",
-          "capabilities": {
-            "operations": [],
-            "search": true,
-            "latest": true,
-            "filters": true,
-            "preferences": false,
-            "home": false,
-            "hosterResolution": false,
-            "seasons": false,
-            "urlResolution": false,
-            "chapterPagination": false,
-            "pageProcessing": false,
+            "pageProcessing": true,
             "mediaProcessing": false,
             "authentication": false,
             "unmetered": false
@@ -1092,818 +893,27 @@
           ],
           "urlPatterns": [
             {
-              "pattern": "https://cat-300.com/manga/*",
-              "kind": "manga"
-            }
-          ],
-          "tags": [
-            "madara"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "schemaVersion": 2,
-    "pkgName": "manatan:clicknovel",
-    "id": "clicknovel",
-    "packageId": "clicknovel",
-    "name": "ClickNovel",
-    "versionName": "0.1.1",
-    "version": "0.1.1",
-    "versionCode": 3,
-    "contentType": "novel",
-    "media": "novel",
-    "mediaKind": "novel",
-    "lang": "en",
-    "language": "en",
-    "contentRating": "safe",
-    "extensionType": "manatan2",
-    "packageUrl": "packages/novel/en/clicknovel.manatan2",
-    "packagePath": "packages/novel/en/clicknovel.manatan2",
-    "sha256": "ee75f58b1866b03921dfa716c63a4117ba4551666280b1363e9bf573936ee6dc",
-    "size": 2205641,
-    "sizeBytes": 2205641,
-    "iconUrl": "icons/novel/en/clicknovel.png",
-    "sourceIds": [
-      "clicknovel"
-    ],
-    "sourceNames": [
-      "ClickNovel"
-    ],
-    "verified": true,
-    "sources": [
-      {
-        "id": "clicknovel",
-        "name": "ClickNovel",
-        "lang": "en",
-        "contentType": "novel",
-        "baseUrl": "https://clicknovel.net",
-        "contentRating": "safe",
-        "capabilities": {
-          "operations": [
-            "commands.describe",
-            "commands.detail.fetch",
-            "commands.chapter.fetch",
-            "commands.content.fetch"
-          ],
-          "search": true,
-          "latest": true,
-          "filters": true,
-          "preferences": false,
-          "home": false,
-          "hosterResolution": false,
-          "seasons": false,
-          "urlResolution": true,
-          "chapterPagination": false,
-          "pageProcessing": false,
-          "mediaProcessing": false,
-          "authentication": false,
-          "unmetered": false
-        },
-        "listings": [
-          {
-            "id": "popular",
-            "name": "Popular"
-          },
-          {
-            "id": "latest",
-            "name": "Latest"
-          }
-        ],
-        "urlPatterns": [
-          {
-            "pattern": "https://clicknovel.net/novel/*",
-            "kind": "item-or-chapter"
-          }
-        ],
-        "tags": []
-      }
-    ],
-    "manifest": {
-      "schemaVersion": 2,
-      "id": "clicknovel",
-      "name": "ClickNovel",
-      "version": "0.1.1",
-      "versionCode": 3,
-      "apiVersion": 2,
-      "wasm": "extension.wasm",
-      "contentType": "novel",
-      "description": "English web novels from ClickNovel.",
-      "author": "Manatan Community",
-      "homepage": "https://clicknovel.net",
-      "repository": "https://github.com/Manatan-Community/extensions-source",
-      "license": "MPL-2.0",
-      "icon": "assets/icon.png",
-      "minimumManatanVersion": null,
-      "permissions": {
-        "network": {
-          "allow": [
-            "https://clicknovel.net"
-          ]
-        },
-        "webview": false,
-        "cookies": false,
-        "storage": false,
-        "assets": false,
-        "javascript": false,
-        "services": []
-      },
-      "assets": [
-        {
-          "path": "assets/icon.png",
-          "mimeType": "image/png",
-          "sha256": "5265e934ca569f4889aaa77d817dad6e0fd744f6cb1c7d801063c0f7c0138bf8"
-        }
-      ],
-      "sources": [
-        {
-          "id": "clicknovel",
-          "name": "ClickNovel",
-          "lang": "en",
-          "contentType": "novel",
-          "baseUrl": "https://clicknovel.net",
-          "contentRating": "safe",
-          "capabilities": {
-            "operations": [
-              "commands.describe",
-              "commands.detail.fetch",
-              "commands.chapter.fetch",
-              "commands.content.fetch"
-            ],
-            "search": true,
-            "latest": true,
-            "filters": true,
-            "preferences": false,
-            "home": false,
-            "hosterResolution": false,
-            "seasons": false,
-            "urlResolution": true,
-            "chapterPagination": false,
-            "pageProcessing": false,
-            "mediaProcessing": false,
-            "authentication": false,
-            "unmetered": false
-          },
-          "listings": [
-            {
-              "id": "popular",
-              "name": "Popular"
+              "pattern": "https://mangadex.org/title/*",
+              "kind": "item"
             },
             {
-              "id": "latest",
-              "name": "Latest"
-            }
-          ],
-          "urlPatterns": [
+              "pattern": "https://mangadex.org/chapter/*",
+              "kind": "item-or-chapter"
+            },
             {
-              "pattern": "https://clicknovel.net/novel/*",
+              "pattern": "https://canary.mangadex.dev/title/*",
+              "kind": "item"
+            },
+            {
+              "pattern": "https://canary.mangadex.dev/chapter/*",
               "kind": "item-or-chapter"
             }
           ],
-          "tags": []
-        }
-      ]
-    }
-  },
-  {
-    "schemaVersion": 2,
-    "pkgName": "manatan:firstkissnovel",
-    "id": "firstkissnovel",
-    "packageId": "firstkissnovel",
-    "name": "FirstKissNovel",
-    "versionName": "0.1.1",
-    "version": "0.1.1",
-    "versionCode": 3,
-    "contentType": "novel",
-    "media": "novel",
-    "mediaKind": "novel",
-    "lang": "en",
-    "language": "en",
-    "contentRating": "safe",
-    "extensionType": "manatan2",
-    "packageUrl": "packages/novel/en/firstkissnovel.manatan2",
-    "packagePath": "packages/novel/en/firstkissnovel.manatan2",
-    "sha256": "eacbe4610e9d1f20f9f950c2a9e1f229983d0a1f47ab2407287a02baca35a0b2",
-    "size": 2189473,
-    "sizeBytes": 2189473,
-    "iconUrl": "icons/novel/en/firstkissnovel.png",
-    "sourceIds": [
-      "firstkissnovel"
-    ],
-    "sourceNames": [
-      "FirstKissNovel"
-    ],
-    "verified": false,
-    "sources": [
-      {
-        "id": "firstkissnovel",
-        "name": "FirstKissNovel",
-        "lang": "en",
-        "contentType": "novel",
-        "baseUrl": "https://1stkissnovel.love",
-        "contentRating": "safe",
-        "capabilities": {
-          "operations": [
-            "commands.describe",
-            "commands.detail.fetch",
-            "commands.chapter.fetch",
-            "commands.content.fetch"
-          ],
-          "search": true,
-          "latest": true,
-          "filters": true,
-          "preferences": false,
-          "home": false,
-          "hosterResolution": false,
-          "seasons": false,
-          "urlResolution": true,
-          "chapterPagination": false,
-          "pageProcessing": false,
-          "mediaProcessing": false,
-          "authentication": false,
-          "unmetered": false
-        },
-        "listings": [
-          {
-            "id": "popular",
-            "name": "Popular"
-          },
-          {
-            "id": "latest",
-            "name": "Latest"
-          }
-        ],
-        "urlPatterns": [
-          {
-            "pattern": "https://1stkissnovel.love/novel/*",
-            "kind": "item-or-chapter"
-          }
-        ],
-        "tags": []
-      }
-    ],
-    "manifest": {
-      "schemaVersion": 2,
-      "id": "firstkissnovel",
-      "name": "FirstKissNovel",
-      "version": "0.1.1",
-      "versionCode": 3,
-      "apiVersion": 2,
-      "wasm": "extension.wasm",
-      "contentType": "novel",
-      "description": "English web novels from FirstKissNovel.",
-      "author": "Manatan Community",
-      "homepage": "https://1stkissnovel.love",
-      "repository": "https://github.com/Manatan-Community/extensions-source",
-      "license": "MPL-2.0",
-      "icon": "assets/icon.png",
-      "minimumManatanVersion": null,
-      "permissions": {
-        "network": {
-          "allow": [
-            "https://1stkissnovel.love"
-          ]
-        },
-        "webview": false,
-        "cookies": false,
-        "storage": false,
-        "assets": false,
-        "javascript": false,
-        "services": []
-      },
-      "assets": [
-        {
-          "path": "assets/icon.png",
-          "mimeType": "image/png",
-          "sha256": "ae5836cd8b597c9c5f29df403785cde11a94e0ebe77dc986a1b2b192b7d9b0c1"
-        }
-      ],
-      "sources": [
-        {
-          "id": "firstkissnovel",
-          "name": "FirstKissNovel",
-          "lang": "en",
-          "contentType": "novel",
-          "baseUrl": "https://1stkissnovel.love",
-          "contentRating": "safe",
-          "capabilities": {
-            "operations": [
-              "commands.describe",
-              "commands.detail.fetch",
-              "commands.chapter.fetch",
-              "commands.content.fetch"
-            ],
-            "search": true,
-            "latest": true,
-            "filters": true,
-            "preferences": false,
-            "home": false,
-            "hosterResolution": false,
-            "seasons": false,
-            "urlResolution": true,
-            "chapterPagination": false,
-            "pageProcessing": false,
-            "mediaProcessing": false,
-            "authentication": false,
-            "unmetered": false
-          },
-          "listings": [
-            {
-              "id": "popular",
-              "name": "Popular"
-            },
-            {
-              "id": "latest",
-              "name": "Latest"
-            }
-          ],
-          "urlPatterns": [
-            {
-              "pattern": "https://1stkissnovel.love/novel/*",
-              "kind": "item-or-chapter"
-            }
-          ],
-          "tags": []
-        }
-      ]
-    }
-  },
-  {
-    "schemaVersion": 2,
-    "pkgName": "manatan:kmansin09",
-    "id": "kmansin09",
-    "packageId": "kmansin09",
-    "name": "Kmansin09",
-    "versionName": "1.0.1",
-    "version": "1.0.1",
-    "versionCode": 2,
-    "contentType": "manga",
-    "media": "manga",
-    "mediaKind": "manga",
-    "lang": "ja",
-    "language": "ja",
-    "contentRating": "safe",
-    "extensionType": "manatan2",
-    "packageUrl": "packages/manga/ja/kmansin09.manatan2",
-    "packagePath": "packages/manga/ja/kmansin09.manatan2",
-    "sha256": "199493343082e4cf5d3644cdca0056661b103546af99e2f52a8dcb8a01842796",
-    "size": 1176729,
-    "sizeBytes": 1176729,
-    "iconUrl": "icons/manga/ja/kmansin09.png",
-    "sourceIds": [
-      "kmansin09"
-    ],
-    "sourceNames": [
-      "Kmansin09"
-    ],
-    "verified": true,
-    "sources": [
-      {
-        "id": "kmansin09",
-        "name": "Kmansin09",
-        "lang": "ja",
-        "contentType": "manga",
-        "baseUrl": "https://kmansin09.top",
-        "contentRating": "safe",
-        "capabilities": {
-          "operations": [],
-          "search": true,
-          "latest": true,
-          "filters": true,
-          "preferences": false,
-          "home": false,
-          "hosterResolution": false,
-          "seasons": false,
-          "urlResolution": false,
-          "chapterPagination": false,
-          "pageProcessing": false,
-          "mediaProcessing": false,
-          "authentication": false,
-          "unmetered": false
-        },
-        "listings": [
-          {
-            "id": "popular",
-            "name": "Popular"
-          },
-          {
-            "id": "latest",
-            "name": "Latest"
-          }
-        ],
-        "urlPatterns": [
-          {
-            "pattern": "https://kmansin09.top/manga/*",
-            "kind": "manga"
-          }
-        ],
-        "tags": [
-          "madara"
-        ]
-      }
-    ],
-    "manifest": {
-      "schemaVersion": 2,
-      "id": "kmansin09",
-      "name": "Kmansin09",
-      "version": "1.0.1",
-      "versionCode": 2,
-      "apiVersion": 2,
-      "wasm": "extension.wasm",
-      "contentType": "manga",
-      "description": "Japanese manga from Kmansin09.",
-      "author": "Manatan Community",
-      "homepage": "https://kmansin09.top",
-      "repository": "https://github.com/Manatan-Community/extensions-source",
-      "license": "Apache-2.0",
-      "icon": "assets/icon.png",
-      "minimumManatanVersion": null,
-      "permissions": {
-        "network": {
-          "allow": [
-            "https://kmansin09.top",
-            "https://post-phinf.pstatic.net"
-          ]
-        },
-        "webview": false,
-        "cookies": false,
-        "storage": false,
-        "assets": false,
-        "javascript": false,
-        "services": []
-      },
-      "assets": [
-        {
-          "path": "assets/icon.png",
-          "mimeType": "image/png",
-          "sha256": "b0cc2af071c7c0762edefe33ccd8dfb1553997fade1164186401dd6f7a194f0f"
-        }
-      ],
-      "sources": [
-        {
-          "id": "kmansin09",
-          "name": "Kmansin09",
-          "lang": "ja",
-          "contentType": "manga",
-          "baseUrl": "https://kmansin09.top",
-          "contentRating": "safe",
-          "capabilities": {
-            "operations": [],
-            "search": true,
-            "latest": true,
-            "filters": true,
-            "preferences": false,
-            "home": false,
-            "hosterResolution": false,
-            "seasons": false,
-            "urlResolution": false,
-            "chapterPagination": false,
-            "pageProcessing": false,
-            "mediaProcessing": false,
-            "authentication": false,
-            "unmetered": false
-          },
-          "listings": [
-            {
-              "id": "popular",
-              "name": "Popular"
-            },
-            {
-              "id": "latest",
-              "name": "Latest"
-            }
-          ],
-          "urlPatterns": [
-            {
-              "pattern": "https://kmansin09.top/manga/*",
-              "kind": "manga"
-            }
-          ],
           "tags": [
-            "madara"
+            "official-api",
+            "safe-only",
+            "lazy-pages"
           ]
-        }
-      ]
-    }
-  },
-  {
-    "schemaVersion": 2,
-    "pkgName": "manatan:lhtranslation",
-    "id": "lhtranslation",
-    "packageId": "lhtranslation",
-    "name": "LHTranslation",
-    "versionName": "1.0.1",
-    "version": "1.0.1",
-    "versionCode": 2,
-    "contentType": "manga",
-    "media": "manga",
-    "mediaKind": "manga",
-    "lang": "en",
-    "language": "en",
-    "contentRating": "safe",
-    "extensionType": "manatan2",
-    "packageUrl": "packages/manga/en/lhtranslation.manatan2",
-    "packagePath": "packages/manga/en/lhtranslation.manatan2",
-    "sha256": "eb7c7483e67a47bb21c2f4b1ae95176bfb51d15c3613c14c375bb18567ff1ba6",
-    "size": 1163749,
-    "sizeBytes": 1163749,
-    "iconUrl": "icons/manga/en/lhtranslation.png",
-    "sourceIds": [
-      "lhtranslation"
-    ],
-    "sourceNames": [
-      "LHTranslation"
-    ],
-    "verified": true,
-    "sources": [
-      {
-        "id": "lhtranslation",
-        "name": "LHTranslation",
-        "lang": "en",
-        "contentType": "manga",
-        "baseUrl": "https://lhtranslation.net",
-        "contentRating": "safe",
-        "capabilities": {
-          "operations": [],
-          "search": true,
-          "latest": true,
-          "filters": true,
-          "preferences": false,
-          "home": false,
-          "hosterResolution": false,
-          "seasons": false,
-          "urlResolution": false,
-          "chapterPagination": false,
-          "pageProcessing": false,
-          "mediaProcessing": false,
-          "authentication": false,
-          "unmetered": false
-        },
-        "listings": [
-          {
-            "id": "popular",
-            "name": "Popular"
-          },
-          {
-            "id": "latest",
-            "name": "Latest"
-          }
-        ],
-        "urlPatterns": [
-          {
-            "pattern": "https://lhtranslation.net/manga/*",
-            "kind": "manga"
-          }
-        ],
-        "tags": [
-          "madara"
-        ]
-      }
-    ],
-    "manifest": {
-      "schemaVersion": 2,
-      "id": "lhtranslation",
-      "name": "LHTranslation",
-      "version": "1.0.1",
-      "versionCode": 2,
-      "apiVersion": 2,
-      "wasm": "extension.wasm",
-      "contentType": "manga",
-      "description": "English manga and manhwa from LHTranslation.",
-      "author": "Manatan Community",
-      "homepage": "https://lhtranslation.net",
-      "repository": "https://github.com/Manatan-Community/extensions-source",
-      "license": "Apache-2.0",
-      "icon": "assets/icon.png",
-      "minimumManatanVersion": null,
-      "permissions": {
-        "network": {
-          "allow": [
-            "https://lhtranslation.net",
-            "https://cdn.lhtranslation.net"
-          ]
-        },
-        "webview": false,
-        "cookies": false,
-        "storage": false,
-        "assets": false,
-        "javascript": false,
-        "services": []
-      },
-      "assets": [
-        {
-          "path": "assets/icon.png",
-          "mimeType": "image/png",
-          "sha256": "d01703898fc169f1a4aeeea35d86c18e61567857125f792de448f016b81178bb"
-        }
-      ],
-      "sources": [
-        {
-          "id": "lhtranslation",
-          "name": "LHTranslation",
-          "lang": "en",
-          "contentType": "manga",
-          "baseUrl": "https://lhtranslation.net",
-          "contentRating": "safe",
-          "capabilities": {
-            "operations": [],
-            "search": true,
-            "latest": true,
-            "filters": true,
-            "preferences": false,
-            "home": false,
-            "hosterResolution": false,
-            "seasons": false,
-            "urlResolution": false,
-            "chapterPagination": false,
-            "pageProcessing": false,
-            "mediaProcessing": false,
-            "authentication": false,
-            "unmetered": false
-          },
-          "listings": [
-            {
-              "id": "popular",
-              "name": "Popular"
-            },
-            {
-              "id": "latest",
-              "name": "Latest"
-            }
-          ],
-          "urlPatterns": [
-            {
-              "pattern": "https://lhtranslation.net/manga/*",
-              "kind": "manga"
-            }
-          ],
-          "tags": [
-            "madara"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "schemaVersion": 2,
-    "pkgName": "manatan:mtlnovelclub",
-    "id": "mtlnovelclub",
-    "packageId": "mtlnovelclub",
-    "name": "MTLNovelClub",
-    "versionName": "0.1.1",
-    "version": "0.1.1",
-    "versionCode": 3,
-    "contentType": "novel",
-    "media": "novel",
-    "mediaKind": "novel",
-    "lang": "en",
-    "language": "en",
-    "contentRating": "safe",
-    "extensionType": "manatan2",
-    "packageUrl": "packages/novel/en/mtlnovelclub.manatan2",
-    "packagePath": "packages/novel/en/mtlnovelclub.manatan2",
-    "sha256": "74126354453e29dd63e904455ce7b5311627d84d9d6fc0f1fc25d8248e47f8b6",
-    "size": 2182226,
-    "sizeBytes": 2182226,
-    "iconUrl": "icons/novel/en/mtlnovelclub.png",
-    "sourceIds": [
-      "mtlnovelclub"
-    ],
-    "sourceNames": [
-      "MTLNovelClub"
-    ],
-    "verified": false,
-    "sources": [
-      {
-        "id": "mtlnovelclub",
-        "name": "MTLNovelClub",
-        "lang": "en",
-        "contentType": "novel",
-        "baseUrl": "https://mtlnovel.club",
-        "contentRating": "safe",
-        "capabilities": {
-          "operations": [
-            "commands.describe",
-            "commands.detail.fetch",
-            "commands.chapter.fetch",
-            "commands.content.fetch"
-          ],
-          "search": true,
-          "latest": true,
-          "filters": true,
-          "preferences": false,
-          "home": false,
-          "hosterResolution": false,
-          "seasons": false,
-          "urlResolution": true,
-          "chapterPagination": false,
-          "pageProcessing": false,
-          "mediaProcessing": false,
-          "authentication": false,
-          "unmetered": false
-        },
-        "listings": [
-          {
-            "id": "popular",
-            "name": "Popular"
-          },
-          {
-            "id": "latest",
-            "name": "Latest"
-          }
-        ],
-        "urlPatterns": [
-          {
-            "pattern": "https://mtlnovel.club/novel/*",
-            "kind": "item-or-chapter"
-          }
-        ],
-        "tags": []
-      }
-    ],
-    "manifest": {
-      "schemaVersion": 2,
-      "id": "mtlnovelclub",
-      "name": "MTLNovelClub",
-      "version": "0.1.1",
-      "versionCode": 3,
-      "apiVersion": 2,
-      "wasm": "extension.wasm",
-      "contentType": "novel",
-      "description": "English web novels from MTLNovelClub.",
-      "author": "Manatan Community",
-      "homepage": "https://mtlnovel.club",
-      "repository": "https://github.com/Manatan-Community/extensions-source",
-      "license": "MPL-2.0",
-      "icon": "assets/icon.png",
-      "minimumManatanVersion": null,
-      "permissions": {
-        "network": {
-          "allow": [
-            "https://mtlnovel.club"
-          ]
-        },
-        "webview": false,
-        "cookies": false,
-        "storage": false,
-        "assets": false,
-        "javascript": false,
-        "services": []
-      },
-      "assets": [
-        {
-          "path": "assets/icon.png",
-          "mimeType": "image/png",
-          "sha256": "b16cfe4b91f60ab52bb6f19825ff78f90b929400d09db8ea4e095891397ba3ac"
-        }
-      ],
-      "sources": [
-        {
-          "id": "mtlnovelclub",
-          "name": "MTLNovelClub",
-          "lang": "en",
-          "contentType": "novel",
-          "baseUrl": "https://mtlnovel.club",
-          "contentRating": "safe",
-          "capabilities": {
-            "operations": [
-              "commands.describe",
-              "commands.detail.fetch",
-              "commands.chapter.fetch",
-              "commands.content.fetch"
-            ],
-            "search": true,
-            "latest": true,
-            "filters": true,
-            "preferences": false,
-            "home": false,
-            "hosterResolution": false,
-            "seasons": false,
-            "urlResolution": true,
-            "chapterPagination": false,
-            "pageProcessing": false,
-            "mediaProcessing": false,
-            "authentication": false,
-            "unmetered": false
-          },
-          "listings": [
-            {
-              "id": "popular",
-              "name": "Popular"
-            },
-            {
-              "id": "latest",
-              "name": "Latest"
-            }
-          ],
-          "urlPatterns": [
-            {
-              "pattern": "https://mtlnovel.club/novel/*",
-              "kind": "item-or-chapter"
-            }
-          ],
-          "tags": []
         }
       ]
     }
@@ -1914,21 +924,21 @@
     "id": "mangafire",
     "packageId": "mangafire",
     "name": "MangaFire",
-    "versionName": "1.0.1",
-    "version": "1.0.1",
-    "versionCode": 2,
+    "versionName": "1.2.0",
+    "version": "1.2.0",
+    "versionCode": 5,
     "contentType": "manga",
     "media": "manga",
     "mediaKind": "manga",
     "lang": "all",
     "language": "all",
-    "contentRating": "adult",
+    "contentRating": "suggestive",
     "extensionType": "manatan2",
     "packageUrl": "packages/manga/all/mangafire.manatan2",
     "packagePath": "packages/manga/all/mangafire.manatan2",
-    "sha256": "dcdc5e51891798a38ba08c02f679dab6d991df8b23e8c268c41d3ed78c28c2fa",
-    "size": 1079068,
-    "sizeBytes": 1079068,
+    "sha256": "4e16094af1a2aa0fd5afe0b4e093db9ed764eff9a5c8838df5832226fd27f614",
+    "size": 1139599,
+    "sizeBytes": 1139599,
     "iconUrl": "icons/manga/all/mangafire.png",
     "sourceIds": [
       "mangafire"
@@ -1936,7 +946,12 @@
     "sourceNames": [
       "MangaFire"
     ],
-    "verified": true,
+    "verified": false,
+    "publisher": {
+      "id": "org.manatan.community.extensions",
+      "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+      "signature": "2d987ab04a7cbcb0d7662269ec83ca89bcae75c7d825a9663d1b35a09b835da73bf11d78d4d802a654a973e83fa01ca8cd9ba4e70d761357c9b7668c9cfad807"
+    },
     "sources": [
       {
         "id": "mangafire",
@@ -1944,7 +959,7 @@
         "lang": "all",
         "contentType": "manga",
         "baseUrl": "https://mangafire.to",
-        "contentRating": "adult",
+        "contentRating": "suggestive",
         "capabilities": {
           "operations": [],
           "search": true,
@@ -1986,18 +1001,23 @@
       "schemaVersion": 2,
       "id": "mangafire",
       "name": "MangaFire",
-      "version": "1.0.1",
-      "versionCode": 2,
+      "version": "1.2.0",
+      "versionCode": 5,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "manga",
-      "description": "MangaFire with typed chapter language selection and direct JSON API pages.",
+      "publisher": {
+        "id": "org.manatan.community.extensions",
+        "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+        "signature": "2d987ab04a7cbcb0d7662269ec83ca89bcae75c7d825a9663d1b35a09b835da73bf11d78d4d802a654a973e83fa01ca8cd9ba4e70d761357c9b7668c9cfad807"
+      },
+      "description": "MangaFire with typed chapter language selection, direct JSON API pages, bounded host-browser challenge recovery, and fail-closed content filtering.",
       "author": "Manatan Community",
       "homepage": "https://mangafire.to",
       "repository": "https://github.com/Manatan-Community/extensions-source",
       "license": "Apache-2.0",
       "icon": "assets/icon.png",
-      "minimumManatanVersion": null,
+      "minimumManatanVersion": "0.3.1",
       "permissions": {
         "network": {
           "allow": [
@@ -2014,8 +1034,8 @@
             "https://o48.mfcdn2.xyz"
           ]
         },
-        "webview": false,
-        "cookies": false,
+        "webview": true,
+        "cookies": true,
         "storage": false,
         "assets": false,
         "javascript": false,
@@ -2035,7 +1055,7 @@
           "lang": "all",
           "contentType": "manga",
           "baseUrl": "https://mangafire.to",
-          "contentRating": "adult",
+          "contentRating": "suggestive",
           "capabilities": {
             "operations": [],
             "search": true,
@@ -2077,813 +1097,13 @@
   },
   {
     "schemaVersion": 2,
-    "pkgName": "manatan:mangamaniacs",
-    "id": "mangamaniacs",
-    "packageId": "mangamaniacs",
-    "name": "MangaManiacs",
-    "versionName": "1.0.1",
-    "version": "1.0.1",
-    "versionCode": 2,
-    "contentType": "manga",
-    "media": "manga",
-    "mediaKind": "manga",
-    "lang": "en",
-    "language": "en",
-    "contentRating": "adult",
-    "extensionType": "manatan2",
-    "packageUrl": "packages/manga/en/mangamaniacs.manatan2",
-    "packagePath": "packages/manga/en/mangamaniacs.manatan2",
-    "sha256": "fd496561821cbdc4ff47b9df7d18dde1e290599acdb58d125e62c244c7b94053",
-    "size": 1161117,
-    "sizeBytes": 1161117,
-    "iconUrl": "icons/manga/en/mangamaniacs.png",
-    "sourceIds": [
-      "mangamaniacs"
-    ],
-    "sourceNames": [
-      "MangaManiacs"
-    ],
-    "verified": true,
-    "sources": [
-      {
-        "id": "mangamaniacs",
-        "name": "MangaManiacs",
-        "lang": "en",
-        "contentType": "manga",
-        "baseUrl": "https://mangamaniacs.org",
-        "contentRating": "adult",
-        "capabilities": {
-          "operations": [],
-          "search": true,
-          "latest": true,
-          "filters": true,
-          "preferences": false,
-          "home": false,
-          "hosterResolution": false,
-          "seasons": false,
-          "urlResolution": false,
-          "chapterPagination": false,
-          "pageProcessing": false,
-          "mediaProcessing": false,
-          "authentication": false,
-          "unmetered": false
-        },
-        "listings": [
-          {
-            "id": "popular",
-            "name": "Popular"
-          },
-          {
-            "id": "latest",
-            "name": "Latest"
-          }
-        ],
-        "urlPatterns": [
-          {
-            "pattern": "https://mangamaniacs.org/manga/*",
-            "kind": "manga"
-          }
-        ],
-        "tags": [
-          "madara"
-        ]
-      }
-    ],
-    "manifest": {
-      "schemaVersion": 2,
-      "id": "mangamaniacs",
-      "name": "MangaManiacs",
-      "version": "1.0.1",
-      "versionCode": 2,
-      "apiVersion": 2,
-      "wasm": "extension.wasm",
-      "contentType": "manga",
-      "description": "English manga and manhwa from MangaManiacs.",
-      "author": "Manatan Community",
-      "homepage": "https://mangamaniacs.org",
-      "repository": "https://github.com/Manatan-Community/extensions-source",
-      "license": "Apache-2.0",
-      "icon": "assets/icon.png",
-      "minimumManatanVersion": null,
-      "permissions": {
-        "network": {
-          "allow": [
-            "https://mangamaniacs.org",
-            "https://images.mangamaniacs.org"
-          ]
-        },
-        "webview": false,
-        "cookies": false,
-        "storage": false,
-        "assets": false,
-        "javascript": false,
-        "services": []
-      },
-      "assets": [
-        {
-          "path": "assets/icon.png",
-          "mimeType": "image/png",
-          "sha256": "512b9b45cc3bff98a718b7d793d4669a0cc5a7cac3ce47c7030230c2d7736403"
-        }
-      ],
-      "sources": [
-        {
-          "id": "mangamaniacs",
-          "name": "MangaManiacs",
-          "lang": "en",
-          "contentType": "manga",
-          "baseUrl": "https://mangamaniacs.org",
-          "contentRating": "adult",
-          "capabilities": {
-            "operations": [],
-            "search": true,
-            "latest": true,
-            "filters": true,
-            "preferences": false,
-            "home": false,
-            "hosterResolution": false,
-            "seasons": false,
-            "urlResolution": false,
-            "chapterPagination": false,
-            "pageProcessing": false,
-            "mediaProcessing": false,
-            "authentication": false,
-            "unmetered": false
-          },
-          "listings": [
-            {
-              "id": "popular",
-              "name": "Popular"
-            },
-            {
-              "id": "latest",
-              "name": "Latest"
-            }
-          ],
-          "urlPatterns": [
-            {
-              "pattern": "https://mangamaniacs.org/manga/*",
-              "kind": "manga"
-            }
-          ],
-          "tags": [
-            "madara"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "schemaVersion": 2,
-    "pkgName": "manatan:manhuahot",
-    "id": "manhuahot",
-    "packageId": "manhuahot",
-    "name": "ManhuaHot",
-    "versionName": "1.0.1",
-    "version": "1.0.1",
-    "versionCode": 2,
-    "contentType": "manga",
-    "media": "manga",
-    "mediaKind": "manga",
-    "lang": "en",
-    "language": "en",
-    "contentRating": "safe",
-    "extensionType": "manatan2",
-    "packageUrl": "packages/manga/en/manhuahot.manatan2",
-    "packagePath": "packages/manga/en/manhuahot.manatan2",
-    "sha256": "3fa98e6b47eec223516cd6b709e4fae3554652cc0754880c803a942c41331ef1",
-    "size": 1187119,
-    "sizeBytes": 1187119,
-    "iconUrl": "icons/manga/en/manhuahot.png",
-    "sourceIds": [
-      "manhuahot"
-    ],
-    "sourceNames": [
-      "ManhuaHot"
-    ],
-    "verified": true,
-    "sources": [
-      {
-        "id": "manhuahot",
-        "name": "ManhuaHot",
-        "lang": "en",
-        "contentType": "manga",
-        "baseUrl": "https://manhuahot.com",
-        "contentRating": "safe",
-        "capabilities": {
-          "operations": [],
-          "search": true,
-          "latest": true,
-          "filters": true,
-          "preferences": false,
-          "home": false,
-          "hosterResolution": false,
-          "seasons": false,
-          "urlResolution": false,
-          "chapterPagination": false,
-          "pageProcessing": false,
-          "mediaProcessing": false,
-          "authentication": false,
-          "unmetered": false
-        },
-        "listings": [
-          {
-            "id": "popular",
-            "name": "Popular"
-          },
-          {
-            "id": "latest",
-            "name": "Latest"
-          }
-        ],
-        "urlPatterns": [
-          {
-            "pattern": "https://manhuahot.com/manga/*",
-            "kind": "manga"
-          }
-        ],
-        "tags": [
-          "madara"
-        ]
-      }
-    ],
-    "manifest": {
-      "schemaVersion": 2,
-      "id": "manhuahot",
-      "name": "ManhuaHot",
-      "version": "1.0.1",
-      "versionCode": 2,
-      "apiVersion": 2,
-      "wasm": "extension.wasm",
-      "contentType": "manga",
-      "description": "English manga and manhwa from ManhuaHot.",
-      "author": "Manatan Community",
-      "homepage": "https://manhuahot.com",
-      "repository": "https://github.com/Manatan-Community/extensions-source",
-      "license": "Apache-2.0",
-      "icon": "assets/icon.png",
-      "minimumManatanVersion": null,
-      "permissions": {
-        "network": {
-          "allow": [
-            "https://manhuahot.com",
-            "https://cdn.manhuahot.com"
-          ]
-        },
-        "webview": false,
-        "cookies": false,
-        "storage": false,
-        "assets": false,
-        "javascript": false,
-        "services": []
-      },
-      "assets": [
-        {
-          "path": "assets/icon.png",
-          "mimeType": "image/png",
-          "sha256": "c26907a7500d99917658c61ba0e10a954c80a9e6dcfbb9eb7947de3daa095fc4"
-        }
-      ],
-      "sources": [
-        {
-          "id": "manhuahot",
-          "name": "ManhuaHot",
-          "lang": "en",
-          "contentType": "manga",
-          "baseUrl": "https://manhuahot.com",
-          "contentRating": "safe",
-          "capabilities": {
-            "operations": [],
-            "search": true,
-            "latest": true,
-            "filters": true,
-            "preferences": false,
-            "home": false,
-            "hosterResolution": false,
-            "seasons": false,
-            "urlResolution": false,
-            "chapterPagination": false,
-            "pageProcessing": false,
-            "mediaProcessing": false,
-            "authentication": false,
-            "unmetered": false
-          },
-          "listings": [
-            {
-              "id": "popular",
-              "name": "Popular"
-            },
-            {
-              "id": "latest",
-              "name": "Latest"
-            }
-          ],
-          "urlPatterns": [
-            {
-              "pattern": "https://manhuahot.com/manga/*",
-              "kind": "manga"
-            }
-          ],
-          "tags": [
-            "madara"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "schemaVersion": 2,
-    "pkgName": "manatan:novelmultiverse",
-    "id": "novelmultiverse",
-    "packageId": "novelmultiverse",
-    "name": "NovelMultiverse",
-    "versionName": "0.1.1",
-    "version": "0.1.1",
-    "versionCode": 3,
-    "contentType": "novel",
-    "media": "novel",
-    "mediaKind": "novel",
-    "lang": "en",
-    "language": "en",
-    "contentRating": "safe",
-    "extensionType": "manatan2",
-    "packageUrl": "packages/novel/en/novelmultiverse.manatan2",
-    "packagePath": "packages/novel/en/novelmultiverse.manatan2",
-    "sha256": "625cbf7fe4b16a219bd095d9528844157666810453cfb3f5390a5038f3d0917d",
-    "size": 2226190,
-    "sizeBytes": 2226190,
-    "iconUrl": "icons/novel/en/novelmultiverse.png",
-    "sourceIds": [
-      "novelmultiverse"
-    ],
-    "sourceNames": [
-      "NovelMultiverse"
-    ],
-    "verified": false,
-    "sources": [
-      {
-        "id": "novelmultiverse",
-        "name": "NovelMultiverse",
-        "lang": "en",
-        "contentType": "novel",
-        "baseUrl": "https://www.novelmultiverse.com",
-        "contentRating": "safe",
-        "capabilities": {
-          "operations": [
-            "commands.describe",
-            "commands.detail.fetch",
-            "commands.chapter.fetch",
-            "commands.content.fetch"
-          ],
-          "search": true,
-          "latest": true,
-          "filters": true,
-          "preferences": false,
-          "home": false,
-          "hosterResolution": false,
-          "seasons": false,
-          "urlResolution": true,
-          "chapterPagination": false,
-          "pageProcessing": false,
-          "mediaProcessing": false,
-          "authentication": false,
-          "unmetered": false
-        },
-        "listings": [
-          {
-            "id": "popular",
-            "name": "Popular"
-          },
-          {
-            "id": "latest",
-            "name": "Latest"
-          }
-        ],
-        "urlPatterns": [
-          {
-            "pattern": "https://www.novelmultiverse.com/novel/*",
-            "kind": "item-or-chapter"
-          }
-        ],
-        "tags": []
-      }
-    ],
-    "manifest": {
-      "schemaVersion": 2,
-      "id": "novelmultiverse",
-      "name": "NovelMultiverse",
-      "version": "0.1.1",
-      "versionCode": 3,
-      "apiVersion": 2,
-      "wasm": "extension.wasm",
-      "contentType": "novel",
-      "description": "English web novels from NovelMultiverse.",
-      "author": "Manatan Community",
-      "homepage": "https://www.novelmultiverse.com",
-      "repository": "https://github.com/Manatan-Community/extensions-source",
-      "license": "MPL-2.0",
-      "icon": "assets/icon.png",
-      "minimumManatanVersion": null,
-      "permissions": {
-        "network": {
-          "allow": [
-            "https://www.novelmultiverse.com"
-          ]
-        },
-        "webview": false,
-        "cookies": false,
-        "storage": false,
-        "assets": false,
-        "javascript": false,
-        "services": []
-      },
-      "assets": [
-        {
-          "path": "assets/icon.png",
-          "mimeType": "image/png",
-          "sha256": "98fec61eda85282ed2f27d1ea68995bbf2d4867eefdaac8146906872caf707b8"
-        }
-      ],
-      "sources": [
-        {
-          "id": "novelmultiverse",
-          "name": "NovelMultiverse",
-          "lang": "en",
-          "contentType": "novel",
-          "baseUrl": "https://www.novelmultiverse.com",
-          "contentRating": "safe",
-          "capabilities": {
-            "operations": [
-              "commands.describe",
-              "commands.detail.fetch",
-              "commands.chapter.fetch",
-              "commands.content.fetch"
-            ],
-            "search": true,
-            "latest": true,
-            "filters": true,
-            "preferences": false,
-            "home": false,
-            "hosterResolution": false,
-            "seasons": false,
-            "urlResolution": true,
-            "chapterPagination": false,
-            "pageProcessing": false,
-            "mediaProcessing": false,
-            "authentication": false,
-            "unmetered": false
-          },
-          "listings": [
-            {
-              "id": "popular",
-              "name": "Popular"
-            },
-            {
-              "id": "latest",
-              "name": "Latest"
-            }
-          ],
-          "urlPatterns": [
-            {
-              "pattern": "https://www.novelmultiverse.com/novel/*",
-              "kind": "item-or-chapter"
-            }
-          ],
-          "tags": []
-        }
-      ]
-    }
-  },
-  {
-    "schemaVersion": 2,
-    "pkgName": "manatan:noveltranslate",
-    "id": "noveltranslate",
-    "packageId": "noveltranslate",
-    "name": "NovelTranslate",
-    "versionName": "0.1.1",
-    "version": "0.1.1",
-    "versionCode": 3,
-    "contentType": "novel",
-    "media": "novel",
-    "mediaKind": "novel",
-    "lang": "en",
-    "language": "en",
-    "contentRating": "safe",
-    "extensionType": "manatan2",
-    "packageUrl": "packages/novel/en/noveltranslate.manatan2",
-    "packagePath": "packages/novel/en/noveltranslate.manatan2",
-    "sha256": "a216bf0ec9540440fa5b8744cf48365e7e7505d5ee2390430f8de6bde71ea097",
-    "size": 2213588,
-    "sizeBytes": 2213588,
-    "iconUrl": "icons/novel/en/noveltranslate.png",
-    "sourceIds": [
-      "noveltranslate"
-    ],
-    "sourceNames": [
-      "NovelTranslate"
-    ],
-    "verified": false,
-    "sources": [
-      {
-        "id": "noveltranslate",
-        "name": "NovelTranslate",
-        "lang": "en",
-        "contentType": "novel",
-        "baseUrl": "https://noveltranslate.com",
-        "contentRating": "safe",
-        "capabilities": {
-          "operations": [
-            "commands.describe",
-            "commands.detail.fetch",
-            "commands.chapter.fetch",
-            "commands.content.fetch"
-          ],
-          "search": true,
-          "latest": true,
-          "filters": true,
-          "preferences": false,
-          "home": false,
-          "hosterResolution": false,
-          "seasons": false,
-          "urlResolution": true,
-          "chapterPagination": false,
-          "pageProcessing": false,
-          "mediaProcessing": false,
-          "authentication": false,
-          "unmetered": false
-        },
-        "listings": [
-          {
-            "id": "popular",
-            "name": "Popular"
-          },
-          {
-            "id": "latest",
-            "name": "Latest"
-          }
-        ],
-        "urlPatterns": [
-          {
-            "pattern": "https://noveltranslate.com/novel/*",
-            "kind": "item-or-chapter"
-          }
-        ],
-        "tags": []
-      }
-    ],
-    "manifest": {
-      "schemaVersion": 2,
-      "id": "noveltranslate",
-      "name": "NovelTranslate",
-      "version": "0.1.1",
-      "versionCode": 3,
-      "apiVersion": 2,
-      "wasm": "extension.wasm",
-      "contentType": "novel",
-      "description": "English web novels from NovelTranslate.",
-      "author": "Manatan Community",
-      "homepage": "https://noveltranslate.com",
-      "repository": "https://github.com/Manatan-Community/extensions-source",
-      "license": "MPL-2.0",
-      "icon": "assets/icon.png",
-      "minimumManatanVersion": null,
-      "permissions": {
-        "network": {
-          "allow": [
-            "https://noveltranslate.com"
-          ]
-        },
-        "webview": false,
-        "cookies": false,
-        "storage": false,
-        "assets": false,
-        "javascript": false,
-        "services": []
-      },
-      "assets": [
-        {
-          "path": "assets/icon.png",
-          "mimeType": "image/png",
-          "sha256": "cad169a162630dec4d055afa03f646c7a8250c93c62830c733fe01b2d28d22e7"
-        }
-      ],
-      "sources": [
-        {
-          "id": "noveltranslate",
-          "name": "NovelTranslate",
-          "lang": "en",
-          "contentType": "novel",
-          "baseUrl": "https://noveltranslate.com",
-          "contentRating": "safe",
-          "capabilities": {
-            "operations": [
-              "commands.describe",
-              "commands.detail.fetch",
-              "commands.chapter.fetch",
-              "commands.content.fetch"
-            ],
-            "search": true,
-            "latest": true,
-            "filters": true,
-            "preferences": false,
-            "home": false,
-            "hosterResolution": false,
-            "seasons": false,
-            "urlResolution": true,
-            "chapterPagination": false,
-            "pageProcessing": false,
-            "mediaProcessing": false,
-            "authentication": false,
-            "unmetered": false
-          },
-          "listings": [
-            {
-              "id": "popular",
-              "name": "Popular"
-            },
-            {
-              "id": "latest",
-              "name": "Latest"
-            }
-          ],
-          "urlPatterns": [
-            {
-              "pattern": "https://noveltranslate.com/novel/*",
-              "kind": "item-or-chapter"
-            }
-          ],
-          "tags": []
-        }
-      ]
-    }
-  },
-  {
-    "schemaVersion": 2,
-    "pkgName": "manatan:pawmanga",
-    "id": "pawmanga",
-    "packageId": "pawmanga",
-    "name": "Paw Manga",
-    "versionName": "1.0.1",
-    "version": "1.0.1",
-    "versionCode": 2,
-    "contentType": "manga",
-    "media": "manga",
-    "mediaKind": "manga",
-    "lang": "en",
-    "language": "en",
-    "contentRating": "adult",
-    "extensionType": "manatan2",
-    "packageUrl": "packages/manga/en/pawmanga.manatan2",
-    "packagePath": "packages/manga/en/pawmanga.manatan2",
-    "sha256": "0dd0d51b7774202ce9fe9279c9faa9c3b9fe33ddd29b8dd5451f26a38789a576",
-    "size": 1168621,
-    "sizeBytes": 1168621,
-    "iconUrl": "icons/manga/en/pawmanga.png",
-    "sourceIds": [
-      "pawmanga"
-    ],
-    "sourceNames": [
-      "Paw Manga"
-    ],
-    "verified": true,
-    "sources": [
-      {
-        "id": "pawmanga",
-        "name": "Paw Manga",
-        "lang": "en",
-        "contentType": "manga",
-        "baseUrl": "https://pawmanga.com",
-        "contentRating": "adult",
-        "capabilities": {
-          "operations": [],
-          "search": true,
-          "latest": true,
-          "filters": true,
-          "preferences": false,
-          "home": false,
-          "hosterResolution": false,
-          "seasons": false,
-          "urlResolution": false,
-          "chapterPagination": false,
-          "pageProcessing": false,
-          "mediaProcessing": false,
-          "authentication": false,
-          "unmetered": false
-        },
-        "listings": [
-          {
-            "id": "popular",
-            "name": "Popular"
-          },
-          {
-            "id": "latest",
-            "name": "Latest"
-          }
-        ],
-        "urlPatterns": [
-          {
-            "pattern": "https://pawmanga.com/manga/*",
-            "kind": "manga"
-          }
-        ],
-        "tags": [
-          "madara"
-        ]
-      }
-    ],
-    "manifest": {
-      "schemaVersion": 2,
-      "id": "pawmanga",
-      "name": "Paw Manga",
-      "version": "1.0.1",
-      "versionCode": 2,
-      "apiVersion": 2,
-      "wasm": "extension.wasm",
-      "contentType": "manga",
-      "description": "English manga and manhwa from Paw Manga.",
-      "author": "Manatan Community",
-      "homepage": "https://pawmanga.com",
-      "repository": "https://github.com/Manatan-Community/extensions-source",
-      "license": "Apache-2.0",
-      "icon": "assets/icon.png",
-      "minimumManatanVersion": null,
-      "permissions": {
-        "network": {
-          "allow": [
-            "https://pawmanga.com",
-            "https://image.pawmanga.com"
-          ]
-        },
-        "webview": false,
-        "cookies": false,
-        "storage": false,
-        "assets": false,
-        "javascript": false,
-        "services": []
-      },
-      "assets": [
-        {
-          "path": "assets/icon.png",
-          "mimeType": "image/png",
-          "sha256": "4c859be0f73827e700d29433524225c792b8534a74d9dc4db25f69b6517cf8c8"
-        }
-      ],
-      "sources": [
-        {
-          "id": "pawmanga",
-          "name": "Paw Manga",
-          "lang": "en",
-          "contentType": "manga",
-          "baseUrl": "https://pawmanga.com",
-          "contentRating": "adult",
-          "capabilities": {
-            "operations": [],
-            "search": true,
-            "latest": true,
-            "filters": true,
-            "preferences": false,
-            "home": false,
-            "hosterResolution": false,
-            "seasons": false,
-            "urlResolution": false,
-            "chapterPagination": false,
-            "pageProcessing": false,
-            "mediaProcessing": false,
-            "authentication": false,
-            "unmetered": false
-          },
-          "listings": [
-            {
-              "id": "popular",
-              "name": "Popular"
-            },
-            {
-              "id": "latest",
-              "name": "Latest"
-            }
-          ],
-          "urlPatterns": [
-            {
-              "pattern": "https://pawmanga.com/manga/*",
-              "kind": "manga"
-            }
-          ],
-          "tags": [
-            "madara"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "schemaVersion": 2,
     "pkgName": "manatan:raw1001",
     "id": "raw1001",
     "packageId": "raw1001",
     "name": "Raw1001",
-    "versionName": "1.0.1",
-    "version": "1.0.1",
-    "versionCode": 2,
+    "versionName": "1.0.2",
+    "version": "1.0.2",
+    "versionCode": 3,
     "contentType": "manga",
     "media": "manga",
     "mediaKind": "manga",
@@ -2893,9 +1113,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/manga/ja/raw1001.manatan2",
     "packagePath": "packages/manga/ja/raw1001.manatan2",
-    "sha256": "e91bf6455e56fc0d903bebde1ae5a90427de65cdfccc06f2a37829ea2518ae3c",
-    "size": 2033337,
-    "sizeBytes": 2033337,
+    "sha256": "bf8d996e9974bb4f0c0691734399f89f9556fb41ad9d8583db713ea3cf861a06",
+    "size": 2047913,
+    "sizeBytes": 2047913,
     "iconUrl": "icons/manga/ja/raw1001.png",
     "sourceIds": [
       "raw1001"
@@ -2904,6 +1124,11 @@
       "Raw1001"
     ],
     "verified": true,
+    "publisher": {
+      "id": "org.manatan.community.extensions",
+      "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+      "signature": "eccef21ff9568f3fa7d148cc6c0baf47f20f62843e2a2b9a6a53decac2cab3e48f521c109044027edf8825428f9402ef4b5c873a8f96a1d56cf19fa901fac50e"
+    },
     "sources": [
       {
         "id": "raw1001",
@@ -2953,11 +1178,16 @@
       "schemaVersion": 2,
       "id": "raw1001",
       "name": "Raw1001",
-      "version": "1.0.1",
-      "versionCode": 2,
+      "version": "1.0.2",
+      "versionCode": 3,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "manga",
+      "publisher": {
+        "id": "org.manatan.community.extensions",
+        "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+        "signature": "eccef21ff9568f3fa7d148cc6c0baf47f20f62843e2a2b9a6a53decac2cab3e48f521c109044027edf8825428f9402ef4b5c873a8f96a1d56cf19fa901fac50e"
+      },
       "description": "Japanese manga from Raw1001.",
       "author": "Manatan Community",
       "homepage": "https://raw1001.net",
@@ -3040,9 +1270,9 @@
     "id": "rawkuma",
     "packageId": "rawkuma",
     "name": "Rawkuma",
-    "versionName": "1.0.1",
-    "version": "1.0.1",
-    "versionCode": 2,
+    "versionName": "1.0.3",
+    "version": "1.0.3",
+    "versionCode": 4,
     "contentType": "manga",
     "media": "manga",
     "mediaKind": "manga",
@@ -3052,9 +1282,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/manga/ja/rawkuma.manatan2",
     "packagePath": "packages/manga/ja/rawkuma.manatan2",
-    "sha256": "dd4deef2ba9aac69d7486ef736839df1192caf3352d17b3ca3ce425fdff037ad",
-    "size": 2064457,
-    "sizeBytes": 2064457,
+    "sha256": "88692c1cb69abb25f335cb66e4f5f0510b91ad1d4ee373b828da6826dde38b55",
+    "size": 2077804,
+    "sizeBytes": 2077804,
     "iconUrl": "icons/manga/ja/rawkuma.png",
     "sourceIds": [
       "rawkuma"
@@ -3063,6 +1293,11 @@
       "Rawkuma"
     ],
     "verified": true,
+    "publisher": {
+      "id": "org.manatan.community.extensions",
+      "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+      "signature": "e5609e8cb31b6dc191d9315d944c84806d8d14ad23653d74a8901c9fa1ad952fe453427d9e5a17eee17a7935d61138664e8c06c0210f6599b626463b02c2c804"
+    },
     "sources": [
       {
         "id": "rawkuma",
@@ -3112,11 +1347,16 @@
       "schemaVersion": 2,
       "id": "rawkuma",
       "name": "Rawkuma",
-      "version": "1.0.1",
-      "versionCode": 2,
+      "version": "1.0.3",
+      "versionCode": 4,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "manga",
+      "publisher": {
+        "id": "org.manatan.community.extensions",
+        "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+        "signature": "e5609e8cb31b6dc191d9315d944c84806d8d14ad23653d74a8901c9fa1ad952fe453427d9e5a17eee17a7935d61138664e8c06c0210f6599b626463b02c2c804"
+      },
       "description": "Japanese raw manga from Rawkuma.",
       "author": "Manatan Community",
       "homepage": "https://rawkuma.net",
@@ -3127,7 +1367,8 @@
       "permissions": {
         "network": {
           "allow": [
-            "https://rawkuma.net"
+            "https://rawkuma.net",
+            "https://cdn.kumacdn.club"
           ]
         },
         "webview": false,
@@ -3197,9 +1438,9 @@
     "id": "syosetu",
     "packageId": "syosetu",
     "name": "Syosetu",
-    "versionName": "1.1.5",
-    "version": "1.1.5",
-    "versionCode": 2,
+    "versionName": "1.1.6",
+    "version": "1.1.6",
+    "versionCode": 3,
     "contentType": "novel",
     "media": "novel",
     "mediaKind": "novel",
@@ -3209,9 +1450,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/novel/ja/syosetu.manatan2",
     "packagePath": "packages/novel/ja/syosetu.manatan2",
-    "sha256": "37067686597fad9e7ac027b1a59a7633fc0fef0fd691414cbac2fee3fb6bd5ac",
-    "size": 1240627,
-    "sizeBytes": 1240627,
+    "sha256": "00194e929a13119f02385fb2cf4ca1385b0a2c9ef104fe2bf999f7a5774e4fc4",
+    "size": 1268311,
+    "sizeBytes": 1268311,
     "iconUrl": "icons/novel/ja/syosetu.png",
     "sourceIds": [
       "yomou.syosetu"
@@ -3220,6 +1461,11 @@
       "Syosetu"
     ],
     "verified": true,
+    "publisher": {
+      "id": "org.manatan.community.extensions",
+      "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+      "signature": "9148793e15a0ebe6a25892ddc8dee0bb2c0fb7619c9ebf9c5b54b4af67c5da454c600493814d678b27444616b47ce6bb0a435523d549cf6b4408938628accc07"
+    },
     "sources": [
       {
         "id": "yomou.syosetu",
@@ -3263,11 +1509,16 @@
       "schemaVersion": 2,
       "id": "syosetu",
       "name": "Syosetu",
-      "version": "1.1.5",
-      "versionCode": 2,
+      "version": "1.1.6",
+      "versionCode": 3,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "novel",
+      "publisher": {
+        "id": "org.manatan.community.extensions",
+        "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+        "signature": "9148793e15a0ebe6a25892ddc8dee0bb2c0fb7619c9ebf9c5b54b4af67c5da454c600493814d678b27444616b47ce6bb0a435523d549cf6b4408938628accc07"
+      },
       "description": "Japanese web novels from Shosetsuka ni Naro.",
       "author": "Manatan Community",
       "homepage": "https://yomou.syosetu.com",
@@ -3344,9 +1595,9 @@
     "id": "kakuyomu",
     "packageId": "kakuyomu",
     "name": "kakuyomu",
-    "versionName": "1.0.1",
-    "version": "1.0.1",
-    "versionCode": 2,
+    "versionName": "1.0.5",
+    "version": "1.0.5",
+    "versionCode": 6,
     "contentType": "novel",
     "media": "novel",
     "mediaKind": "novel",
@@ -3356,9 +1607,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/novel/ja/kakuyomu.manatan2",
     "packagePath": "packages/novel/ja/kakuyomu.manatan2",
-    "sha256": "6998af8015787eea60b065f093b276f76333a71ee8f88ebe144793119f4249c3",
-    "size": 1175370,
-    "sizeBytes": 1175370,
+    "sha256": "06061112da6b578d40a5359e6c25f0e716792dd66dc5ef4079276f3640b3f5aa",
+    "size": 1228825,
+    "sizeBytes": 1228825,
     "iconUrl": "icons/novel/ja/kakuyomu.png",
     "sourceIds": [
       "kakuyomu"
@@ -3367,6 +1618,11 @@
       "kakuyomu"
     ],
     "verified": true,
+    "publisher": {
+      "id": "org.manatan.community.extensions",
+      "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+      "signature": "e3fc7b8710be82d7ff015985fe05877ce8911cc85eb6d9aff59053c8378bfc9d780661c41e67bd4bac2e17a9f325a5ec30b531d0eedf727cdcb6680045196e04"
+    },
     "sources": [
       {
         "id": "kakuyomu",
@@ -3410,11 +1666,16 @@
       "schemaVersion": 2,
       "id": "kakuyomu",
       "name": "kakuyomu",
-      "version": "1.0.1",
-      "versionCode": 2,
+      "version": "1.0.5",
+      "versionCode": 6,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "novel",
+      "publisher": {
+        "id": "org.manatan.community.extensions",
+        "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+        "signature": "e3fc7b8710be82d7ff015985fe05877ce8911cc85eb6d9aff59053c8378bfc9d780661c41e67bd4bac2e17a9f325a5ec30b531d0eedf727cdcb6680045196e04"
+      },
       "description": "Japanese web novels from Kakuyomu.",
       "author": "Manatan Community",
       "homepage": "https://kakuyomu.jp",
@@ -3427,6 +1688,7 @@
           "allow": [
             "https://kakuyomu.jp",
             "https://cdn-static.kakuyomu.jp",
+            "https://cdn.kdkw.jp",
             "https://cdn-ak.f.st-hatena.com"
           ]
         },
@@ -3435,7 +1697,9 @@
         "storage": false,
         "assets": false,
         "javascript": false,
-        "services": []
+        "services": [
+          "html.select.v1"
+        ]
       },
       "assets": [
         {

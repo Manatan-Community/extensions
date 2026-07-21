@@ -6,19 +6,19 @@
     {
       "media": "manga",
       "index": "manga.min.json",
-      "count": 9,
+      "count": 3,
       "verifiedOnly": true
     },
     {
       "media": "video",
       "index": "video.min.json",
-      "count": 5,
+      "count": 4,
       "verifiedOnly": true
     },
     {
       "media": "novel",
       "index": "novel.min.json",
-      "count": 3,
+      "count": 2,
       "verifiedOnly": true
     }
   ]
