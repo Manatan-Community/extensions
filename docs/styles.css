@@ -467,16 +467,6 @@ h3 {
   color: var(--novel);
 }
 
-.pill.verified {
-  background: #dcfce7;
-  color: #166534;
-}
-
-.pill.unverified {
-  background: #fff7ed;
-  color: #9a3412;
-}
-
 .hash {
   margin-top: 12px;
   color: var(--muted);

@@ -27,7 +27,6 @@
     "sourceNames": [
       "AnimeOnsen"
     ],
-    "verified": true,
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
@@ -186,7 +185,6 @@
     "sourceNames": [
       "AniZone"
     ],
-    "verified": true,
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
@@ -357,7 +355,6 @@
     "sourceNames": [
       "Anikoto"
     ],
-    "verified": true,
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
@@ -553,7 +550,6 @@
     "sourceNames": [
       "AniWave (Unoriginal)"
     ],
-    "verified": true,
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",

@@ -6,7 +6,6 @@ const cacheKey = Date.now().toString();
 const state = {
   activeMedia: "all",
   language: "all",
-  verification: "all",
   query: "",
   loading: true,
   summaryCounts: {},
@@ -17,7 +16,6 @@ const catalog = document.querySelector("#catalog-list");
 const resultCount = document.querySelector("#result-count");
 const search = document.querySelector("#search");
 const languageFilter = document.querySelector("#language-filter");
-const verificationFilter = document.querySelector("#verification-filter");
 
 document.querySelectorAll(".tab").forEach((button) => {
   button.addEventListener("click", () => setMedia(button.dataset.media));
@@ -38,11 +36,6 @@ search.addEventListener("input", () => {
 
 languageFilter.addEventListener("change", () => {
   state.language = languageFilter.value;
-  render();
-});
-
-verificationFilter.addEventListener("change", () => {
-  state.verification = verificationFilter.value;
   render();
 });
 
@@ -112,8 +105,7 @@ function normalizeEntry(entry, media) {
     media: entry.media || media || entry.mediaKind,
     lang: entry.lang || entry.language || "all",
     version: entry.version || entry.versionName || "",
-    packageId: entry.packageId || entry.id,
-    verified: entry.verified === true
+    packageId: entry.packageId || entry.id
   };
 }
 
@@ -168,10 +160,6 @@ function render() {
   const entries = state.entries.filter((entry) => {
     const mediaMatch = state.activeMedia === "all" || entry.media === state.activeMedia;
     const languageMatch = state.language === "all" || entry.lang === state.language;
-    const verificationMatch =
-      state.verification === "all" ||
-      (state.verification === "verified" && entry.verified) ||
-      (state.verification === "unverified" && !entry.verified);
     const haystack = [
       entry.name,
       entry.id,
@@ -183,7 +171,7 @@ function render() {
     ]
       .join(" ")
       .toLowerCase();
-    return mediaMatch && languageMatch && verificationMatch && (!state.query || haystack.includes(state.query));
+    return mediaMatch && languageMatch && (!state.query || haystack.includes(state.query));
   });
 
   resultCount.textContent = `${entries.length} ${entries.length === 1 ? "extension" : "extensions"}`;
@@ -204,13 +192,9 @@ function renderCard(entry) {
   const subtitle = getSubtitle(entry, packageId);
   const size = formatBytes(entry.sizeBytes ?? entry.size);
   const rating = entry.contentRating ? `<span class="pill">${escapeHtml(entry.contentRating)}</span>` : "";
-  const verification = entry.verified
-    ? '<span class="pill verified">verified</span>'
-    : '<span class="pill unverified">unverified</span>';
   const icon = renderIcon(entry);
   const packageUrl = toRawUrl(entry.packageUrl);
-  const jsonUrl = entry.verified ? `${siteBaseUrl}/${entry.media}.json` : `${siteBaseUrl}/catalog.min.json`;
-  const jsonLabel = entry.verified ? "Install JSON" : "Catalog JSON";
+  const jsonUrl = `${siteBaseUrl}/${entry.media}.json`;
   return `
     <article class="card">
       <div class="card-main">
@@ -225,7 +209,6 @@ function renderCard(entry) {
             <span class="pill">${escapeHtml(entry.lang)}</span>
             <span class="pill">v${escapeHtml(entry.version)} (${entry.versionCode})</span>
             <span class="pill">${size}</span>
-            ${verification}
             ${rating}
           </div>
           <div class="hash">sha256 ${escapeHtml(entry.sha256)}</div>
@@ -234,7 +217,7 @@ function renderCard(entry) {
       <div class="actions">
         <a href="${escapeAttribute(packageUrl)}">Download</a>
         <button type="button" data-copy="${escapeAttribute(packageUrl)}">Copy URL</button>
-        <a href="${escapeAttribute(jsonUrl)}">${jsonLabel}</a>
+        <a href="${escapeAttribute(jsonUrl)}">Install JSON</a>
       </div>
     </article>
   `;

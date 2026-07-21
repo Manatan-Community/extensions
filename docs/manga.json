@@ -27,7 +27,6 @@
     "sourceNames": [
       "MangaDex"
     ],
-    "verified": true,
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
@@ -194,6 +193,182 @@
   },
   {
     "schemaVersion": 2,
+    "pkgName": "manatan:mangafire",
+    "id": "mangafire",
+    "packageId": "mangafire",
+    "name": "MangaFire",
+    "versionName": "1.2.0",
+    "version": "1.2.0",
+    "versionCode": 5,
+    "contentType": "manga",
+    "media": "manga",
+    "mediaKind": "manga",
+    "lang": "all",
+    "language": "all",
+    "contentRating": "suggestive",
+    "extensionType": "manatan2",
+    "packageUrl": "packages/manga/all/mangafire.manatan2",
+    "packagePath": "packages/manga/all/mangafire.manatan2",
+    "sha256": "4e16094af1a2aa0fd5afe0b4e093db9ed764eff9a5c8838df5832226fd27f614",
+    "size": 1139599,
+    "sizeBytes": 1139599,
+    "iconUrl": "icons/manga/all/mangafire.png",
+    "sourceIds": [
+      "mangafire"
+    ],
+    "sourceNames": [
+      "MangaFire"
+    ],
+    "publisher": {
+      "id": "org.manatan.community.extensions",
+      "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+      "signature": "2d987ab04a7cbcb0d7662269ec83ca89bcae75c7d825a9663d1b35a09b835da73bf11d78d4d802a654a973e83fa01ca8cd9ba4e70d761357c9b7668c9cfad807"
+    },
+    "sources": [
+      {
+        "id": "mangafire",
+        "name": "MangaFire",
+        "lang": "all",
+        "contentType": "manga",
+        "baseUrl": "https://mangafire.to",
+        "contentRating": "suggestive",
+        "capabilities": {
+          "operations": [],
+          "search": true,
+          "latest": true,
+          "filters": true,
+          "preferences": true,
+          "home": false,
+          "hosterResolution": false,
+          "seasons": false,
+          "urlResolution": true,
+          "chapterPagination": false,
+          "pageProcessing": false,
+          "mediaProcessing": false,
+          "authentication": false,
+          "unmetered": false
+        },
+        "listings": [
+          {
+            "id": "popular",
+            "name": "Popular"
+          },
+          {
+            "id": "latest",
+            "name": "Latest"
+          }
+        ],
+        "urlPatterns": [
+          {
+            "pattern": "https://mangafire.to/title/*",
+            "kind": "item-or-chapter"
+          }
+        ],
+        "tags": [
+          "json-api"
+        ]
+      }
+    ],
+    "manifest": {
+      "schemaVersion": 2,
+      "id": "mangafire",
+      "name": "MangaFire",
+      "version": "1.2.0",
+      "versionCode": 5,
+      "apiVersion": 2,
+      "wasm": "extension.wasm",
+      "contentType": "manga",
+      "publisher": {
+        "id": "org.manatan.community.extensions",
+        "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+        "signature": "2d987ab04a7cbcb0d7662269ec83ca89bcae75c7d825a9663d1b35a09b835da73bf11d78d4d802a654a973e83fa01ca8cd9ba4e70d761357c9b7668c9cfad807"
+      },
+      "description": "MangaFire with typed chapter language selection, direct JSON API pages, bounded host-browser challenge recovery, and fail-closed content filtering.",
+      "author": "Manatan Community",
+      "homepage": "https://mangafire.to",
+      "repository": "https://github.com/Manatan-Community/extensions-source",
+      "license": "Apache-2.0",
+      "icon": "assets/icon.png",
+      "minimumManatanVersion": "0.3.1",
+      "permissions": {
+        "network": {
+          "allow": [
+            "https://mangafire.to",
+            "https://static.mfcdn.nl",
+            "https://k99.mfcdn1.xyz",
+            "https://k99.mfcdn2.xyz",
+            "https://l1n.mfcdn3.xyz",
+            "https://m3z.mfcdn2.xyz",
+            "https://m3z.mfcdn3.xyz",
+            "https://nw8.mfcdn1.xyz",
+            "https://nw8.mfcdn3.xyz",
+            "https://o48.mfcdn1.xyz",
+            "https://o48.mfcdn2.xyz"
+          ]
+        },
+        "webview": true,
+        "cookies": true,
+        "storage": false,
+        "assets": false,
+        "javascript": false,
+        "services": []
+      },
+      "assets": [
+        {
+          "path": "assets/icon.png",
+          "mimeType": "image/png",
+          "sha256": "b1543e7b1238f29306ba24e9f48e0046dc6c47fc157c3703650bed73f16acf8e"
+        }
+      ],
+      "sources": [
+        {
+          "id": "mangafire",
+          "name": "MangaFire",
+          "lang": "all",
+          "contentType": "manga",
+          "baseUrl": "https://mangafire.to",
+          "contentRating": "suggestive",
+          "capabilities": {
+            "operations": [],
+            "search": true,
+            "latest": true,
+            "filters": true,
+            "preferences": true,
+            "home": false,
+            "hosterResolution": false,
+            "seasons": false,
+            "urlResolution": true,
+            "chapterPagination": false,
+            "pageProcessing": false,
+            "mediaProcessing": false,
+            "authentication": false,
+            "unmetered": false
+          },
+          "listings": [
+            {
+              "id": "popular",
+              "name": "Popular"
+            },
+            {
+              "id": "latest",
+              "name": "Latest"
+            }
+          ],
+          "urlPatterns": [
+            {
+              "pattern": "https://mangafire.to/title/*",
+              "kind": "item-or-chapter"
+            }
+          ],
+          "tags": [
+            "json-api"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "schemaVersion": 2,
     "pkgName": "manatan:raw1001",
     "id": "raw1001",
     "packageId": "raw1001",
@@ -220,7 +395,6 @@
     "sourceNames": [
       "Raw1001"
     ],
-    "verified": true,
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
@@ -389,7 +563,6 @@
     "sourceNames": [
       "Rawkuma"
     ],
-    "verified": true,
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
