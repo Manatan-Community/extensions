@@ -520,9 +520,9 @@
     "id": "kakuyomu",
     "packageId": "kakuyomu",
     "name": "kakuyomu",
-    "versionName": "1.0.5",
-    "version": "1.0.5",
-    "versionCode": 6,
+    "versionName": "1.0.6",
+    "version": "1.0.6",
+    "versionCode": 7,
     "contentType": "novel",
     "media": "novel",
     "mediaKind": "novel",
@@ -532,9 +532,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/novel/ja/kakuyomu.manatan2",
     "packagePath": "packages/novel/ja/kakuyomu.manatan2",
-    "sha256": "06061112da6b578d40a5359e6c25f0e716792dd66dc5ef4079276f3640b3f5aa",
-    "size": 1228825,
-    "sizeBytes": 1228825,
+    "sha256": "9b2088f2bdfa6fe69e98a617cbdd362fef46f61b2f6f30f76f2aaa24125275c2",
+    "size": 1229835,
+    "sizeBytes": 1229835,
     "iconUrl": "icons/novel/ja/kakuyomu.png",
     "sourceIds": [
       "kakuyomu"
@@ -545,7 +545,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "e3fc7b8710be82d7ff015985fe05877ce8911cc85eb6d9aff59053c8378bfc9d780661c41e67bd4bac2e17a9f325a5ec30b531d0eedf727cdcb6680045196e04"
+      "signature": "dcd2fb0ff654f5a1c093e03c0ab81eda6831ad42b0318d6e5fe197cda880f76695e71a8fd88a725e1de1877fb8d5a7352e21c7d3063039961f700c24e92f4307"
     },
     "sources": [
       {
@@ -590,15 +590,15 @@
       "schemaVersion": 2,
       "id": "kakuyomu",
       "name": "kakuyomu",
-      "version": "1.0.5",
-      "versionCode": 6,
+      "version": "1.0.6",
+      "versionCode": 7,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "novel",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "e3fc7b8710be82d7ff015985fe05877ce8911cc85eb6d9aff59053c8378bfc9d780661c41e67bd4bac2e17a9f325a5ec30b531d0eedf727cdcb6680045196e04"
+        "signature": "dcd2fb0ff654f5a1c093e03c0ab81eda6831ad42b0318d6e5fe197cda880f76695e71a8fd88a725e1de1877fb8d5a7352e21c7d3063039961f700c24e92f4307"
       },
       "description": "Japanese web novels from Kakuyomu.",
       "author": "Manatan Community",
