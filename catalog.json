@@ -1229,6 +1229,176 @@
   },
   {
     "schemaVersion": 2,
+    "pkgName": "manatan:lightnovelworld",
+    "id": "lightnovelworld",
+    "packageId": "lightnovelworld",
+    "name": "Light Novel World",
+    "versionName": "1.0.0",
+    "version": "1.0.0",
+    "versionCode": 1,
+    "contentType": "novel",
+    "media": "novel",
+    "mediaKind": "novel",
+    "lang": "en",
+    "language": "en",
+    "contentRating": "suggestive",
+    "extensionType": "manatan2",
+    "packageUrl": "packages/novel/en/lightnovelworld.manatan2",
+    "packagePath": "packages/novel/en/lightnovelworld.manatan2",
+    "sha256": "a7458a77cadd652802089791538c492b3212aa84d058874dd213de2d7b4b592b",
+    "size": 2165457,
+    "sizeBytes": 2165457,
+    "iconUrl": "icons/novel/en/lightnovelworld.png",
+    "sourceIds": [
+      "lightnovelworld"
+    ],
+    "sourceNames": [
+      "Light Novel World"
+    ],
+    "publisher": {
+      "id": "org.manatan.community.extensions",
+      "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+      "signature": "54c05c5c0ecc41a5c4e78809e50c78bd55a8b11e54f5f16bfc520e0d6ee7b6c56924c03377cb3654e4dede4627383cf64b7992301e3a9b4d8886c539cb7b440b"
+    },
+    "sources": [
+      {
+        "id": "lightnovelworld",
+        "name": "Light Novel World",
+        "lang": "en",
+        "contentType": "novel",
+        "baseUrl": "https://lightnovelworld.org",
+        "contentRating": "suggestive",
+        "capabilities": {
+          "operations": [],
+          "search": true,
+          "latest": true,
+          "filters": false,
+          "preferences": false,
+          "home": false,
+          "hosterResolution": false,
+          "seasons": false,
+          "urlResolution": true,
+          "chapterPagination": false,
+          "pageProcessing": false,
+          "mediaProcessing": false,
+          "authentication": false,
+          "unmetered": false
+        },
+        "listings": [
+          {
+            "id": "popular",
+            "name": "Popular"
+          },
+          {
+            "id": "latest",
+            "name": "Latest"
+          }
+        ],
+        "urlPatterns": [
+          {
+            "pattern": "https://lightnovelworld.org/novel/*/",
+            "kind": "item"
+          },
+          {
+            "pattern": "https://lightnovelworld.org/novel/*/chapter/*/",
+            "kind": "chapter"
+          }
+        ],
+        "tags": []
+      }
+    ],
+    "manifest": {
+      "schemaVersion": 2,
+      "id": "lightnovelworld",
+      "name": "Light Novel World",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "apiVersion": 2,
+      "wasm": "extension.wasm",
+      "contentType": "novel",
+      "publisher": {
+        "id": "org.manatan.community.extensions",
+        "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+        "signature": "54c05c5c0ecc41a5c4e78809e50c78bd55a8b11e54f5f16bfc520e0d6ee7b6c56924c03377cb3654e4dede4627383cf64b7992301e3a9b4d8886c539cb7b440b"
+      },
+      "description": "English web novels from Light Novel World. A free Light Novel World account is required to open chapter text.",
+      "author": "Manatan Community",
+      "homepage": "https://lightnovelworld.org",
+      "repository": "https://github.com/Manatan-Community/extensions-source",
+      "license": "MIT",
+      "icon": "assets/icon.png",
+      "minimumManatanVersion": null,
+      "permissions": {
+        "network": {
+          "allow": [
+            "https://lightnovelworld.org"
+          ]
+        },
+        "webview": true,
+        "cookies": true,
+        "storage": false,
+        "assets": false,
+        "javascript": false,
+        "services": []
+      },
+      "assets": [
+        {
+          "path": "assets/icon.png",
+          "mimeType": "image/png",
+          "sha256": "f5d3d95edf4006a76d11d9f04abab1fd20f704613b931cdd51b8f59ca113ffc4"
+        }
+      ],
+      "sources": [
+        {
+          "id": "lightnovelworld",
+          "name": "Light Novel World",
+          "lang": "en",
+          "contentType": "novel",
+          "baseUrl": "https://lightnovelworld.org",
+          "contentRating": "suggestive",
+          "capabilities": {
+            "operations": [],
+            "search": true,
+            "latest": true,
+            "filters": false,
+            "preferences": false,
+            "home": false,
+            "hosterResolution": false,
+            "seasons": false,
+            "urlResolution": true,
+            "chapterPagination": false,
+            "pageProcessing": false,
+            "mediaProcessing": false,
+            "authentication": false,
+            "unmetered": false
+          },
+          "listings": [
+            {
+              "id": "popular",
+              "name": "Popular"
+            },
+            {
+              "id": "latest",
+              "name": "Latest"
+            }
+          ],
+          "urlPatterns": [
+            {
+              "pattern": "https://lightnovelworld.org/novel/*/",
+              "kind": "item"
+            },
+            {
+              "pattern": "https://lightnovelworld.org/novel/*/chapter/*/",
+              "kind": "chapter"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    }
+  },
+  {
+    "schemaVersion": 2,
     "pkgName": "manatan:mangadex",
     "id": "mangadex",
     "packageId": "mangadex",
@@ -1591,6 +1761,176 @@
           "tags": [
             "json-api"
           ]
+        }
+      ]
+    }
+  },
+  {
+    "schemaVersion": 2,
+    "pkgName": "manatan:novelarchive",
+    "id": "novelarchive",
+    "packageId": "novelarchive",
+    "name": "Novel Archive",
+    "versionName": "1.0.0",
+    "version": "1.0.0",
+    "versionCode": 1,
+    "contentType": "novel",
+    "media": "novel",
+    "mediaKind": "novel",
+    "lang": "en",
+    "language": "en",
+    "contentRating": "suggestive",
+    "extensionType": "manatan2",
+    "packageUrl": "packages/novel/en/novelarchive.manatan2",
+    "packagePath": "packages/novel/en/novelarchive.manatan2",
+    "sha256": "d8285f7a6433f4e7f0d1ff9259c1c28c3ac5fef46054c568ad9e9db54bf56040",
+    "size": 605746,
+    "sizeBytes": 605746,
+    "iconUrl": "icons/novel/en/novelarchive.png",
+    "sourceIds": [
+      "novelarchive"
+    ],
+    "sourceNames": [
+      "Novel Archive"
+    ],
+    "publisher": {
+      "id": "org.manatan.community.extensions",
+      "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+      "signature": "1407c899e6e04d3deabd6633c99b877d656082182b172280a53f084d336ef636209193e397e2db8395c772ab7340a94b537f351141137ef7fe6d318bdbe7380e"
+    },
+    "sources": [
+      {
+        "id": "novelarchive",
+        "name": "Novel Archive",
+        "lang": "en",
+        "contentType": "novel",
+        "baseUrl": "https://novelarchive.cc",
+        "contentRating": "suggestive",
+        "capabilities": {
+          "operations": [],
+          "search": true,
+          "latest": true,
+          "filters": true,
+          "preferences": false,
+          "home": false,
+          "hosterResolution": false,
+          "seasons": false,
+          "urlResolution": true,
+          "chapterPagination": false,
+          "pageProcessing": false,
+          "mediaProcessing": false,
+          "authentication": false,
+          "unmetered": false
+        },
+        "listings": [
+          {
+            "id": "popular",
+            "name": "Popular"
+          },
+          {
+            "id": "latest",
+            "name": "Latest"
+          }
+        ],
+        "urlPatterns": [
+          {
+            "pattern": "https://novelarchive.cc/novel?id=*",
+            "kind": "item"
+          },
+          {
+            "pattern": "https://novelarchive.cc/reader?novel=*&chapter=*",
+            "kind": "chapter"
+          }
+        ],
+        "tags": []
+      }
+    ],
+    "manifest": {
+      "schemaVersion": 2,
+      "id": "novelarchive",
+      "name": "Novel Archive",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "apiVersion": 2,
+      "wasm": "extension.wasm",
+      "contentType": "novel",
+      "publisher": {
+        "id": "org.manatan.community.extensions",
+        "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+        "signature": "1407c899e6e04d3deabd6633c99b877d656082182b172280a53f084d336ef636209193e397e2db8395c772ab7340a94b537f351141137ef7fe6d318bdbe7380e"
+      },
+      "description": "English web novels from Novel Archive.",
+      "author": "Manatan Community",
+      "homepage": "https://novelarchive.cc",
+      "repository": "https://github.com/Manatan-Community/extensions-source",
+      "license": "MIT",
+      "icon": "assets/icon.png",
+      "minimumManatanVersion": null,
+      "permissions": {
+        "network": {
+          "allow": [
+            "https://novelarchive.cc"
+          ]
+        },
+        "webview": false,
+        "cookies": false,
+        "storage": false,
+        "assets": false,
+        "javascript": false,
+        "services": []
+      },
+      "assets": [
+        {
+          "path": "assets/icon.png",
+          "mimeType": "image/png",
+          "sha256": "492fe39aa335dfc2be5c85784f3ebd1c7ace42bb442ec9f9c20113cbd30c15cc"
+        }
+      ],
+      "sources": [
+        {
+          "id": "novelarchive",
+          "name": "Novel Archive",
+          "lang": "en",
+          "contentType": "novel",
+          "baseUrl": "https://novelarchive.cc",
+          "contentRating": "suggestive",
+          "capabilities": {
+            "operations": [],
+            "search": true,
+            "latest": true,
+            "filters": true,
+            "preferences": false,
+            "home": false,
+            "hosterResolution": false,
+            "seasons": false,
+            "urlResolution": true,
+            "chapterPagination": false,
+            "pageProcessing": false,
+            "mediaProcessing": false,
+            "authentication": false,
+            "unmetered": false
+          },
+          "listings": [
+            {
+              "id": "popular",
+              "name": "Popular"
+            },
+            {
+              "id": "latest",
+              "name": "Latest"
+            }
+          ],
+          "urlPatterns": [
+            {
+              "pattern": "https://novelarchive.cc/novel?id=*",
+              "kind": "item"
+            },
+            {
+              "pattern": "https://novelarchive.cc/reader?novel=*&chapter=*",
+              "kind": "chapter"
+            }
+          ],
+          "tags": []
         }
       ]
     }
