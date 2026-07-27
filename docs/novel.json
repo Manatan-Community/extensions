@@ -854,9 +854,9 @@
     "id": "wtrlab",
     "packageId": "wtrlab",
     "name": "WTR-LAB",
-    "versionName": "1.0.0",
-    "version": "1.0.0",
-    "versionCode": 1,
+    "versionName": "1.0.1",
+    "version": "1.0.1",
+    "versionCode": 2,
     "contentType": "novel",
     "media": "novel",
     "mediaKind": "novel",
@@ -866,9 +866,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/novel/en/wtrlab.manatan2",
     "packagePath": "packages/novel/en/wtrlab.manatan2",
-    "sha256": "04aae1244b0f6e11e779b60857df6cb4d620f2c4449250f955de781383aed44a",
-    "size": 2244231,
-    "sizeBytes": 2244231,
+    "sha256": "5116824b3c961503e85fd9ab90232a5735a68528855750ad04a6af83ba5dd6c8",
+    "size": 2249323,
+    "sizeBytes": 2249323,
     "iconUrl": "icons/novel/en/wtrlab.png",
     "sourceIds": [
       "wtr-lab"
@@ -879,7 +879,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "b3cb9531c50e694b80ead6bfe50c68f2599aea3960759fafe9ec568da811119d2ae1532e721190bf1d07c72dc1c0960109f9f317c2996fcc55b8ee1279e06009"
+      "signature": "ee18bac4addd3718fe1b2f6c2bbca1dfd8510cd8c2a8f2364a66c90456f33c3e50004f61a84290ae956728c487ad819ac5c1a382a29f399011983cff1567ce01"
     },
     "sources": [
       {
@@ -932,15 +932,15 @@
       "schemaVersion": 2,
       "id": "wtrlab",
       "name": "WTR-LAB",
-      "version": "1.0.0",
-      "versionCode": 1,
+      "version": "1.0.1",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "novel",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "b3cb9531c50e694b80ead6bfe50c68f2599aea3960759fafe9ec568da811119d2ae1532e721190bf1d07c72dc1c0960109f9f317c2996fcc55b8ee1279e06009"
+        "signature": "ee18bac4addd3718fe1b2f6c2bbca1dfd8510cd8c2a8f2364a66c90456f33c3e50004f61a84290ae956728c487ad819ac5c1a382a29f399011983cff1567ce01"
       },
       "description": "Translated web novels from WTR-LAB.",
       "author": "Manatan Community",
