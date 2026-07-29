@@ -1660,9 +1660,9 @@
     "id": "fucknovelpia-raw",
     "packageId": "fucknovelpia-raw",
     "name": "FuckNovelpia RAW",
-    "versionName": "1.0.0",
-    "version": "1.0.0",
-    "versionCode": 1,
+    "versionName": "1.1.0",
+    "version": "1.1.0",
+    "versionCode": 2,
     "contentType": "novel",
     "media": "novel",
     "mediaKind": "novel",
@@ -1672,9 +1672,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/novel/ko/fucknovelpia-raw.manatan2",
     "packagePath": "packages/novel/ko/fucknovelpia-raw.manatan2",
-    "sha256": "19b71fa586665036636a73fc2f21ea276fb9da6b7de44e19bc3e169e74f5e69a",
-    "size": 2126943,
-    "sizeBytes": 2126943,
+    "sha256": "291bbafcf14d29eee8c8beda151aaa3adaeeb38a30e73d5818ce35f3b0410c28",
+    "size": 2316479,
+    "sizeBytes": 2316479,
     "iconUrl": null,
     "sourceIds": [
       "fucknovelpia-raw"
@@ -1685,7 +1685,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "fe82726fc70fcffa8c367e1151e90e4a8f57008f61622547bc945c679404e0a3a9c8f56404cd3311ecb0218abaeac8b4846f554a936cfb7fe1c9379da6906802"
+      "signature": "7e7a82ae17952de777729cd98a7d2e5a938eaf3268afab643f5b84ff7932155e7a2a826866b51d68bed100dfafd9cd40219d4d934bcc5f0bfbc491f5d3f09700"
     },
     "sources": [
       {
@@ -1738,17 +1738,17 @@
       "schemaVersion": 2,
       "id": "fucknovelpia-raw",
       "name": "FuckNovelpia RAW",
-      "version": "1.0.0",
-      "versionCode": 1,
+      "version": "1.1.0",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "novel",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "fe82726fc70fcffa8c367e1151e90e4a8f57008f61622547bc945c679404e0a3a9c8f56404cd3311ecb0218abaeac8b4846f554a936cfb7fe1c9379da6906802"
+        "signature": "7e7a82ae17952de777729cd98a7d2e5a938eaf3268afab643f5b84ff7932155e7a2a826866b51d68bed100dfafd9cd40219d4d934bcc5f0bfbc491f5d3f09700"
       },
-      "description": "Korean original novel catalog and RAW ZIP downloads from FuckNovelpia RAW.",
+      "description": "Korean original novels from FuckNovelpia RAW with automatic EPUB download and decryption.",
       "author": "Manatan Community",
       "homepage": "https://raw-fucknovelpia.com",
       "repository": "https://github.com/Manatan-Community/extensions-source",
