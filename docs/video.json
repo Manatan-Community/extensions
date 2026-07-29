@@ -920,6 +920,217 @@
   },
   {
     "schemaVersion": 2,
+    "pkgName": "manatan:asianctvcc",
+    "id": "asianctvcc",
+    "packageId": "asianctvcc",
+    "name": "AsiancTV (.cc)",
+    "versionName": "0.1.0",
+    "version": "0.1.0",
+    "versionCode": 1,
+    "contentType": "video",
+    "media": "video",
+    "mediaKind": "video",
+    "lang": "en",
+    "language": "en",
+    "contentRating": "suggestive",
+    "extensionType": "manatan2",
+    "packageUrl": "packages/video/en/asianctvcc.manatan2",
+    "packagePath": "packages/video/en/asianctvcc.manatan2",
+    "sha256": "b43f9bec0ac20a33398f2600e399f97802ff929013b00991cd85cd5d787bf8e3",
+    "size": 2320709,
+    "sizeBytes": 2320709,
+    "iconUrl": "icons/video/en/asianctvcc.png",
+    "sourceIds": [
+      "asianctvcc"
+    ],
+    "sourceNames": [
+      "AsiancTV (.cc)"
+    ],
+    "publisher": {
+      "id": "org.manatan.community.extensions",
+      "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+      "signature": "94021007208e251f059f160b6ff8cde6082cf1e91ac051b6af784006a615ad6c21c3640d55ce73944dcd0ca53189afc10305577d93b3f966349d2345c7a9e20a"
+    },
+    "sources": [
+      {
+        "id": "asianctvcc",
+        "name": "AsiancTV (.cc)",
+        "lang": "en",
+        "contentType": "video",
+        "baseUrl": "https://asianctv.cc",
+        "contentRating": "suggestive",
+        "capabilities": {
+          "operations": [],
+          "search": true,
+          "latest": true,
+          "filters": true,
+          "preferences": false,
+          "home": false,
+          "hosterResolution": false,
+          "seasons": false,
+          "urlResolution": true,
+          "chapterPagination": false,
+          "pageProcessing": false,
+          "mediaProcessing": true,
+          "authentication": false,
+          "unmetered": false
+        },
+        "listings": [
+          {
+            "id": "popular",
+            "name": "Popular Movies"
+          },
+          {
+            "id": "tv",
+            "name": "Popular TV"
+          },
+          {
+            "id": "latest",
+            "name": "New Movies"
+          }
+        ],
+        "urlPatterns": [
+          {
+            "pattern": "https://asianctv.cc/movie/*",
+            "kind": "item"
+          },
+          {
+            "pattern": "https://asianctv.cc/tv/*",
+            "kind": "item"
+          },
+          {
+            "pattern": "https://asianctv.cc/watch/*",
+            "kind": "item-or-episode"
+          }
+        ],
+        "tags": [
+          "asian-drama",
+          "asian-movies",
+          "english-subtitles"
+        ]
+      }
+    ],
+    "manifest": {
+      "schemaVersion": 2,
+      "id": "asianctvcc",
+      "name": "AsiancTV (.cc)",
+      "version": "0.1.0",
+      "versionCode": 1,
+      "apiVersion": 2,
+      "wasm": "extension.wasm",
+      "contentType": "video",
+      "publisher": {
+        "id": "org.manatan.community.extensions",
+        "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+        "signature": "94021007208e251f059f160b6ff8cde6082cf1e91ac051b6af784006a615ad6c21c3640d55ce73944dcd0ca53189afc10305577d93b3f966349d2345c7a9e20a"
+      },
+      "description": "Asian movies and television with English subtitles from AsiancTV.",
+      "author": "Manatan Community",
+      "homepage": "https://asianctv.cc",
+      "repository": "https://github.com/Manatan-Community/extensions-source",
+      "license": "Apache-2.0",
+      "icon": "assets/icon.png",
+      "minimumManatanVersion": null,
+      "permissions": {
+        "network": {
+          "allow": [
+            "https://asianctv.cc",
+            "https://image.tmdb.org",
+            "https://megaplay.lol",
+            "https://vidsrc.mov",
+            "https://vsembed.ru",
+            "https://cloudorchestranova.com",
+            "https://*.cloudorchestranova.com",
+            "https://cloudnestra.com",
+            "https://*.cloudnestra.com",
+            "https://sagaciousslumber.site",
+            "https://challenges.cloudflare.com",
+            "https://static.cloudflareinsights.com",
+            "https://ajax.googleapis.com",
+            "https://cdnjs.cloudflare.com",
+            "https://www.googletagmanager.com",
+            "https://www.google-analytics.com",
+            "https://histats.com",
+            "https://*.histats.com"
+          ]
+        },
+        "webview": true,
+        "cookies": true,
+        "storage": false,
+        "assets": false,
+        "javascript": false,
+        "services": []
+      },
+      "assets": [
+        {
+          "path": "assets/icon.png",
+          "mimeType": "image/png",
+          "sha256": "1a21da6700cf2e314d3165a94dd7f4bd2bc96cbe1a96090f4193a8b91f486dbc"
+        }
+      ],
+      "sources": [
+        {
+          "id": "asianctvcc",
+          "name": "AsiancTV (.cc)",
+          "lang": "en",
+          "contentType": "video",
+          "baseUrl": "https://asianctv.cc",
+          "contentRating": "suggestive",
+          "capabilities": {
+            "operations": [],
+            "search": true,
+            "latest": true,
+            "filters": true,
+            "preferences": false,
+            "home": false,
+            "hosterResolution": false,
+            "seasons": false,
+            "urlResolution": true,
+            "chapterPagination": false,
+            "pageProcessing": false,
+            "mediaProcessing": true,
+            "authentication": false,
+            "unmetered": false
+          },
+          "listings": [
+            {
+              "id": "popular",
+              "name": "Popular Movies"
+            },
+            {
+              "id": "tv",
+              "name": "Popular TV"
+            },
+            {
+              "id": "latest",
+              "name": "New Movies"
+            }
+          ],
+          "urlPatterns": [
+            {
+              "pattern": "https://asianctv.cc/movie/*",
+              "kind": "item"
+            },
+            {
+              "pattern": "https://asianctv.cc/tv/*",
+              "kind": "item"
+            },
+            {
+              "pattern": "https://asianctv.cc/watch/*",
+              "kind": "item-or-episode"
+            }
+          ],
+          "tags": [
+            "asian-drama",
+            "asian-movies",
+            "english-subtitles"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "schemaVersion": 2,
     "pkgName": "manatan:shuttletv",
     "id": "shuttletv",
     "packageId": "shuttletv",
