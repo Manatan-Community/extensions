@@ -4070,6 +4070,197 @@
   },
   {
     "schemaVersion": 2,
+    "pkgName": "manatan:witanime",
+    "id": "witanime",
+    "packageId": "witanime",
+    "name": "WIT ANIME",
+    "versionName": "0.1.0",
+    "version": "0.1.0",
+    "versionCode": 1,
+    "contentType": "video",
+    "media": "video",
+    "mediaKind": "video",
+    "lang": "ar",
+    "language": "ar",
+    "contentRating": "suggestive",
+    "extensionType": "manatan2",
+    "packageUrl": "packages/video/ar/witanime.manatan2",
+    "packagePath": "packages/video/ar/witanime.manatan2",
+    "sha256": "f0e9de6965fcf69c9c5dc37d1bb67632075bfedaa26dbe5e05144730107ea3ff",
+    "size": 2336199,
+    "sizeBytes": 2336199,
+    "iconUrl": "icons/video/ar/witanime.png",
+    "sourceIds": [
+      "witanime"
+    ],
+    "sourceNames": [
+      "WIT ANIME"
+    ],
+    "publisher": {
+      "id": "org.manatan.community.extensions",
+      "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+      "signature": "7ac218af8e53743368fd8bb9f78a06179ff7cb30eefcad9eda0a18afbcaa5494480c2fdf5aaa20ae1ef1b57088d1e2968080dd71277588927b1fe2d8d80f680e"
+    },
+    "sources": [
+      {
+        "id": "witanime",
+        "name": "WIT ANIME",
+        "lang": "ar",
+        "contentType": "video",
+        "baseUrl": "https://witanime.you",
+        "contentRating": "suggestive",
+        "capabilities": {
+          "operations": [],
+          "search": true,
+          "latest": true,
+          "filters": true,
+          "preferences": false,
+          "home": false,
+          "hosterResolution": false,
+          "seasons": false,
+          "urlResolution": true,
+          "chapterPagination": false,
+          "pageProcessing": false,
+          "mediaProcessing": true,
+          "authentication": false,
+          "unmetered": false
+        },
+        "listings": [
+          {
+            "id": "popular",
+            "name": "Popular"
+          },
+          {
+            "id": "latest",
+            "name": "Latest"
+          }
+        ],
+        "urlPatterns": [
+          {
+            "pattern": "https://witanime.you/anime/*",
+            "kind": "item"
+          },
+          {
+            "pattern": "https://witanime.you/episode/*",
+            "kind": "item-or-episode"
+          }
+        ],
+        "tags": [
+          "anime",
+          "arabic-subtitles"
+        ]
+      }
+    ],
+    "manifest": {
+      "schemaVersion": 2,
+      "id": "witanime",
+      "name": "WIT ANIME",
+      "version": "0.1.0",
+      "versionCode": 1,
+      "apiVersion": 2,
+      "wasm": "extension.wasm",
+      "contentType": "video",
+      "publisher": {
+        "id": "org.manatan.community.extensions",
+        "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+        "signature": "7ac218af8e53743368fd8bb9f78a06179ff7cb30eefcad9eda0a18afbcaa5494480c2fdf5aaa20ae1ef1b57088d1e2968080dd71277588927b1fe2d8d80f680e"
+      },
+      "description": "Arabic-subtitled anime from WIT ANIME.",
+      "author": "Manatan Community",
+      "homepage": "https://witanime.you",
+      "repository": "https://github.com/Manatan-Community/extensions-source",
+      "license": "Apache-2.0",
+      "icon": "assets/icon.png",
+      "minimumManatanVersion": null,
+      "permissions": {
+        "network": {
+          "allow": [
+            "https://witanime.you",
+            "https://yonaplay.net",
+            "https://*.yonaplay.net",
+            "https://videa.hu",
+            "https://*.videa.hu",
+            "https://app.videas.fr",
+            "https://*.videas.fr",
+            "https://hgcloud.to",
+            "https://*.hgcloud.to",
+            "https://audinifer.com",
+            "https://*.audinifer.com",
+            "https://*.tiktokcdn.com",
+            "https://mega.nz",
+            "https://www.4shared.com",
+            "https://my.mail.ru",
+            "https://vk.com"
+          ]
+        },
+        "webview": true,
+        "cookies": true,
+        "storage": false,
+        "assets": false,
+        "javascript": false,
+        "services": []
+      },
+      "assets": [
+        {
+          "path": "assets/icon.png",
+          "mimeType": "image/png",
+          "sha256": "1918b9b14da3b7e2fb41f9e11091fef57e40067a05917ff5a5a3efde8baa61f5"
+        }
+      ],
+      "sources": [
+        {
+          "id": "witanime",
+          "name": "WIT ANIME",
+          "lang": "ar",
+          "contentType": "video",
+          "baseUrl": "https://witanime.you",
+          "contentRating": "suggestive",
+          "capabilities": {
+            "operations": [],
+            "search": true,
+            "latest": true,
+            "filters": true,
+            "preferences": false,
+            "home": false,
+            "hosterResolution": false,
+            "seasons": false,
+            "urlResolution": true,
+            "chapterPagination": false,
+            "pageProcessing": false,
+            "mediaProcessing": true,
+            "authentication": false,
+            "unmetered": false
+          },
+          "listings": [
+            {
+              "id": "popular",
+              "name": "Popular"
+            },
+            {
+              "id": "latest",
+              "name": "Latest"
+            }
+          ],
+          "urlPatterns": [
+            {
+              "pattern": "https://witanime.you/anime/*",
+              "kind": "item"
+            },
+            {
+              "pattern": "https://witanime.you/episode/*",
+              "kind": "item-or-episode"
+            }
+          ],
+          "tags": [
+            "anime",
+            "arabic-subtitles"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "schemaVersion": 2,
     "pkgName": "manatan:wtrlab",
     "id": "wtrlab",
     "packageId": "wtrlab",
