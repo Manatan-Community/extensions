@@ -197,9 +197,9 @@
     "id": "mangafire",
     "packageId": "mangafire",
     "name": "MangaFire",
-    "versionName": "1.2.0",
-    "version": "1.2.0",
-    "versionCode": 5,
+    "versionName": "1.2.1",
+    "version": "1.2.1",
+    "versionCode": 6,
     "contentType": "manga",
     "media": "manga",
     "mediaKind": "manga",
@@ -209,9 +209,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/manga/all/mangafire.manatan2",
     "packagePath": "packages/manga/all/mangafire.manatan2",
-    "sha256": "4e16094af1a2aa0fd5afe0b4e093db9ed764eff9a5c8838df5832226fd27f614",
-    "size": 1139599,
-    "sizeBytes": 1139599,
+    "sha256": "1f5e29b466462566d912f684896ec4c5944d734654ca24174d9d40a62edec419",
+    "size": 1158577,
+    "sizeBytes": 1158577,
     "iconUrl": "icons/manga/all/mangafire.png",
     "sourceIds": [
       "mangafire"
@@ -222,7 +222,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "2d987ab04a7cbcb0d7662269ec83ca89bcae75c7d825a9663d1b35a09b835da73bf11d78d4d802a654a973e83fa01ca8cd9ba4e70d761357c9b7668c9cfad807"
+      "signature": "f2fec12be2f57f461f93b7d4a204bed36d4f8295de09472888bcb78113e97d3bd9c774fb28f32eded9740d7d0d8e6850bf0d6814baaac5c7673f6a2dfe427c06"
     },
     "sources": [
       {
@@ -273,15 +273,15 @@
       "schemaVersion": 2,
       "id": "mangafire",
       "name": "MangaFire",
-      "version": "1.2.0",
-      "versionCode": 5,
+      "version": "1.2.1",
+      "versionCode": 6,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "manga",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "2d987ab04a7cbcb0d7662269ec83ca89bcae75c7d825a9663d1b35a09b835da73bf11d78d4d802a654a973e83fa01ca8cd9ba4e70d761357c9b7668c9cfad807"
+        "signature": "f2fec12be2f57f461f93b7d4a204bed36d4f8295de09472888bcb78113e97d3bd9c774fb28f32eded9740d7d0d8e6850bf0d6814baaac5c7673f6a2dfe427c06"
       },
       "description": "MangaFire with typed chapter language selection, direct JSON API pages, bounded host-browser challenge recovery, and fail-closed content filtering.",
       "author": "Manatan Community",
