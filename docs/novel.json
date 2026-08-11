@@ -520,10 +520,10 @@
     "pkgName": "manatan:lightnovelworld",
     "id": "lightnovelworld",
     "packageId": "lightnovelworld",
-    "name": "Light Novel World",
-    "versionName": "1.0.0",
-    "version": "1.0.0",
-    "versionCode": 1,
+    "name": "Chikari",
+    "versionName": "1.1.0",
+    "version": "1.1.0",
+    "versionCode": 2,
     "contentType": "novel",
     "media": "novel",
     "mediaKind": "novel",
@@ -533,34 +533,34 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/novel/en/lightnovelworld.manatan2",
     "packagePath": "packages/novel/en/lightnovelworld.manatan2",
-    "sha256": "a7458a77cadd652802089791538c492b3212aa84d058874dd213de2d7b4b592b",
-    "size": 2165457,
-    "sizeBytes": 2165457,
+    "sha256": "48b93ffd721e34fcfed218fed56534199e0b1f87e5329117eb571b09c2de7d4c",
+    "size": 644305,
+    "sizeBytes": 644305,
     "iconUrl": "icons/novel/en/lightnovelworld.png",
     "sourceIds": [
       "lightnovelworld"
     ],
     "sourceNames": [
-      "Light Novel World"
+      "Chikari"
     ],
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "54c05c5c0ecc41a5c4e78809e50c78bd55a8b11e54f5f16bfc520e0d6ee7b6c56924c03377cb3654e4dede4627383cf64b7992301e3a9b4d8886c539cb7b440b"
+      "signature": "d6d90a088b05e0e605904be16a0393030dd695e3a7a91b236aeb3c7cd9b8c6544c10ffad1059e9c6014e612d82f27684df800e2af3edf3dbdb701eb6dd6ea103"
     },
     "sources": [
       {
         "id": "lightnovelworld",
-        "name": "Light Novel World",
+        "name": "Chikari",
         "lang": "en",
         "contentType": "novel",
-        "baseUrl": "https://lightnovelworld.org",
+        "baseUrl": "https://chikari.moe",
         "contentRating": "suggestive",
         "capabilities": {
           "operations": [],
           "search": true,
           "latest": true,
-          "filters": false,
+          "filters": true,
           "preferences": false,
           "home": false,
           "hosterResolution": false,
@@ -584,6 +584,10 @@
         ],
         "urlPatterns": [
           {
+            "pattern": "https://chikari.moe/novels/*",
+            "kind": "item-or-chapter"
+          },
+          {
             "pattern": "https://lightnovelworld.org/novel/*/",
             "kind": "item"
           },
@@ -598,20 +602,20 @@
     "manifest": {
       "schemaVersion": 2,
       "id": "lightnovelworld",
-      "name": "Light Novel World",
-      "version": "1.0.0",
-      "versionCode": 1,
+      "name": "Chikari",
+      "version": "1.1.0",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "novel",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "54c05c5c0ecc41a5c4e78809e50c78bd55a8b11e54f5f16bfc520e0d6ee7b6c56924c03377cb3654e4dede4627383cf64b7992301e3a9b4d8886c539cb7b440b"
+        "signature": "d6d90a088b05e0e605904be16a0393030dd695e3a7a91b236aeb3c7cd9b8c6544c10ffad1059e9c6014e612d82f27684df800e2af3edf3dbdb701eb6dd6ea103"
       },
-      "description": "English web novels from Light Novel World. A free Light Novel World account is required to open chapter text.",
+      "description": "English web novels from Chikari, including catalog filters and public chapter text.",
       "author": "Manatan Community",
-      "homepage": "https://lightnovelworld.org",
+      "homepage": "https://chikari.moe/novels",
       "repository": "https://github.com/Manatan-Community/extensions-source",
       "license": "MIT",
       "icon": "assets/icon.png",
@@ -619,7 +623,8 @@
       "permissions": {
         "network": {
           "allow": [
-            "https://lightnovelworld.org"
+            "https://chikari.moe",
+            "https://cdn.chikari.moe"
           ]
         },
         "webview": true,
@@ -633,22 +638,22 @@
         {
           "path": "assets/icon.png",
           "mimeType": "image/png",
-          "sha256": "f5d3d95edf4006a76d11d9f04abab1fd20f704613b931cdd51b8f59ca113ffc4"
+          "sha256": "6fca630e5f439a1c4cbf13cdd9b2957b6156100befcfe54bb6a77f8d7d150a69"
         }
       ],
       "sources": [
         {
           "id": "lightnovelworld",
-          "name": "Light Novel World",
+          "name": "Chikari",
           "lang": "en",
           "contentType": "novel",
-          "baseUrl": "https://lightnovelworld.org",
+          "baseUrl": "https://chikari.moe",
           "contentRating": "suggestive",
           "capabilities": {
             "operations": [],
             "search": true,
             "latest": true,
-            "filters": false,
+            "filters": true,
             "preferences": false,
             "home": false,
             "hosterResolution": false,
@@ -671,6 +676,10 @@
             }
           ],
           "urlPatterns": [
+            {
+              "pattern": "https://chikari.moe/novels/*",
+              "kind": "item-or-chapter"
+            },
             {
               "pattern": "https://lightnovelworld.org/novel/*/",
               "kind": "item"
