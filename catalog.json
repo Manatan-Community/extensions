@@ -3739,9 +3739,9 @@
     "id": "rawkuma",
     "packageId": "rawkuma",
     "name": "Rawkuma",
-    "versionName": "1.0.3",
-    "version": "1.0.3",
-    "versionCode": 4,
+    "versionName": "1.0.4",
+    "version": "1.0.4",
+    "versionCode": 5,
     "contentType": "manga",
     "media": "manga",
     "mediaKind": "manga",
@@ -3751,9 +3751,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/manga/ja/rawkuma.manatan2",
     "packagePath": "packages/manga/ja/rawkuma.manatan2",
-    "sha256": "88692c1cb69abb25f335cb66e4f5f0510b91ad1d4ee373b828da6826dde38b55",
-    "size": 2077804,
-    "sizeBytes": 2077804,
+    "sha256": "162d95e8381d4f2a1d1e52c443981c6f0853d3d4481e11fa2d680e988f8d9555",
+    "size": 2078529,
+    "sizeBytes": 2078529,
     "iconUrl": "icons/manga/ja/rawkuma.png",
     "sourceIds": [
       "rawkuma"
@@ -3764,7 +3764,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "e5609e8cb31b6dc191d9315d944c84806d8d14ad23653d74a8901c9fa1ad952fe453427d9e5a17eee17a7935d61138664e8c06c0210f6599b626463b02c2c804"
+      "signature": "ad3cf8e1790f4941fc2ad885c173fad21320e0c63f9e6369b386f9ae17b298fbbb7059603fccf63affa633f7ef8ad6cb37ef31dfcbcd4a50245d3b3bfe846508"
     },
     "sources": [
       {
@@ -3815,15 +3815,15 @@
       "schemaVersion": 2,
       "id": "rawkuma",
       "name": "Rawkuma",
-      "version": "1.0.3",
-      "versionCode": 4,
+      "version": "1.0.4",
+      "versionCode": 5,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "manga",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "e5609e8cb31b6dc191d9315d944c84806d8d14ad23653d74a8901c9fa1ad952fe453427d9e5a17eee17a7935d61138664e8c06c0210f6599b626463b02c2c804"
+        "signature": "ad3cf8e1790f4941fc2ad885c173fad21320e0c63f9e6369b386f9ae17b298fbbb7059603fccf63affa633f7ef8ad6cb37ef31dfcbcd4a50245d3b3bfe846508"
       },
       "description": "Japanese raw manga from Rawkuma.",
       "author": "Manatan Community",
@@ -3836,10 +3836,11 @@
         "network": {
           "allow": [
             "https://rawkuma.net",
-            "https://cdn.kumacdn.club"
+            "https://cdn.kumacdn.club",
+            "https://rcdn.kyut.dev"
           ]
         },
-        "webview": false,
+        "webview": true,
         "cookies": true,
         "storage": false,
         "assets": false,
