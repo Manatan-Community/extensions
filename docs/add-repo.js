@@ -3,15 +3,13 @@ const repoUrls = {
   video: "https://manatan-community.github.io/extensions/video.min.json",
   novel: "https://manatan-community.github.io/extensions/novel.min.json",
   mihonManga: "https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.pb",
-  aidokuManga: "https://aidoku-community.github.io/sources/index.min.json",
   aniyomiVideo: "https://raw.githubusercontent.com/yuzono/anime-repo/repo/index.min.json"
 };
 
 const reposByMedia = {
   manga: [
     { label: "Manatan manga", url: repoUrls.manga },
-    { label: "Mihon Manga Extensions", url: repoUrls.mihonManga },
-    { label: "Aidoku Manga Sources", url: repoUrls.aidokuManga }
+    { label: "Mihon Manga Extensions", url: repoUrls.mihonManga }
   ],
   video: [
     { label: "Manatan video", url: repoUrls.video },
