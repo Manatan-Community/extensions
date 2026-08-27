@@ -353,9 +353,9 @@
     "id": "aniwave",
     "packageId": "aniwave",
     "name": "AniWave (Unoriginal)",
-    "versionName": "0.1.4",
-    "version": "0.1.4",
-    "versionCode": 5,
+    "versionName": "0.1.5",
+    "version": "0.1.5",
+    "versionCode": 6,
     "contentType": "video",
     "media": "video",
     "mediaKind": "video",
@@ -365,9 +365,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/video/en/aniwave.manatan2",
     "packagePath": "packages/video/en/aniwave.manatan2",
-    "sha256": "15f876ed2797da33a1a4ab5d61274ae99db4487ef8a4e8fbbe1787580a470fb9",
-    "size": 2348077,
-    "sizeBytes": 2348077,
+    "sha256": "b00a974429f3bd36f7c5cac3974d7759a3065de58aa74e52811eb28d319235d9",
+    "size": 2253215,
+    "sizeBytes": 2253215,
     "iconUrl": "icons/video/en/aniwave.png",
     "sourceIds": [
       "aniwave"
@@ -378,7 +378,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "a27d6c1f112fe26af2783a33ebfab0ba2e80209026b384bbdb3afa92903bc4a4826a7b56116fb0a6475cf3d2bb55df7c29ed581ee99f702329969ea1e2ae080d"
+      "signature": "49b9182ac1f4b613c1f60cbb9f589448eb97f82e131913f08fe9abdc13fac9e83a8182ec155eb1698c81a0e68c7ff01f661ff6bcd403c7211ddba4c87cc8c609"
     },
     "sources": [
       {
@@ -433,15 +433,15 @@
       "schemaVersion": 2,
       "id": "aniwave",
       "name": "AniWave (Unoriginal)",
-      "version": "0.1.4",
-      "versionCode": 5,
+      "version": "0.1.5",
+      "versionCode": 6,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "video",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "a27d6c1f112fe26af2783a33ebfab0ba2e80209026b384bbdb3afa92903bc4a4826a7b56116fb0a6475cf3d2bb55df7c29ed581ee99f702329969ea1e2ae080d"
+        "signature": "49b9182ac1f4b613c1f60cbb9f589448eb97f82e131913f08fe9abdc13fac9e83a8182ec155eb1698c81a0e68c7ff01f661ff6bcd403c7211ddba4c87cc8c609"
       },
       "description": "English anime catalog and streams from AniWave.",
       "author": "Manatan Community",
@@ -484,7 +484,11 @@
             "https://*.vidstream.pro",
             "https://vidtube.site",
             "https://megaplay.buzz",
-            "https://vidwish.live"
+            "https://vidwish.live",
+            "https://*.kryntal.top",
+            "https://*.norami.top",
+            "https://*.sugevideo.xyz",
+            "https://*.livedns.my"
           ]
         },
         "webview": false,
