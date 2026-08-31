@@ -8028,6 +8028,176 @@
   },
   {
     "schemaVersion": 2,
+    "pkgName": "manatan:mokuro",
+    "id": "mokuro",
+    "packageId": "mokuro",
+    "name": "Mokuro Catalog",
+    "versionName": "1.0.0",
+    "version": "1.0.0",
+    "versionCode": 1,
+    "contentType": "manga",
+    "media": "manga",
+    "mediaKind": "manga",
+    "lang": "ja",
+    "language": "ja",
+    "contentRating": "adult",
+    "extensionType": "manatan2",
+    "packageUrl": "packages/manga/ja/mokuro.manatan2",
+    "packagePath": "packages/manga/ja/mokuro.manatan2",
+    "sha256": "ec091fe0532dd20ab3ca78713c9a4468d27623b386c2c1cb18352a3583323e97",
+    "size": 620223,
+    "sizeBytes": 620223,
+    "iconUrl": null,
+    "sourceIds": [
+      "mokuro"
+    ],
+    "sourceNames": [
+      "Mokuro Catalog"
+    ],
+    "publisher": {
+      "id": "org.manatan.community.extensions",
+      "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+      "signature": "2f666c0572c115b5003275089ab9ba6a253ecc13f393b47166143db38479e9380dc3410d48e9b063b0c5edc7ffe820cf987aa0f1a64a313edd20681fea3bd108"
+    },
+    "sources": [
+      {
+        "id": "mokuro",
+        "name": "Mokuro Catalog",
+        "lang": "ja",
+        "contentType": "manga",
+        "baseUrl": "https://mokuro.moe",
+        "contentRating": "adult",
+        "capabilities": {
+          "operations": [],
+          "search": true,
+          "latest": true,
+          "filters": true,
+          "preferences": false,
+          "home": false,
+          "hosterResolution": false,
+          "seasons": false,
+          "urlResolution": true,
+          "chapterPagination": false,
+          "pageProcessing": true,
+          "mediaProcessing": false,
+          "authentication": false,
+          "unmetered": false
+        },
+        "listings": [
+          {
+            "id": "popular",
+            "name": "Catalog"
+          },
+          {
+            "id": "latest",
+            "name": "Recently updated"
+          }
+        ],
+        "urlPatterns": [
+          {
+            "pattern": "https://mokuro.moe/catalog*",
+            "kind": "item"
+          }
+        ],
+        "tags": [
+          "standalone",
+          "webdav",
+          "json-manifests",
+          "remote-cbz",
+          "range-requests",
+          "ocr"
+        ]
+      }
+    ],
+    "manifest": {
+      "schemaVersion": 2,
+      "id": "mokuro",
+      "name": "Mokuro Catalog",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "apiVersion": 2,
+      "wasm": "extension.wasm",
+      "contentType": "manga",
+      "publisher": {
+        "id": "org.manatan.community.extensions",
+        "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+        "signature": "2f666c0572c115b5003275089ab9ba6a253ecc13f393b47166143db38479e9380dc3410d48e9b063b0c5edc7ffe820cf987aa0f1a64a313edd20681fea3bd108"
+      },
+      "description": "Japanese OCR manga from Mokuro Bunko's WebDAV catalog, read directly from ranged remote CBZ archives.",
+      "author": "Manatan Community",
+      "homepage": "https://mokuro.moe/catalog",
+      "repository": "https://github.com/Manatan-Community/extensions-source",
+      "license": "Apache-2.0",
+      "icon": null,
+      "minimumManatanVersion": null,
+      "permissions": {
+        "network": {
+          "allow": [
+            "https://mokuro.moe"
+          ]
+        },
+        "webview": false,
+        "cookies": false,
+        "storage": false,
+        "assets": false,
+        "javascript": false,
+        "services": []
+      },
+      "assets": [],
+      "sources": [
+        {
+          "id": "mokuro",
+          "name": "Mokuro Catalog",
+          "lang": "ja",
+          "contentType": "manga",
+          "baseUrl": "https://mokuro.moe",
+          "contentRating": "adult",
+          "capabilities": {
+            "operations": [],
+            "search": true,
+            "latest": true,
+            "filters": true,
+            "preferences": false,
+            "home": false,
+            "hosterResolution": false,
+            "seasons": false,
+            "urlResolution": true,
+            "chapterPagination": false,
+            "pageProcessing": true,
+            "mediaProcessing": false,
+            "authentication": false,
+            "unmetered": false
+          },
+          "listings": [
+            {
+              "id": "popular",
+              "name": "Catalog"
+            },
+            {
+              "id": "latest",
+              "name": "Recently updated"
+            }
+          ],
+          "urlPatterns": [
+            {
+              "pattern": "https://mokuro.moe/catalog*",
+              "kind": "item"
+            }
+          ],
+          "tags": [
+            "standalone",
+            "webdav",
+            "json-manifests",
+            "remote-cbz",
+            "range-requests",
+            "ocr"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "schemaVersion": 2,
     "pkgName": "manatan:nekoraw",
     "id": "nekoraw",
     "packageId": "nekoraw",
