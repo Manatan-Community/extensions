@@ -1,7 +1,7 @@
 const repoUrls = {
-  manga: "https://manatan-community.github.io/extensions/manga.min.json",
-  video: "https://manatan-community.github.io/extensions/video.min.json",
-  novel: "https://manatan-community.github.io/extensions/novel.min.json",
+  manga: "https://raw.githubusercontent.com/Manatan-Community/extensions/main/manga.min.json",
+  video: "https://raw.githubusercontent.com/Manatan-Community/extensions/main/video.min.json",
+  novel: "https://raw.githubusercontent.com/Manatan-Community/extensions/main/novel.min.json",
   mihonManga: "https://raw.githubusercontent.com/keiyoushi/extensions/repo/index.pb",
   aniyomiVideo: "https://raw.githubusercontent.com/yuzono/anime-repo/repo/index.min.json"
 };

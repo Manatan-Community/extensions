@@ -14,9 +14,9 @@ community repository.
 Open the [Add to Manatan page](https://manatan-community.github.io/extensions/add-repo/)
 to add all three repositories, or use one media-specific index:
 
-- [Manga repository: https://manatan-community.github.io/extensions/manga.min.json](https://manatan-community.github.io/extensions/manga.min.json)
-- [Video repository: https://manatan-community.github.io/extensions/video.min.json](https://manatan-community.github.io/extensions/video.min.json)
-- [Novel repository: https://manatan-community.github.io/extensions/novel.min.json](https://manatan-community.github.io/extensions/novel.min.json)
+- [Manga repository: https://raw.githubusercontent.com/Manatan-Community/extensions/main/manga.min.json](https://raw.githubusercontent.com/Manatan-Community/extensions/main/manga.min.json)
+- [Video repository: https://raw.githubusercontent.com/Manatan-Community/extensions/main/video.min.json](https://raw.githubusercontent.com/Manatan-Community/extensions/main/video.min.json)
+- [Novel repository: https://raw.githubusercontent.com/Manatan-Community/extensions/main/novel.min.json](https://raw.githubusercontent.com/Manatan-Community/extensions/main/novel.min.json)
 
 Every installable artifact is a `.manatan2` WebAssembly component. Packages
 and indexes in this repository are generated from
