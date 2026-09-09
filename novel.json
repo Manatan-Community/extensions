@@ -176,9 +176,9 @@
     "id": "bookracy",
     "packageId": "bookracy",
     "name": "BookRacy",
-    "versionName": "1.0.0",
-    "version": "1.0.0",
-    "versionCode": 1,
+    "versionName": "1.0.1",
+    "version": "1.0.1",
+    "versionCode": 2,
     "contentType": "novel",
     "media": "novel",
     "mediaKind": "novel",
@@ -188,9 +188,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/novel/en/bookracy.manatan2",
     "packagePath": "packages/novel/en/bookracy.manatan2",
-    "sha256": "ae2d43b5be55fdeb62cfe0378ea66e50a338a90a811b214d614897080055f196",
-    "size": 2179006,
-    "sizeBytes": 2179006,
+    "sha256": "0176bf21e302528b3efa855f6344379d3080e22c6714a6cc63da460752270f08",
+    "size": 2105011,
+    "sizeBytes": 2105011,
     "iconUrl": "icons/novel/en/bookracy.png",
     "sourceIds": [
       "bookracy"
@@ -201,7 +201,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "48133f35027d0ac79f1a6337e3a2d2c6838ab90388b495b71c965fabe945b8498589b2c3a7fc87bb76fabcc6b59d3cf5bbea226e768160862cf5b189f5bddc01"
+      "signature": "012446889d70326a36891b60503e109a2a39fb8c0f3cd22e0e5bcb7b4a181b6912a33fcc4b56f6f71ff7ce4111543ec12bddc52dff12cafb917aa4ce8f441809"
     },
     "sources": [
       {
@@ -250,15 +250,15 @@
       "schemaVersion": 2,
       "id": "bookracy",
       "name": "BookRacy",
-      "version": "1.0.0",
-      "versionCode": 1,
+      "version": "1.0.1",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "novel",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "48133f35027d0ac79f1a6337e3a2d2c6838ab90388b495b71c965fabe945b8498589b2c3a7fc87bb76fabcc6b59d3cf5bbea226e768160862cf5b189f5bddc01"
+        "signature": "012446889d70326a36891b60503e109a2a39fb8c0f3cd22e0e5bcb7b4a181b6912a33fcc4b56f6f71ff7ce4111543ec12bddc52dff12cafb917aa4ce8f441809"
       },
       "description": "English EPUB books from BookRacy's public catalog.",
       "author": "Manatan Community",
