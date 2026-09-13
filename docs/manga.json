@@ -10452,9 +10452,9 @@
     "id": "mokuro",
     "packageId": "mokuro",
     "name": "Mokuro Catalog",
-    "versionName": "1.0.2",
-    "version": "1.0.2",
-    "versionCode": 3,
+    "versionName": "1.1.0",
+    "version": "1.1.0",
+    "versionCode": 4,
     "contentType": "manga",
     "media": "manga",
     "mediaKind": "manga",
@@ -10464,9 +10464,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/manga/ja/mokuro.manatan2",
     "packagePath": "packages/manga/ja/mokuro.manatan2",
-    "sha256": "bbaedc40ca888f188d9eae767de443c20fbb26266a1480d5a0c7f6247cdc078d",
-    "size": 643956,
-    "sizeBytes": 643956,
+    "sha256": "3add4cd9535c6f1fe9e49ba7f82b8b5cb9755a45f31d1acdbd8ae2322adb7d95",
+    "size": 676838,
+    "sizeBytes": 676838,
     "iconUrl": "icons/manga/ja/mokuro.png",
     "sourceIds": [
       "mokuro"
@@ -10477,7 +10477,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "f7cf4a005ceb0339b04469e813eeba4b18c0557753568956c6de65b11aeb2290f83a62b20b3ca32325aa242f28317ef0781f6fcac9e381452f3332c3c495c509"
+      "signature": "64d35b5212e943cfbaa8a515f2ebe0daa9970d636c63c25da43ebdb1c362d92c3e85d606b7be463d8a884814146d206c77f3d3e1d17f0094b0db1b7951aa1d0a"
     },
     "sources": [
       {
@@ -10492,7 +10492,7 @@
           "search": true,
           "latest": true,
           "filters": true,
-          "preferences": false,
+          "preferences": true,
           "home": false,
           "hosterResolution": false,
           "seasons": false,
@@ -10517,6 +10517,14 @@
           {
             "pattern": "https://mokuro.moe/catalog*",
             "kind": "item"
+          },
+          {
+            "pattern": "https://mokuro.moe/mokuro-reader/*",
+            "kind": "item"
+          },
+          {
+            "pattern": "https://reader.mokuro.app/*",
+            "kind": "item"
           }
         ],
         "tags": [
@@ -10533,15 +10541,15 @@
       "schemaVersion": 2,
       "id": "mokuro",
       "name": "Mokuro Catalog",
-      "version": "1.0.2",
-      "versionCode": 3,
+      "version": "1.1.0",
+      "versionCode": 4,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "manga",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "f7cf4a005ceb0339b04469e813eeba4b18c0557753568956c6de65b11aeb2290f83a62b20b3ca32325aa242f28317ef0781f6fcac9e381452f3332c3c495c509"
+        "signature": "64d35b5212e943cfbaa8a515f2ebe0daa9970d636c63c25da43ebdb1c362d92c3e85d606b7be463d8a884814146d206c77f3d3e1d17f0094b0db1b7951aa1d0a"
       },
       "description": "Japanese OCR manga from Mokuro Bunko's WebDAV catalog, read directly from ranged remote CBZ archives.",
       "author": "Manatan Community",
@@ -10583,7 +10591,7 @@
             "search": true,
             "latest": true,
             "filters": true,
-            "preferences": false,
+            "preferences": true,
             "home": false,
             "hosterResolution": false,
             "seasons": false,
@@ -10607,6 +10615,14 @@
           "urlPatterns": [
             {
               "pattern": "https://mokuro.moe/catalog*",
+              "kind": "item"
+            },
+            {
+              "pattern": "https://mokuro.moe/mokuro-reader/*",
+              "kind": "item"
+            },
+            {
+              "pattern": "https://reader.mokuro.app/*",
               "kind": "item"
             }
           ],
