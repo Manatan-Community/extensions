@@ -5,9 +5,9 @@
     "id": "kolnovel",
     "packageId": "kolnovel",
     "name": "KolNovel",
-    "versionName": "1.0.0",
-    "version": "1.0.0",
-    "versionCode": 1,
+    "versionName": "1.0.1",
+    "version": "1.0.1",
+    "versionCode": 2,
     "contentType": "novel",
     "media": "novel",
     "mediaKind": "novel",
@@ -17,9 +17,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/novel/ar/kolnovel.manatan2",
     "packagePath": "packages/novel/ar/kolnovel.manatan2",
-    "sha256": "7420c5231e72dd2c94cae69182038f8a9b05063a51b91f0efe50770f7729dd51",
-    "size": 2195833,
-    "sizeBytes": 2195833,
+    "sha256": "1bf1c5f40fca4605b237165901125472b25a28f08ade8023f15315885915602b",
+    "size": 2114398,
+    "sizeBytes": 2114398,
     "iconUrl": "icons/novel/ar/kolnovel.png",
     "sourceIds": [
       "kolnovel"
@@ -30,7 +30,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "7450b32ee98bb9220519cc1ef6824c56fa0f6fbd665ebfd1b0c14a2b974940d917caaf1cadbe03bc2c50d4c7d846ddf32edf41e212be5661bc20f128438d9804"
+      "signature": "149d60ff9b87cddc24a44878e85fe59454943c22afb880b7114e07f270a23a78be6aceaa2693430623639e8b8d90604d0761c0166dbddd0b7e18c344a65a2303"
     },
     "sources": [
       {
@@ -83,15 +83,15 @@
       "schemaVersion": 2,
       "id": "kolnovel",
       "name": "KolNovel",
-      "version": "1.0.0",
-      "versionCode": 1,
+      "version": "1.0.1",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "novel",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "7450b32ee98bb9220519cc1ef6824c56fa0f6fbd665ebfd1b0c14a2b974940d917caaf1cadbe03bc2c50d4c7d846ddf32edf41e212be5661bc20f128438d9804"
+        "signature": "149d60ff9b87cddc24a44878e85fe59454943c22afb880b7114e07f270a23a78be6aceaa2693430623639e8b8d90604d0761c0166dbddd0b7e18c344a65a2303"
       },
       "description": "Arabic web novels from KolNovel. Some chapters require a KolNovel account or subscription.",
       "author": "Manatan Community",
@@ -176,9 +176,9 @@
     "id": "bookracy",
     "packageId": "bookracy",
     "name": "BookRacy",
-    "versionName": "1.0.1",
-    "version": "1.0.1",
-    "versionCode": 2,
+    "versionName": "1.0.2",
+    "version": "1.0.2",
+    "versionCode": 3,
     "contentType": "novel",
     "media": "novel",
     "mediaKind": "novel",
@@ -188,9 +188,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/novel/en/bookracy.manatan2",
     "packagePath": "packages/novel/en/bookracy.manatan2",
-    "sha256": "0176bf21e302528b3efa855f6344379d3080e22c6714a6cc63da460752270f08",
-    "size": 2105011,
-    "sizeBytes": 2105011,
+    "sha256": "0c12831be73656fff32251b165ed30af4e2b500f68497f45bb4d74ecc3b59c74",
+    "size": 2103406,
+    "sizeBytes": 2103406,
     "iconUrl": "icons/novel/en/bookracy.png",
     "sourceIds": [
       "bookracy"
@@ -201,7 +201,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "012446889d70326a36891b60503e109a2a39fb8c0f3cd22e0e5bcb7b4a181b6912a33fcc4b56f6f71ff7ce4111543ec12bddc52dff12cafb917aa4ce8f441809"
+      "signature": "c6d3ef57a990766583e1310188797b470315b0bb7585f4213b599e6140d86ea78b16bdb05209d1e7a2813622879ec1bf1e706de81d56ddbd8c479cbfd6b63403"
     },
     "sources": [
       {
@@ -250,15 +250,15 @@
       "schemaVersion": 2,
       "id": "bookracy",
       "name": "BookRacy",
-      "version": "1.0.1",
-      "versionCode": 2,
+      "version": "1.0.2",
+      "versionCode": 3,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "novel",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "012446889d70326a36891b60503e109a2a39fb8c0f3cd22e0e5bcb7b4a181b6912a33fcc4b56f6f71ff7ce4111543ec12bddc52dff12cafb917aa4ce8f441809"
+        "signature": "c6d3ef57a990766583e1310188797b470315b0bb7585f4213b599e6140d86ea78b16bdb05209d1e7a2813622879ec1bf1e706de81d56ddbd8c479cbfd6b63403"
       },
       "description": "English EPUB books from BookRacy's public catalog.",
       "author": "Manatan Community",
@@ -339,9 +339,9 @@
     "id": "chrysanthemumgarden",
     "packageId": "chrysanthemumgarden",
     "name": "Chrysanthemum Garden",
-    "versionName": "1.0.1",
-    "version": "1.0.1",
-    "versionCode": 2,
+    "versionName": "1.0.2",
+    "version": "1.0.2",
+    "versionCode": 3,
     "contentType": "novel",
     "media": "novel",
     "mediaKind": "novel",
@@ -351,9 +351,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/novel/en/chrysanthemumgarden.manatan2",
     "packagePath": "packages/novel/en/chrysanthemumgarden.manatan2",
-    "sha256": "56c9e5049db8e9c6ea3a4eff8736d00f1d64cd6268c4236cdd00c53ef64cd64f",
-    "size": 2152007,
-    "sizeBytes": 2152007,
+    "sha256": "b427bdfb56d303c961370e2a11f7109c0fd4a5b46d7890d95d3a54fec2f474c5",
+    "size": 2148874,
+    "sizeBytes": 2148874,
     "iconUrl": null,
     "sourceIds": [
       "chrysanthemumgarden"
@@ -364,7 +364,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "660b7d2c0d4f069ee0ad959fada60ec801387cf0fb8b3512e5aa6fced25552904c6e352c9e97972680459eda5cd10295ac45457f0fa8670f56f7ab4575057a00"
+      "signature": "15ac65960ddcf4af77787ec322c6c3283925475511a8500eacb73fd0a93df21fc4fbb5771cdb85e54decf6aa1acb40c2d6bdb4ead255aeb1cdffcb1b26fb8c0d"
     },
     "sources": [
       {
@@ -417,15 +417,15 @@
       "schemaVersion": 2,
       "id": "chrysanthemumgarden",
       "name": "Chrysanthemum Garden",
-      "version": "1.0.1",
-      "versionCode": 2,
+      "version": "1.0.2",
+      "versionCode": 3,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "novel",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "660b7d2c0d4f069ee0ad959fada60ec801387cf0fb8b3512e5aa6fced25552904c6e352c9e97972680459eda5cd10295ac45457f0fa8670f56f7ab4575057a00"
+        "signature": "15ac65960ddcf4af77787ec322c6c3283925475511a8500eacb73fd0a93df21fc4fbb5771cdb85e54decf6aa1acb40c2d6bdb4ead255aeb1cdffcb1b26fb8c0d"
       },
       "description": "English BL novels from Chrysanthemum Garden, including protected chapter text decoding.",
       "author": "Manatan Community",
@@ -505,9 +505,9 @@
     "id": "cyrisia",
     "packageId": "cyrisia",
     "name": "Cyrisia",
-    "versionName": "1.0.0",
-    "version": "1.0.0",
-    "versionCode": 1,
+    "versionName": "1.0.1",
+    "version": "1.0.1",
+    "versionCode": 2,
     "contentType": "novel",
     "media": "novel",
     "mediaKind": "novel",
@@ -517,9 +517,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/novel/en/cyrisia.manatan2",
     "packagePath": "packages/novel/en/cyrisia.manatan2",
-    "sha256": "cd6e413f80f5a5d530b9797d1956f6e07d0c9395bb412bd08f4a9827d1608d1b",
-    "size": 2447101,
-    "sizeBytes": 2447101,
+    "sha256": "cbb2a24720cb02fee3b414d9d9a770c4175bd4b7f7813f53b89e7daeab94c01e",
+    "size": 2365603,
+    "sizeBytes": 2365603,
     "iconUrl": "icons/novel/en/cyrisia.png",
     "sourceIds": [
       "cyrisia"
@@ -530,7 +530,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "f42ab92cc0f6e00aafe50f74f9c381ccf7712ce72c70a8add00d1fc0ae3713854d6a823eef1d76591aa51bf369c0d84a899ebcba84c4ca5b2476bceeb7e34a0d"
+      "signature": "2cc780f4aca1a0b5b70ca1b07d749755f8edf7285e4b6ec96d6eb89b45b330ebc2702edee9d033a3a215d6531244b82c141de726cd05b7fc16679222b7bbd80e"
     },
     "sources": [
       {
@@ -587,15 +587,15 @@
       "schemaVersion": 2,
       "id": "cyrisia",
       "name": "Cyrisia",
-      "version": "1.0.0",
-      "versionCode": 1,
+      "version": "1.0.1",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "novel",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "f42ab92cc0f6e00aafe50f74f9c381ccf7712ce72c70a8add00d1fc0ae3713854d6a823eef1d76591aa51bf369c0d84a899ebcba84c4ca5b2476bceeb7e34a0d"
+        "signature": "2cc780f4aca1a0b5b70ca1b07d749755f8edf7285e4b6ec96d6eb89b45b330ebc2702edee9d033a3a215d6531244b82c141de726cd05b7fc16679222b7bbd80e"
       },
       "description": "EPUB series from Cyrisia's public bookshelf.",
       "author": "Manatan Community",
@@ -684,9 +684,9 @@
     "id": "fucknovelpia",
     "packageId": "fucknovelpia",
     "name": "FuckNovelpia",
-    "versionName": "1.0.0",
-    "version": "1.0.0",
-    "versionCode": 1,
+    "versionName": "1.0.1",
+    "version": "1.0.1",
+    "versionCode": 2,
     "contentType": "novel",
     "media": "novel",
     "mediaKind": "novel",
@@ -696,9 +696,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/novel/en/fucknovelpia.manatan2",
     "packagePath": "packages/novel/en/fucknovelpia.manatan2",
-    "sha256": "ea10e6ba3f50a88511cfea4e5833845a3bafae2ec7466868261542e66dda0249",
-    "size": 2153670,
-    "sizeBytes": 2153670,
+    "sha256": "a927e420ca1f42b8ed4593a5c22e55efbb29194dd3c91e64270ac28d1e6a701c",
+    "size": 2074015,
+    "sizeBytes": 2074015,
     "iconUrl": null,
     "sourceIds": [
       "fucknovelpia"
@@ -709,7 +709,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "74a5542da65b423b47e5806a0be9acbd4d859af00239c7c175007b7165aa09cc72fe0e5a355034087cc1397b2781a6d33cadff0c8e0ae207d1bb452ff7a7040b"
+      "signature": "30e87c26531a2f141705613a1f97bbe7c1087adf33a92ca5e3da12acba2996be44856e90378514677d864273acc36a29cdb549e3175708e6dac0774718e0bf05"
     },
     "sources": [
       {
@@ -762,15 +762,15 @@
       "schemaVersion": 2,
       "id": "fucknovelpia",
       "name": "FuckNovelpia",
-      "version": "1.0.0",
-      "versionCode": 1,
+      "version": "1.0.1",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "novel",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "74a5542da65b423b47e5806a0be9acbd4d859af00239c7c175007b7165aa09cc72fe0e5a355034087cc1397b2781a6d33cadff0c8e0ae207d1bb452ff7a7040b"
+        "signature": "30e87c26531a2f141705613a1f97bbe7c1087adf33a92ca5e3da12acba2996be44856e90378514677d864273acc36a29cdb549e3175708e6dac0774718e0bf05"
       },
       "description": "English translated web novels from FuckNovelpia.",
       "author": "Manatan Community",
@@ -850,9 +850,9 @@
     "id": "lightnovelworld",
     "packageId": "lightnovelworld",
     "name": "Chikari",
-    "versionName": "1.1.0",
-    "version": "1.1.0",
-    "versionCode": 2,
+    "versionName": "1.1.1",
+    "version": "1.1.1",
+    "versionCode": 3,
     "contentType": "novel",
     "media": "novel",
     "mediaKind": "novel",
@@ -862,9 +862,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/novel/en/lightnovelworld.manatan2",
     "packagePath": "packages/novel/en/lightnovelworld.manatan2",
-    "sha256": "48b93ffd721e34fcfed218fed56534199e0b1f87e5329117eb571b09c2de7d4c",
-    "size": 644305,
-    "sizeBytes": 644305,
+    "sha256": "e823b51c50c2a90c8683267d9a9d160c1fa6400d7db1504427df326041dd91b8",
+    "size": 611669,
+    "sizeBytes": 611669,
     "iconUrl": "icons/novel/en/lightnovelworld.png",
     "sourceIds": [
       "lightnovelworld"
@@ -875,7 +875,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "d6d90a088b05e0e605904be16a0393030dd695e3a7a91b236aeb3c7cd9b8c6544c10ffad1059e9c6014e612d82f27684df800e2af3edf3dbdb701eb6dd6ea103"
+      "signature": "4010e8d7eb39d72f85c178c0aeac89430275f33647f0006eba508aea34dcf00d09f12d9be97f32b8740abd54898c45d569d63a086f7516d869b1e33a53d9dc0c"
     },
     "sources": [
       {
@@ -932,15 +932,15 @@
       "schemaVersion": 2,
       "id": "lightnovelworld",
       "name": "Chikari",
-      "version": "1.1.0",
-      "versionCode": 2,
+      "version": "1.1.1",
+      "versionCode": 3,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "novel",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "d6d90a088b05e0e605904be16a0393030dd695e3a7a91b236aeb3c7cd9b8c6544c10ffad1059e9c6014e612d82f27684df800e2af3edf3dbdb701eb6dd6ea103"
+        "signature": "4010e8d7eb39d72f85c178c0aeac89430275f33647f0006eba508aea34dcf00d09f12d9be97f32b8740abd54898c45d569d63a086f7516d869b1e33a53d9dc0c"
       },
       "description": "English web novels from Chikari, including catalog filters and public chapter text.",
       "author": "Manatan Community",
@@ -1029,9 +1029,9 @@
     "id": "lnori",
     "packageId": "lnori",
     "name": "LNORI",
-    "versionName": "1.0.0",
-    "version": "1.0.0",
-    "versionCode": 1,
+    "versionName": "1.0.1",
+    "version": "1.0.1",
+    "versionCode": 2,
     "contentType": "novel",
     "media": "novel",
     "mediaKind": "novel",
@@ -1041,9 +1041,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/novel/en/lnori.manatan2",
     "packagePath": "packages/novel/en/lnori.manatan2",
-    "sha256": "5d449d9c7828d90aadc0b56f7f4ba643860990380300d97f68f1a929c73c0959",
-    "size": 2202202,
-    "sizeBytes": 2202202,
+    "sha256": "f9c79c6c32a2d55cdaff5c9d30189b8c9f334e020f4405f3f2ae7df80f7d3420",
+    "size": 2098920,
+    "sizeBytes": 2098920,
     "iconUrl": "icons/novel/en/lnori.png",
     "sourceIds": [
       "lnori"
@@ -1054,7 +1054,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "441b5765c819a509820905249419055ff16842155a32251c6242507b5c36cfef1c8bf7977c5345360efc16823e12a01221a6ffb9e02813a9e4cd87a1c088070e"
+      "signature": "592882b9725d68181b4e06dad1ce5e1106c29ec802a455b92f49e09dbf341b1fb2d11ba95a57daa913d7a17c6ef9b6ee7b53335dc8645e1a32d21796ccafe60b"
     },
     "sources": [
       {
@@ -1103,15 +1103,15 @@
       "schemaVersion": 2,
       "id": "lnori",
       "name": "LNORI",
-      "version": "1.0.0",
-      "versionCode": 1,
+      "version": "1.0.1",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "novel",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "441b5765c819a509820905249419055ff16842155a32251c6242507b5c36cfef1c8bf7977c5345360efc16823e12a01221a6ffb9e02813a9e4cd87a1c088070e"
+        "signature": "592882b9725d68181b4e06dad1ce5e1106c29ec802a455b92f49e09dbf341b1fb2d11ba95a57daa913d7a17c6ef9b6ee7b53335dc8645e1a32d21796ccafe60b"
       },
       "description": "English light novels from LNORI.",
       "author": "Manatan Community",
@@ -1193,9 +1193,9 @@
     "id": "novelarchive",
     "packageId": "novelarchive",
     "name": "Novel Archive",
-    "versionName": "1.0.0",
-    "version": "1.0.0",
-    "versionCode": 1,
+    "versionName": "1.0.1",
+    "version": "1.0.1",
+    "versionCode": 2,
     "contentType": "novel",
     "media": "novel",
     "mediaKind": "novel",
@@ -1205,9 +1205,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/novel/en/novelarchive.manatan2",
     "packagePath": "packages/novel/en/novelarchive.manatan2",
-    "sha256": "d8285f7a6433f4e7f0d1ff9259c1c28c3ac5fef46054c568ad9e9db54bf56040",
-    "size": 605746,
-    "sizeBytes": 605746,
+    "sha256": "cd9d1587f38f7b7ea463036b1cbafe9f9c643cb13ded271d65db3f663f796820",
+    "size": 575389,
+    "sizeBytes": 575389,
     "iconUrl": "icons/novel/en/novelarchive.png",
     "sourceIds": [
       "novelarchive"
@@ -1218,7 +1218,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "1407c899e6e04d3deabd6633c99b877d656082182b172280a53f084d336ef636209193e397e2db8395c772ab7340a94b537f351141137ef7fe6d318bdbe7380e"
+      "signature": "483554c3a121cb234686735b17542609838ed5f5308c4073c8356360ebf5511b57912068bbca5f8bde8fb5749ade9508ff50d682cf723f79a005310ce8fb1d00"
     },
     "sources": [
       {
@@ -1271,15 +1271,15 @@
       "schemaVersion": 2,
       "id": "novelarchive",
       "name": "Novel Archive",
-      "version": "1.0.0",
-      "versionCode": 1,
+      "version": "1.0.1",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "novel",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "1407c899e6e04d3deabd6633c99b877d656082182b172280a53f084d336ef636209193e397e2db8395c772ab7340a94b537f351141137ef7fe6d318bdbe7380e"
+        "signature": "483554c3a121cb234686735b17542609838ed5f5308c4073c8356360ebf5511b57912068bbca5f8bde8fb5749ade9508ff50d682cf723f79a005310ce8fb1d00"
       },
       "description": "English web novels from Novel Archive.",
       "author": "Manatan Community",
@@ -1363,9 +1363,9 @@
     "id": "wtrlab",
     "packageId": "wtrlab",
     "name": "WTR-LAB",
-    "versionName": "1.0.1",
-    "version": "1.0.1",
-    "versionCode": 2,
+    "versionName": "1.0.2",
+    "version": "1.0.2",
+    "versionCode": 3,
     "contentType": "novel",
     "media": "novel",
     "mediaKind": "novel",
@@ -1375,9 +1375,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/novel/en/wtrlab.manatan2",
     "packagePath": "packages/novel/en/wtrlab.manatan2",
-    "sha256": "5116824b3c961503e85fd9ab90232a5735a68528855750ad04a6af83ba5dd6c8",
-    "size": 2249323,
-    "sizeBytes": 2249323,
+    "sha256": "b5b000e937e2eda2f24a266ee9ed0de6731623d9d3faebd622f6904cdacc7101",
+    "size": 2162006,
+    "sizeBytes": 2162006,
     "iconUrl": "icons/novel/en/wtrlab.png",
     "sourceIds": [
       "wtr-lab"
@@ -1388,7 +1388,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "ee18bac4addd3718fe1b2f6c2bbca1dfd8510cd8c2a8f2364a66c90456f33c3e50004f61a84290ae956728c487ad819ac5c1a382a29f399011983cff1567ce01"
+      "signature": "d53068f38bdbe67ffc406803424fefa21533718ea274376a0b6f464b71b68dd87f79be9d534530822f9f87f5643f1c632530df19765bcdd8aacfff76ffdbb30a"
     },
     "sources": [
       {
@@ -1441,15 +1441,15 @@
       "schemaVersion": 2,
       "id": "wtrlab",
       "name": "WTR-LAB",
-      "version": "1.0.1",
-      "versionCode": 2,
+      "version": "1.0.2",
+      "versionCode": 3,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "novel",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "ee18bac4addd3718fe1b2f6c2bbca1dfd8510cd8c2a8f2364a66c90456f33c3e50004f61a84290ae956728c487ad819ac5c1a382a29f399011983cff1567ce01"
+        "signature": "d53068f38bdbe67ffc406803424fefa21533718ea274376a0b6f464b71b68dd87f79be9d534530822f9f87f5643f1c632530df19765bcdd8aacfff76ffdbb30a"
       },
       "description": "Translated web novels from WTR-LAB.",
       "author": "Manatan Community",
@@ -1535,9 +1535,9 @@
     "id": "hameln",
     "packageId": "hameln",
     "name": "Hameln",
-    "versionName": "1.0.4",
-    "version": "1.0.4",
-    "versionCode": 5,
+    "versionName": "1.0.5",
+    "version": "1.0.5",
+    "versionCode": 6,
     "contentType": "novel",
     "media": "novel",
     "mediaKind": "novel",
@@ -1547,9 +1547,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/novel/ja/hameln.manatan2",
     "packagePath": "packages/novel/ja/hameln.manatan2",
-    "sha256": "999bbefbcb25aefd18483cbeb2cb38feba18af1f11843144eb24af3aae31ddae",
-    "size": 1306755,
-    "sizeBytes": 1306755,
+    "sha256": "e88af596d4d8665d09e51486ae8e67c959b9c70c780f07a299f886c04927020f",
+    "size": 1256239,
+    "sizeBytes": 1256239,
     "iconUrl": "icons/novel/ja/hameln.png",
     "sourceIds": [
       "hameln"
@@ -1560,7 +1560,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "b89cb287cc7c018f4c81d83f8a26285919c99a61ef42d537cfb236cd4d196f5744094f72340b5ebb45b5041a6eed6cfe336e3a2892860ee7cc80b3c1172b7607"
+      "signature": "1af484639785edf54368d865b7dacb01e6e2b2c3c3751387cfacbb59f5363ef187db0f10b414b3ff0fab514e8a9ae2115e8c88873218966be1ebb7c75f200c0e"
     },
     "sources": [
       {
@@ -1608,15 +1608,15 @@
       "schemaVersion": 2,
       "id": "hameln",
       "name": "Hameln",
-      "version": "1.0.4",
-      "versionCode": 5,
+      "version": "1.0.5",
+      "versionCode": 6,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "novel",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "b89cb287cc7c018f4c81d83f8a26285919c99a61ef42d537cfb236cd4d196f5744094f72340b5ebb45b5041a6eed6cfe336e3a2892860ee7cc80b3c1172b7607"
+        "signature": "1af484639785edf54368d865b7dacb01e6e2b2c3c3751387cfacbb59f5363ef187db0f10b414b3ff0fab514e8a9ae2115e8c88873218966be1ebb7c75f200c0e"
       },
       "description": "Japanese web novels and fan fiction from Hameln, with rankings, search, chapters, and bounded browser challenge recovery.",
       "author": "Manatan Community",
@@ -1698,9 +1698,9 @@
     "id": "kakuyomu",
     "packageId": "kakuyomu",
     "name": "kakuyomu",
-    "versionName": "1.0.7",
-    "version": "1.0.7",
-    "versionCode": 8,
+    "versionName": "1.0.8",
+    "version": "1.0.8",
+    "versionCode": 9,
     "contentType": "novel",
     "media": "novel",
     "mediaKind": "novel",
@@ -1710,9 +1710,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/novel/ja/kakuyomu.manatan2",
     "packagePath": "packages/novel/ja/kakuyomu.manatan2",
-    "sha256": "6c7204baefbdac7c5ca32382e9a4c0a86235e7ceac28df59eefe673b42830e4a",
-    "size": 1171737,
-    "sizeBytes": 1171737,
+    "sha256": "398ecbb666adf269d6591f990aa00d269e6583702c3864edca54693a04ea5868",
+    "size": 1169997,
+    "sizeBytes": 1169997,
     "iconUrl": "icons/novel/ja/kakuyomu.png",
     "sourceIds": [
       "kakuyomu"
@@ -1723,7 +1723,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "4f30b70af2845e48e2255410edaa0edd9181f0cabec1ce5b4d4d883f0ed9dae9d4242f32dbc381e3d71f6e74b4d2071710e18a26a77a4d9c024e587ac20ce206"
+      "signature": "b3cc7b5c93dd8ee43ff4073c655b8d2c0831600742d911e3ef53426e94456820c63e977225114b6115e209037475d172e4faa6766587ed7f2c202546019ae900"
     },
     "sources": [
       {
@@ -1768,15 +1768,15 @@
       "schemaVersion": 2,
       "id": "kakuyomu",
       "name": "kakuyomu",
-      "version": "1.0.7",
-      "versionCode": 8,
+      "version": "1.0.8",
+      "versionCode": 9,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "novel",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "4f30b70af2845e48e2255410edaa0edd9181f0cabec1ce5b4d4d883f0ed9dae9d4242f32dbc381e3d71f6e74b4d2071710e18a26a77a4d9c024e587ac20ce206"
+        "signature": "b3cc7b5c93dd8ee43ff4073c655b8d2c0831600742d911e3ef53426e94456820c63e977225114b6115e209037475d172e4faa6766587ed7f2c202546019ae900"
       },
       "description": "Japanese web novels from Kakuyomu.",
       "author": "Manatan Community",
@@ -1857,9 +1857,9 @@
     "id": "syosetu",
     "packageId": "syosetu",
     "name": "Syosetu",
-    "versionName": "1.1.6",
-    "version": "1.1.6",
-    "versionCode": 3,
+    "versionName": "1.1.7",
+    "version": "1.1.7",
+    "versionCode": 4,
     "contentType": "novel",
     "media": "novel",
     "mediaKind": "novel",
@@ -1869,9 +1869,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/novel/ja/syosetu.manatan2",
     "packagePath": "packages/novel/ja/syosetu.manatan2",
-    "sha256": "00194e929a13119f02385fb2cf4ca1385b0a2c9ef104fe2bf999f7a5774e4fc4",
-    "size": 1268311,
-    "sizeBytes": 1268311,
+    "sha256": "cda39a0ccaeae013379b3a6ec440d420c10ec23996e3480fbaffe430e19d7baa",
+    "size": 1220376,
+    "sizeBytes": 1220376,
     "iconUrl": "icons/novel/ja/syosetu.png",
     "sourceIds": [
       "yomou.syosetu"
@@ -1882,7 +1882,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "9148793e15a0ebe6a25892ddc8dee0bb2c0fb7619c9ebf9c5b54b4af67c5da454c600493814d678b27444616b47ce6bb0a435523d549cf6b4408938628accc07"
+      "signature": "c8d185537586753abc26496a83e7283c8704d02b57148594bcf4a6d53e052c10d090d5bfb3e5f02b624b359e3c60588e4ba87e0880e8e22c8dfe4657744b8807"
     },
     "sources": [
       {
@@ -1927,15 +1927,15 @@
       "schemaVersion": 2,
       "id": "syosetu",
       "name": "Syosetu",
-      "version": "1.1.6",
-      "versionCode": 3,
+      "version": "1.1.7",
+      "versionCode": 4,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "novel",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "9148793e15a0ebe6a25892ddc8dee0bb2c0fb7619c9ebf9c5b54b4af67c5da454c600493814d678b27444616b47ce6bb0a435523d549cf6b4408938628accc07"
+        "signature": "c8d185537586753abc26496a83e7283c8704d02b57148594bcf4a6d53e052c10d090d5bfb3e5f02b624b359e3c60588e4ba87e0880e8e22c8dfe4657744b8807"
       },
       "description": "Japanese web novels from Shosetsuka ni Naro.",
       "author": "Manatan Community",
@@ -2013,9 +2013,9 @@
     "id": "fucknovelpia-raw",
     "packageId": "fucknovelpia-raw",
     "name": "FuckNovelpia RAW",
-    "versionName": "1.2.0",
-    "version": "1.2.0",
-    "versionCode": 3,
+    "versionName": "1.2.1",
+    "version": "1.2.1",
+    "versionCode": 4,
     "contentType": "novel",
     "media": "novel",
     "mediaKind": "novel",
@@ -2025,9 +2025,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/novel/ko/fucknovelpia-raw.manatan2",
     "packagePath": "packages/novel/ko/fucknovelpia-raw.manatan2",
-    "sha256": "f3796cbf2800f9fa5f26065ff515391bc485a4983f855a2f24c205f5b01c8a5b",
-    "size": 2326456,
-    "sizeBytes": 2326456,
+    "sha256": "c2dc3aef86a513bde1a03c79d2530173ceed0f653882660b1b376558d664a9d7",
+    "size": 2242489,
+    "sizeBytes": 2242489,
     "iconUrl": null,
     "sourceIds": [
       "fucknovelpia-raw"
@@ -2038,7 +2038,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "7dc78bd7f952ec2d8252e5ce997db01fae07bb67b84c727328a9ccd04e9801e55df022d799f1096a9f08fdc910a314cc4be19316b6f8758beb471d3254bbf60e"
+      "signature": "9c9a20380d4f267cf41b994181341c3db330f9fe62ea87416676e9ab81ff8dc6e0b9e2a2b6fd01c5c2dd30afafd49b68b4a7d33a6c7b4dadaeb866c05bcdb103"
     },
     "sources": [
       {
@@ -2093,15 +2093,15 @@
       "schemaVersion": 2,
       "id": "fucknovelpia-raw",
       "name": "FuckNovelpia RAW",
-      "version": "1.2.0",
-      "versionCode": 3,
+      "version": "1.2.1",
+      "versionCode": 4,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "novel",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "7dc78bd7f952ec2d8252e5ce997db01fae07bb67b84c727328a9ccd04e9801e55df022d799f1096a9f08fdc910a314cc4be19316b6f8758beb471d3254bbf60e"
+        "signature": "9c9a20380d4f267cf41b994181341c3db330f9fe62ea87416676e9ab81ff8dc6e0b9e2a2b6fd01c5c2dd30afafd49b68b4a7d33a6c7b4dadaeb866c05bcdb103"
       },
       "description": "Korean original novels from FuckNovelpia RAW with automatic EPUB download and decryption.",
       "author": "Manatan Community",
@@ -2182,9 +2182,9 @@
     "id": "shuba69",
     "packageId": "shuba69",
     "name": "69书吧",
-    "versionName": "1.0.0",
-    "version": "1.0.0",
-    "versionCode": 1,
+    "versionName": "1.0.1",
+    "version": "1.0.1",
+    "versionCode": 2,
     "contentType": "novel",
     "media": "novel",
     "mediaKind": "novel",
@@ -2194,9 +2194,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/novel/zh/shuba69.manatan2",
     "packagePath": "packages/novel/zh/shuba69.manatan2",
-    "sha256": "f1d3827d9fd6e4e97f2ff4d097b4a423534d95b584f77afb75fa00937ed601c2",
-    "size": 2208036,
-    "sizeBytes": 2208036,
+    "sha256": "ba2950bc64f778d6b7413d5cc97e9ec9f095a6bdc07982aa6e4db2a74168c97c",
+    "size": 2123929,
+    "sizeBytes": 2123929,
     "iconUrl": "icons/novel/zh/shuba69.png",
     "sourceIds": [
       "shuba69"
@@ -2207,7 +2207,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "717abc208102ed5b5e5ebf0aa5628b229bfb041cfa2ff9e3ef8cc70e5734351f716cb329f031b1c050d2f550e4ab7d3e3fa1a38e73b8813847239cd6aa047204"
+      "signature": "7fc64b65803947e310ea0d411846b6c1321ced00d2fa2c684003cf99ed32d84162465dcde148cce5c0d5534ce35afdd4b05b3db45e4bfd013035edfd5b86a405"
     },
     "sources": [
       {
@@ -2264,15 +2264,15 @@
       "schemaVersion": 2,
       "id": "shuba69",
       "name": "69书吧",
-      "version": "1.0.0",
-      "versionCode": 1,
+      "version": "1.0.1",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "novel",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "717abc208102ed5b5e5ebf0aa5628b229bfb041cfa2ff9e3ef8cc70e5734351f716cb329f031b1c050d2f550e4ab7d3e3fa1a38e73b8813847239cd6aa047204"
+        "signature": "7fc64b65803947e310ea0d411846b6c1321ced00d2fa2c684003cf99ed32d84162465dcde148cce5c0d5534ce35afdd4b05b3db45e4bfd013035edfd5b86a405"
       },
       "description": "Chinese web novels from 69书吧.",
       "author": "Manatan Community",
