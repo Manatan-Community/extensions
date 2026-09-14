@@ -333,9 +333,9 @@
     "id": "witanime",
     "packageId": "witanime",
     "name": "WIT ANIME",
-    "versionName": "0.1.0",
-    "version": "0.1.0",
-    "versionCode": 1,
+    "versionName": "0.1.1",
+    "version": "0.1.1",
+    "versionCode": 2,
     "contentType": "video",
     "media": "video",
     "mediaKind": "video",
@@ -345,9 +345,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/video/ar/witanime.manatan2",
     "packagePath": "packages/video/ar/witanime.manatan2",
-    "sha256": "f0e9de6965fcf69c9c5dc37d1bb67632075bfedaa26dbe5e05144730107ea3ff",
-    "size": 2336199,
-    "sizeBytes": 2336199,
+    "sha256": "3ddda7a319720e69ff463d58e0d33377362d50e4cd56a473a714a58f902f6507",
+    "size": 2259922,
+    "sizeBytes": 2259922,
     "iconUrl": "icons/video/ar/witanime.png",
     "sourceIds": [
       "witanime"
@@ -358,7 +358,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "7ac218af8e53743368fd8bb9f78a06179ff7cb30eefcad9eda0a18afbcaa5494480c2fdf5aaa20ae1ef1b57088d1e2968080dd71277588927b1fe2d8d80f680e"
+      "signature": "5d1598e3cffdddc98d365d6bdd3d352146acac34d30659a9250e1a9688c4e5b8a1505e302c4aeec1669ff20824d7feb7fbbd5a76a6e52c26b2dbb483e514d203"
     },
     "sources": [
       {
@@ -414,15 +414,15 @@
       "schemaVersion": 2,
       "id": "witanime",
       "name": "WIT ANIME",
-      "version": "0.1.0",
-      "versionCode": 1,
+      "version": "0.1.1",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "video",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "7ac218af8e53743368fd8bb9f78a06179ff7cb30eefcad9eda0a18afbcaa5494480c2fdf5aaa20ae1ef1b57088d1e2968080dd71277588927b1fe2d8d80f680e"
+        "signature": "5d1598e3cffdddc98d365d6bdd3d352146acac34d30659a9250e1a9688c4e5b8a1505e302c4aeec1669ff20824d7feb7fbbd5a76a6e52c26b2dbb483e514d203"
       },
       "description": "Arabic-subtitled anime from WIT ANIME.",
       "author": "Manatan Community",
@@ -445,6 +445,10 @@
             "https://*.hgcloud.to",
             "https://audinifer.com",
             "https://*.audinifer.com",
+            "https://dotplay.net",
+            "https://*.dotplay.net",
+            "https://archive.org",
+            "https://*.archive.org",
             "https://*.tiktokcdn.com",
             "https://mega.nz",
             "https://www.4shared.com",
