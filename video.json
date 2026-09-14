@@ -1317,9 +1317,9 @@
     "id": "shuttletv",
     "packageId": "shuttletv",
     "name": "ShuttleTV",
-    "versionName": "0.1.1",
-    "version": "0.1.1",
-    "versionCode": 2,
+    "versionName": "0.1.2",
+    "version": "0.1.2",
+    "versionCode": 3,
     "contentType": "video",
     "media": "video",
     "mediaKind": "video",
@@ -1329,9 +1329,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/video/en/shuttletv.manatan2",
     "packagePath": "packages/video/en/shuttletv.manatan2",
-    "sha256": "f804c3f6fc9ba7767275a6d7d08e1b13a59931bbb8df6d176fd62913c114b63d",
-    "size": 682356,
-    "sizeBytes": 682356,
+    "sha256": "700cc81b8869f1174a226cb4ea717e62639a2ed218ac9317610841bf8b25294e",
+    "size": 682293,
+    "sizeBytes": 682293,
     "iconUrl": "icons/video/en/shuttletv.png",
     "sourceIds": [
       "shuttletv"
@@ -1342,7 +1342,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "ae0e903c549b769a980dd88d60f50131512760d6dc84a5513e521d0ce4a7773c85220969de99832bab10d349360a9091efc5bb225f36b8d6d0875e9f10bcbe0d"
+      "signature": "51f1f39c71624224281712c8ef14c2dd52452c4c5ff4d547bfe80fe4f0205f3d9634d284414ca6b78a04161eba64455a5002d279d09f4f5adab38874f0a51d08"
     },
     "sources": [
       {
@@ -1398,15 +1398,15 @@
       "schemaVersion": 2,
       "id": "shuttletv",
       "name": "ShuttleTV",
-      "version": "0.1.1",
-      "versionCode": 2,
+      "version": "0.1.2",
+      "versionCode": 3,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "video",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "ae0e903c549b769a980dd88d60f50131512760d6dc84a5513e521d0ce4a7773c85220969de99832bab10d349360a9091efc5bb225f36b8d6d0875e9f10bcbe0d"
+        "signature": "51f1f39c71624224281712c8ef14c2dd52452c4c5ff4d547bfe80fe4f0205f3d9634d284414ca6b78a04161eba64455a5002d279d09f4f5adab38874f0a51d08"
       },
       "description": "Movies and television from ShuttleTV.",
       "author": "Manatan Community",
