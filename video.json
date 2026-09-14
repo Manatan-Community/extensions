@@ -163,9 +163,9 @@
     "id": "anizone",
     "packageId": "anizone",
     "name": "AniZone",
-    "versionName": "0.1.0",
-    "version": "0.1.0",
-    "versionCode": 1,
+    "versionName": "0.1.1",
+    "version": "0.1.1",
+    "versionCode": 2,
     "contentType": "video",
     "media": "video",
     "mediaKind": "video",
@@ -175,9 +175,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/video/all/anizone.manatan2",
     "packagePath": "packages/video/all/anizone.manatan2",
-    "sha256": "abcb2a1d6a84bb90db0085e73e6328860a7c27cf728ff7becf7c5fa72c364ae8",
-    "size": 2308011,
-    "sizeBytes": 2308011,
+    "sha256": "d9a2d34ee4dc8565052eae788149181b2d39ba36838ff8ca7544118b0975e158",
+    "size": 2236032,
+    "sizeBytes": 2236032,
     "iconUrl": "icons/video/all/anizone.png",
     "sourceIds": [
       "anizone"
@@ -188,7 +188,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "7d711881ae9061f1dfb266cd831afc93946f6bc7c4a3cc7e877aeae7c968f23c6f90bcafe2d29b4fa45784d54e921ee5111457b0813c7ed3e5a1aeaa6ce89c06"
+      "signature": "ac7883b2b45d19f086c55bb81a58baaf869dcf94098cf686fcef90dc0c0292c28d3ab0436b7ea8a0a77fe734e40d7deaa2d11bc12081dca6f27bc9e97ae8e304"
     },
     "sources": [
       {
@@ -240,15 +240,15 @@
       "schemaVersion": 2,
       "id": "anizone",
       "name": "AniZone",
-      "version": "0.1.0",
-      "versionCode": 1,
+      "version": "0.1.1",
+      "versionCode": 2,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "video",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "7d711881ae9061f1dfb266cd831afc93946f6bc7c4a3cc7e877aeae7c968f23c6f90bcafe2d29b4fa45784d54e921ee5111457b0813c7ed3e5a1aeaa6ce89c06"
+        "signature": "ac7883b2b45d19f086c55bb81a58baaf869dcf94098cf686fcef90dc0c0292c28d3ab0436b7ea8a0a77fe734e40d7deaa2d11bc12081dca6f27bc9e97ae8e304"
       },
       "description": "All-language anime catalog, subtitles, and streams from AniZone with enforced safe-search filtering.",
       "author": "Manatan Community",
