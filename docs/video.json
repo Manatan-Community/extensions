@@ -528,9 +528,9 @@
     "id": "anikoto",
     "packageId": "anikoto",
     "name": "Anikoto",
-    "versionName": "0.1.8",
-    "version": "0.1.8",
-    "versionCode": 8,
+    "versionName": "0.1.9",
+    "version": "0.1.9",
+    "versionCode": 9,
     "contentType": "video",
     "media": "video",
     "mediaKind": "video",
@@ -540,9 +540,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/video/en/anikoto.manatan2",
     "packagePath": "packages/video/en/anikoto.manatan2",
-    "sha256": "f6696449b212b9d0ed22a8be467a68e3f4b6d619d58a0ce54b5ccd76a754a905",
-    "size": 2329133,
-    "sizeBytes": 2329133,
+    "sha256": "42376525486e9bb678c158e9506a8cae853134bf893a16cc7de124828ee796ff",
+    "size": 2329223,
+    "sizeBytes": 2329223,
     "iconUrl": "icons/video/en/anikoto.png",
     "sourceIds": [
       "anikoto"
@@ -553,7 +553,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "22a13f5ae533a7bb62724d5f7d4ab20666ddf517a498945e798efd342dfebd22ded606b04781bc2320901e57712960d6270d056760275869f10ede5d46165e07"
+      "signature": "c19bcdb2df23b5815e0bbd5c62fce0fd0bf3277c573f07de75e3e5cdf646f590929196d1a63c88bd81c46753935bdfe4f491b8e16aaa518d8901cba8301ff50e"
     },
     "sources": [
       {
@@ -604,15 +604,15 @@
       "schemaVersion": 2,
       "id": "anikoto",
       "name": "Anikoto",
-      "version": "0.1.8",
-      "versionCode": 8,
+      "version": "0.1.9",
+      "versionCode": 9,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "video",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "22a13f5ae533a7bb62724d5f7d4ab20666ddf517a498945e798efd342dfebd22ded606b04781bc2320901e57712960d6270d056760275869f10ede5d46165e07"
+        "signature": "c19bcdb2df23b5815e0bbd5c62fce0fd0bf3277c573f07de75e3e5cdf646f590929196d1a63c88bd81c46753935bdfe4f491b8e16aaa518d8901cba8301ff50e"
       },
       "description": "English anime catalog and streams from Anikoto.",
       "author": "Manatan Community",
@@ -654,6 +654,8 @@
             "https://vidtube.site",
             "https://megaplay.buzz",
             "https://*.qeltrix.top",
+            "https://*.vyrnex.top",
+            "https://*.tyrionx.top",
             "https://*.nexabloom.top",
             "https://*.quavex.top",
             "https://*.streamzone1.site",
@@ -731,9 +733,9 @@
     "id": "aniwave",
     "packageId": "aniwave",
     "name": "AniWave (Unoriginal)",
-    "versionName": "0.1.9",
-    "version": "0.1.9",
-    "versionCode": 10,
+    "versionName": "0.2.0",
+    "version": "0.2.0",
+    "versionCode": 11,
     "contentType": "video",
     "media": "video",
     "mediaKind": "video",
@@ -743,9 +745,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/video/en/aniwave.manatan2",
     "packagePath": "packages/video/en/aniwave.manatan2",
-    "sha256": "8170ad4ced0f724e007d600e94ec53ec8f0342b605e4a2954e4453f2f07778a5",
-    "size": 2327790,
-    "sizeBytes": 2327790,
+    "sha256": "e271cb069bc4179ee38e9724ed3197b41405665a4bcf9e429d4800de6d4d2370",
+    "size": 2327879,
+    "sizeBytes": 2327879,
     "iconUrl": "icons/video/en/aniwave.png",
     "sourceIds": [
       "aniwave"
@@ -756,7 +758,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "49c69150c928c39fe49a22771b3f1a5e6bf591850092568cf22520e45d9c1cfff00b622ac0b876982226507e95aebae6c624ece370b430568a8521ca9372d80c"
+      "signature": "154f681c6f01246d7cf581f29b2e809c46cf2c510dbfb97050f7b1e3e1c21b1d5a312b133c24dcacacc7454663889bc05b399c30610fa8691c53811d481ae10b"
     },
     "sources": [
       {
@@ -811,15 +813,15 @@
       "schemaVersion": 2,
       "id": "aniwave",
       "name": "AniWave (Unoriginal)",
-      "version": "0.1.9",
-      "versionCode": 10,
+      "version": "0.2.0",
+      "versionCode": 11,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "video",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "49c69150c928c39fe49a22771b3f1a5e6bf591850092568cf22520e45d9c1cfff00b622ac0b876982226507e95aebae6c624ece370b430568a8521ca9372d80c"
+        "signature": "154f681c6f01246d7cf581f29b2e809c46cf2c510dbfb97050f7b1e3e1c21b1d5a312b133c24dcacacc7454663889bc05b399c30610fa8691c53811d481ae10b"
       },
       "description": "English anime catalog and streams from AniWave.",
       "author": "Manatan Community",
@@ -860,6 +862,8 @@
             "https://vidtube.site",
             "https://megaplay.buzz",
             "https://*.qeltrix.top",
+            "https://*.vyrnex.top",
+            "https://*.tyrionx.top",
             "https://*.nexabloom.top",
             "https://*.quavex.top",
             "https://*.streamzone1.site",
