@@ -5065,6 +5065,206 @@
   },
   {
     "schemaVersion": 2,
+    "pkgName": "manatan:nekoraw",
+    "id": "nekoraw",
+    "packageId": "nekoraw",
+    "name": "KuroNavi",
+    "versionName": "1.1.0",
+    "version": "1.1.0",
+    "versionCode": 3,
+    "contentType": "manga",
+    "media": "manga",
+    "mediaKind": "manga",
+    "lang": "ja",
+    "language": "ja",
+    "contentRating": "adult",
+    "extensionType": "manatan2",
+    "packageUrl": "packages/manga/ja/nekoraw.manatan2",
+    "packagePath": "packages/manga/ja/nekoraw.manatan2",
+    "sha256": "de7d6b47ec984b92714c393c6e8ee8261238d3cdfbb6ec44f63d19956c600515",
+    "size": 1102454,
+    "sizeBytes": 1102454,
+    "iconUrl": "icons/manga/ja/nekoraw.png",
+    "sourceIds": [
+      "nekoraw"
+    ],
+    "sourceNames": [
+      "KuroNavi"
+    ],
+    "publisher": {
+      "id": "org.manatan.community.extensions",
+      "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+      "signature": "326d2c38bac686f705e2da0d7384cce75edbea613d3279ccb602b77b0f2473000dafd50cf1ea795328c5d4fd5e6a8a55402c3d0bf20b7cd4c7bd570c5b975006"
+    },
+    "sources": [
+      {
+        "id": "nekoraw",
+        "name": "KuroNavi",
+        "lang": "ja",
+        "contentType": "manga",
+        "baseUrl": "https://kuronavi.one",
+        "contentRating": "adult",
+        "capabilities": {
+          "operations": [],
+          "search": true,
+          "latest": true,
+          "filters": true,
+          "preferences": false,
+          "home": false,
+          "hosterResolution": false,
+          "seasons": false,
+          "urlResolution": true,
+          "chapterPagination": false,
+          "pageProcessing": false,
+          "mediaProcessing": false,
+          "authentication": false,
+          "unmetered": false
+        },
+        "listings": [
+          {
+            "id": "popular",
+            "name": "Popular"
+          },
+          {
+            "id": "latest",
+            "name": "Latest"
+          },
+          {
+            "id": "top",
+            "name": "Top"
+          }
+        ],
+        "urlPatterns": [
+          {
+            "pattern": "https://kuronavi.one/manga/*",
+            "kind": "item-or-chapter"
+          },
+          {
+            "pattern": "https://comiraw.net/manga/*",
+            "kind": "item-or-chapter"
+          },
+          {
+            "pattern": "https://nekoraw.blog/manga/*",
+            "kind": "item-or-chapter"
+          }
+        ],
+        "tags": [
+          "standalone",
+          "html"
+        ]
+      }
+    ],
+    "manifest": {
+      "schemaVersion": 2,
+      "id": "nekoraw",
+      "name": "KuroNavi",
+      "version": "1.1.0",
+      "versionCode": 3,
+      "apiVersion": 2,
+      "wasm": "extension.wasm",
+      "contentType": "manga",
+      "publisher": {
+        "id": "org.manatan.community.extensions",
+        "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+        "signature": "326d2c38bac686f705e2da0d7384cce75edbea613d3279ccb602b77b0f2473000dafd50cf1ea795328c5d4fd5e6a8a55402c3d0bf20b7cd4c7bd570c5b975006"
+      },
+      "description": "Japanese raw manga from KuroNavi.",
+      "author": "Manatan Community",
+      "homepage": "https://kuronavi.one",
+      "repository": "https://github.com/Manatan-Community/extensions-source",
+      "license": "Apache-2.0",
+      "icon": "assets/icon.png",
+      "minimumManatanVersion": null,
+      "permissions": {
+        "network": {
+          "allow": [
+            "https://kuronavi.one",
+            "https://admin.mangarawad.vip",
+            "https://admin.mangarawad.beer",
+            "https://admin.mangarawad.diy",
+            "https://admin.raw18.pro",
+            "https://admin.raw18.icu",
+            "https://admin.raw18.world",
+            "https://admin.hakiraw.net",
+            "https://iphotomg.com"
+          ]
+        },
+        "webview": false,
+        "cookies": true,
+        "storage": false,
+        "assets": false,
+        "javascript": false,
+        "services": []
+      },
+      "assets": [
+        {
+          "path": "assets/icon.png",
+          "mimeType": "image/png",
+          "sha256": "6c77d7c74ea79ec76de647430e392cbeb8e3fea0cb4e8bfcbd528c64abd18c8f"
+        }
+      ],
+      "sources": [
+        {
+          "id": "nekoraw",
+          "name": "KuroNavi",
+          "lang": "ja",
+          "contentType": "manga",
+          "baseUrl": "https://kuronavi.one",
+          "contentRating": "adult",
+          "capabilities": {
+            "operations": [],
+            "search": true,
+            "latest": true,
+            "filters": true,
+            "preferences": false,
+            "home": false,
+            "hosterResolution": false,
+            "seasons": false,
+            "urlResolution": true,
+            "chapterPagination": false,
+            "pageProcessing": false,
+            "mediaProcessing": false,
+            "authentication": false,
+            "unmetered": false
+          },
+          "listings": [
+            {
+              "id": "popular",
+              "name": "Popular"
+            },
+            {
+              "id": "latest",
+              "name": "Latest"
+            },
+            {
+              "id": "top",
+              "name": "Top"
+            }
+          ],
+          "urlPatterns": [
+            {
+              "pattern": "https://kuronavi.one/manga/*",
+              "kind": "item-or-chapter"
+            },
+            {
+              "pattern": "https://comiraw.net/manga/*",
+              "kind": "item-or-chapter"
+            },
+            {
+              "pattern": "https://nekoraw.blog/manga/*",
+              "kind": "item-or-chapter"
+            }
+          ],
+          "tags": [
+            "standalone",
+            "html"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "schemaVersion": 2,
     "pkgName": "manatan:lnori",
     "id": "lnori",
     "packageId": "lnori",
@@ -13273,202 +13473,6 @@
             "remote-cbz",
             "range-requests",
             "ocr"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "schemaVersion": 2,
-    "pkgName": "manatan:nekoraw",
-    "id": "nekoraw",
-    "packageId": "nekoraw",
-    "name": "Nekoraw",
-    "versionName": "1.0.1",
-    "version": "1.0.1",
-    "versionCode": 2,
-    "contentType": "manga",
-    "media": "manga",
-    "mediaKind": "manga",
-    "lang": "ja",
-    "language": "ja",
-    "contentRating": "adult",
-    "extensionType": "manatan2",
-    "packageUrl": "packages/manga/ja/nekoraw.manatan2",
-    "packagePath": "packages/manga/ja/nekoraw.manatan2",
-    "sha256": "0e1f4b75178ec3bc79686f402e8ae79562a87cc670f96821d71b9bf90e9a94cb",
-    "size": 1108335,
-    "sizeBytes": 1108335,
-    "iconUrl": "icons/manga/ja/nekoraw.png",
-    "sourceIds": [
-      "nekoraw"
-    ],
-    "sourceNames": [
-      "Nekoraw"
-    ],
-    "publisher": {
-      "id": "org.manatan.community.extensions",
-      "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "a0ef3b262b465514f1ac6a41db017a66b46a79352fb734623f941e5e57da373450c63c368083f17bca5e05710c4f7c68e0fdbc8676414e3436d74ea881486f00"
-    },
-    "sources": [
-      {
-        "id": "nekoraw",
-        "name": "Nekoraw",
-        "lang": "ja",
-        "contentType": "manga",
-        "baseUrl": "https://kuronavi.one",
-        "contentRating": "adult",
-        "capabilities": {
-          "operations": [],
-          "search": true,
-          "latest": true,
-          "filters": true,
-          "preferences": false,
-          "home": false,
-          "hosterResolution": false,
-          "seasons": false,
-          "urlResolution": true,
-          "chapterPagination": false,
-          "pageProcessing": false,
-          "mediaProcessing": false,
-          "authentication": false,
-          "unmetered": false
-        },
-        "listings": [
-          {
-            "id": "popular",
-            "name": "Popular"
-          },
-          {
-            "id": "latest",
-            "name": "Latest"
-          },
-          {
-            "id": "top",
-            "name": "Top"
-          }
-        ],
-        "urlPatterns": [
-          {
-            "pattern": "https://kuronavi.one/manga/*",
-            "kind": "item-or-chapter"
-          },
-          {
-            "pattern": "https://comiraw.net/manga/*",
-            "kind": "item-or-chapter"
-          },
-          {
-            "pattern": "https://nekoraw.blog/manga/*",
-            "kind": "item-or-chapter"
-          }
-        ],
-        "tags": [
-          "standalone",
-          "html"
-        ]
-      }
-    ],
-    "manifest": {
-      "schemaVersion": 2,
-      "id": "nekoraw",
-      "name": "Nekoraw",
-      "version": "1.0.1",
-      "versionCode": 2,
-      "apiVersion": 2,
-      "wasm": "extension.wasm",
-      "contentType": "manga",
-      "publisher": {
-        "id": "org.manatan.community.extensions",
-        "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "a0ef3b262b465514f1ac6a41db017a66b46a79352fb734623f941e5e57da373450c63c368083f17bca5e05710c4f7c68e0fdbc8676414e3436d74ea881486f00"
-      },
-      "description": "Japanese raw manga from NekoRaw's current Kuronavi site.",
-      "author": "Manatan Community",
-      "homepage": "https://kuronavi.one",
-      "repository": "https://github.com/Manatan-Community/extensions-source",
-      "license": "Apache-2.0",
-      "icon": "assets/icon.png",
-      "minimumManatanVersion": null,
-      "permissions": {
-        "network": {
-          "allow": [
-            "https://kuronavi.one",
-            "https://admin.mangarawad.vip",
-            "https://admin.raw18.pro",
-            "https://admin.hakiraw.net",
-            "https://iphotomg.com"
-          ]
-        },
-        "webview": false,
-        "cookies": true,
-        "storage": false,
-        "assets": false,
-        "javascript": false,
-        "services": []
-      },
-      "assets": [
-        {
-          "path": "assets/icon.png",
-          "mimeType": "image/png",
-          "sha256": "16e49143efada6f3a00ab54e882ce164562e7f595fe78778615044f8972fb35e"
-        }
-      ],
-      "sources": [
-        {
-          "id": "nekoraw",
-          "name": "Nekoraw",
-          "lang": "ja",
-          "contentType": "manga",
-          "baseUrl": "https://kuronavi.one",
-          "contentRating": "adult",
-          "capabilities": {
-            "operations": [],
-            "search": true,
-            "latest": true,
-            "filters": true,
-            "preferences": false,
-            "home": false,
-            "hosterResolution": false,
-            "seasons": false,
-            "urlResolution": true,
-            "chapterPagination": false,
-            "pageProcessing": false,
-            "mediaProcessing": false,
-            "authentication": false,
-            "unmetered": false
-          },
-          "listings": [
-            {
-              "id": "popular",
-              "name": "Popular"
-            },
-            {
-              "id": "latest",
-              "name": "Latest"
-            },
-            {
-              "id": "top",
-              "name": "Top"
-            }
-          ],
-          "urlPatterns": [
-            {
-              "pattern": "https://kuronavi.one/manga/*",
-              "kind": "item-or-chapter"
-            },
-            {
-              "pattern": "https://comiraw.net/manga/*",
-              "kind": "item-or-chapter"
-            },
-            {
-              "pattern": "https://nekoraw.blog/manga/*",
-              "kind": "item-or-chapter"
-            }
-          ],
-          "tags": [
-            "standalone",
-            "html"
           ]
         }
       ]
