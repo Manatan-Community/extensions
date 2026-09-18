@@ -353,9 +353,9 @@
     "id": "aniwave",
     "packageId": "aniwave",
     "name": "AniWave (Unoriginal)",
-    "versionName": "0.2.0",
-    "version": "0.2.0",
-    "versionCode": 11,
+    "versionName": "0.2.1",
+    "version": "0.2.1",
+    "versionCode": 12,
     "contentType": "video",
     "media": "video",
     "mediaKind": "video",
@@ -365,9 +365,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/video/en/aniwave.manatan2",
     "packagePath": "packages/video/en/aniwave.manatan2",
-    "sha256": "e271cb069bc4179ee38e9724ed3197b41405665a4bcf9e429d4800de6d4d2370",
-    "size": 2327879,
-    "sizeBytes": 2327879,
+    "sha256": "60119aa903092895fc8319782e6ea28398cfb118944d76ad108d8c49e8cc318a",
+    "size": 2328105,
+    "sizeBytes": 2328105,
     "iconUrl": "icons/video/en/aniwave.png",
     "sourceIds": [
       "aniwave"
@@ -378,7 +378,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "154f681c6f01246d7cf581f29b2e809c46cf2c510dbfb97050f7b1e3e1c21b1d5a312b133c24dcacacc7454663889bc05b399c30610fa8691c53811d481ae10b"
+      "signature": "d058bf332c684707921bb178654d7cd8597bfc92df06e6b3d2f737b73c2d3818b32e0a0c08e95cba9663f49043d65766dcfce930950975fcf23b061c26d92b02"
     },
     "sources": [
       {
@@ -433,15 +433,15 @@
       "schemaVersion": 2,
       "id": "aniwave",
       "name": "AniWave (Unoriginal)",
-      "version": "0.2.0",
-      "versionCode": 11,
+      "version": "0.2.1",
+      "versionCode": 12,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "video",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "154f681c6f01246d7cf581f29b2e809c46cf2c510dbfb97050f7b1e3e1c21b1d5a312b133c24dcacacc7454663889bc05b399c30610fa8691c53811d481ae10b"
+        "signature": "d058bf332c684707921bb178654d7cd8597bfc92df06e6b3d2f737b73c2d3818b32e0a0c08e95cba9663f49043d65766dcfce930950975fcf23b061c26d92b02"
       },
       "description": "English anime catalog and streams from AniWave.",
       "author": "Manatan Community",
@@ -735,9 +735,9 @@
     "id": "anikoto",
     "packageId": "anikoto",
     "name": "Anikoto",
-    "versionName": "0.1.9",
-    "version": "0.1.9",
-    "versionCode": 9,
+    "versionName": "0.1.10",
+    "version": "0.1.10",
+    "versionCode": 10,
     "contentType": "video",
     "media": "video",
     "mediaKind": "video",
@@ -747,9 +747,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/video/en/anikoto.manatan2",
     "packagePath": "packages/video/en/anikoto.manatan2",
-    "sha256": "42376525486e9bb678c158e9506a8cae853134bf893a16cc7de124828ee796ff",
-    "size": 2329223,
-    "sizeBytes": 2329223,
+    "sha256": "85d9539b1dac9730656dbd0c90649cb9de536361b8f95ddf4be1bfb55a0dffbc",
+    "size": 2329445,
+    "sizeBytes": 2329445,
     "iconUrl": "icons/video/en/anikoto.png",
     "sourceIds": [
       "anikoto"
@@ -760,7 +760,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "c19bcdb2df23b5815e0bbd5c62fce0fd0bf3277c573f07de75e3e5cdf646f590929196d1a63c88bd81c46753935bdfe4f491b8e16aaa518d8901cba8301ff50e"
+      "signature": "7d01dacef1149b7b32167c0d92a1c408452f98b05ea8b2bc6d186ade9b005a9b3c15e49c6067e838c9fa4e72e341a80381ebad35eef2a77e8be0e1ff9c3cce01"
     },
     "sources": [
       {
@@ -811,15 +811,15 @@
       "schemaVersion": 2,
       "id": "anikoto",
       "name": "Anikoto",
-      "version": "0.1.9",
-      "versionCode": 9,
+      "version": "0.1.10",
+      "versionCode": 10,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "video",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "c19bcdb2df23b5815e0bbd5c62fce0fd0bf3277c573f07de75e3e5cdf646f590929196d1a63c88bd81c46753935bdfe4f491b8e16aaa518d8901cba8301ff50e"
+        "signature": "7d01dacef1149b7b32167c0d92a1c408452f98b05ea8b2bc6d186ade9b005a9b3c15e49c6067e838c9fa4e72e341a80381ebad35eef2a77e8be0e1ff9c3cce01"
       },
       "description": "English anime catalog and streams from Anikoto.",
       "author": "Manatan Community",
