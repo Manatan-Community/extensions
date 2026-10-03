@@ -2425,9 +2425,9 @@
     "id": "mangadex",
     "packageId": "mangadex",
     "name": "MangaDex",
-    "versionName": "1.1.1",
-    "version": "1.1.1",
-    "versionCode": 3,
+    "versionName": "1.1.2",
+    "version": "1.1.2",
+    "versionCode": 4,
     "contentType": "manga",
     "media": "manga",
     "mediaKind": "manga",
@@ -2437,10 +2437,10 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/manga/all/mangadex.manatan2",
     "packagePath": "packages/manga/all/mangadex.manatan2",
-    "sha256": "5f007bae2d12c2b1be334079fa34cf02edca439215c450a5c5b1ffaacee2ee63",
-    "size": 620757,
-    "sizeBytes": 620757,
-    "iconUrl": null,
+    "sha256": "ea95cd4a99f0cf45933d7630cf6eb45ac6ac4865367a006b8c019a1f0d5d525c",
+    "size": 625461,
+    "sizeBytes": 625461,
+    "iconUrl": "icons/manga/all/mangadex.png",
     "sourceIds": [
       "mangadex-af",
       "mangadex-sq",
@@ -2570,7 +2570,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "8b777190b077c0371cf9a03af3ef6f7ae05c64370520f1b3c50fd9f3d4253e1d0f8f48d396312f980c1b46945760624c649fee4d21d90d4ee26388494b899403"
+      "signature": "0bbf3241c866d2f460e9e7b82efab01eb72194024f29b79f67d5f39102e073e11254b534372719a00b753bc07a8d89c49f60dd3bcce5e1ae5318b90fa19e5c01"
     },
     "sources": [
       {
@@ -6055,22 +6055,22 @@
       "schemaVersion": 2,
       "id": "mangadex",
       "name": "MangaDex",
-      "version": "1.1.1",
-      "versionCode": 3,
+      "version": "1.1.2",
+      "versionCode": 4,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "manga",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "8b777190b077c0371cf9a03af3ef6f7ae05c64370520f1b3c50fd9f3d4253e1d0f8f48d396312f980c1b46945760624c649fee4d21d90d4ee26388494b899403"
+        "signature": "0bbf3241c866d2f460e9e7b82efab01eb72194024f29b79f67d5f39102e073e11254b534372719a00b753bc07a8d89c49f60dd3bcce5e1ae5318b90fa19e5c01"
       },
       "description": "MangaDex language-specific sources through its public API, restricted to safe and suggestive titles.",
       "author": "Manatan Community",
       "homepage": "https://mangadex.org",
       "repository": "https://github.com/Manatan-Community/extensions-source",
       "license": "Apache-2.0",
-      "icon": null,
+      "icon": "assets/icon.png",
       "minimumManatanVersion": null,
       "permissions": {
         "network": {
@@ -6089,7 +6089,13 @@
         "javascript": false,
         "services": []
       },
-      "assets": [],
+      "assets": [
+        {
+          "path": "assets/icon.png",
+          "mimeType": "image/png",
+          "sha256": "f1b6671a004b58704cca4cad107dc1d79413e31812f7f116815e49a31dc2db13"
+        }
+      ],
       "sources": [
         {
           "id": "mangadex-af",
