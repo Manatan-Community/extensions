@@ -11,12 +11,12 @@
     {
       "media": "video",
       "index": "video.min.json",
-      "count": 8
+      "count": 9
     },
     {
       "media": "novel",
       "index": "novel.min.json",
-      "count": 16
+      "count": 18
     }
   ]
 }
