@@ -936,6 +936,187 @@
   },
   {
     "schemaVersion": 2,
+    "pkgName": "manatan:anime3rb",
+    "id": "anime3rb",
+    "packageId": "anime3rb",
+    "name": "Anime3rb",
+    "versionName": "0.1.1",
+    "version": "0.1.1",
+    "versionCode": 2,
+    "contentType": "video",
+    "media": "video",
+    "mediaKind": "video",
+    "lang": "ar",
+    "language": "ar",
+    "contentRating": "suggestive",
+    "extensionType": "manatan2",
+    "packageUrl": "packages/video/ar/anime3rb.manatan2",
+    "packagePath": "packages/video/ar/anime3rb.manatan2",
+    "sha256": "89bbabddb1f2ef9ea48524edfaf008b4299ef0a2ecaf9888111d00f9bfe5b0ea",
+    "size": 1304807,
+    "sizeBytes": 1304807,
+    "iconUrl": "icons/video/ar/anime3rb.png",
+    "sourceIds": [
+      "anime3rb"
+    ],
+    "sourceNames": [
+      "Anime3rb"
+    ],
+    "publisher": {
+      "id": "org.manatan.community.extensions",
+      "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+      "signature": "c4cf65795604f9f7998c334578bcaeb8e06ec7fc48bd74f0c0797844fd9a254cde97a5d0f62299d16dfdf21878869699bbcee876b585e7b8a2c3d5b38bce380f"
+    },
+    "sources": [
+      {
+        "id": "anime3rb",
+        "name": "Anime3rb",
+        "lang": "ar",
+        "contentType": "video",
+        "baseUrl": "https://anime3rb.com",
+        "contentRating": "suggestive",
+        "capabilities": {
+          "operations": [],
+          "search": true,
+          "latest": true,
+          "filters": false,
+          "preferences": false,
+          "home": false,
+          "hosterResolution": false,
+          "seasons": false,
+          "urlResolution": true,
+          "chapterPagination": false,
+          "pageProcessing": false,
+          "mediaProcessing": false,
+          "authentication": false,
+          "unmetered": false
+        },
+        "listings": [
+          {
+            "id": "popular",
+            "name": "Popular"
+          },
+          {
+            "id": "latest",
+            "name": "Latest"
+          }
+        ],
+        "urlPatterns": [
+          {
+            "pattern": "https://anime3rb.com/titles/*",
+            "kind": "item"
+          },
+          {
+            "pattern": "https://anime3rb.com/episode/*",
+            "kind": "item-or-episode"
+          }
+        ],
+        "tags": [
+          "anime",
+          "arabic-subtitles"
+        ]
+      }
+    ],
+    "manifest": {
+      "schemaVersion": 2,
+      "id": "anime3rb",
+      "name": "Anime3rb",
+      "version": "0.1.1",
+      "versionCode": 2,
+      "apiVersion": 2,
+      "wasm": "extension.wasm",
+      "contentType": "video",
+      "publisher": {
+        "id": "org.manatan.community.extensions",
+        "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+        "signature": "c4cf65795604f9f7998c334578bcaeb8e06ec7fc48bd74f0c0797844fd9a254cde97a5d0f62299d16dfdf21878869699bbcee876b585e7b8a2c3d5b38bce380f"
+      },
+      "description": "Arabic-subtitled anime from Anime3rb.",
+      "author": "Manatan Community",
+      "homepage": "https://anime3rb.com",
+      "repository": "https://github.com/Manatan-Community/extensions-source",
+      "license": "Apache-2.0",
+      "icon": "assets/icon.png",
+      "minimumManatanVersion": null,
+      "permissions": {
+        "network": {
+          "allow": [
+            "https://anime3rb.com",
+            "https://*.anime3rb.com",
+            "https://graphql.anilist.co",
+            "https://s4.anilist.co",
+            "https://vid3rb.com",
+            "https://*.vid3rb.com"
+          ]
+        },
+        "webview": true,
+        "cookies": true,
+        "storage": false,
+        "assets": false,
+        "javascript": false,
+        "services": []
+      },
+      "assets": [
+        {
+          "path": "assets/icon.png",
+          "mimeType": "image/png",
+          "sha256": "6c132f7a49a1a65d1cdbfb37c4154d2efa01d6f04decb361e3afa85d81d8a32e"
+        }
+      ],
+      "sources": [
+        {
+          "id": "anime3rb",
+          "name": "Anime3rb",
+          "lang": "ar",
+          "contentType": "video",
+          "baseUrl": "https://anime3rb.com",
+          "contentRating": "suggestive",
+          "capabilities": {
+            "operations": [],
+            "search": true,
+            "latest": true,
+            "filters": false,
+            "preferences": false,
+            "home": false,
+            "hosterResolution": false,
+            "seasons": false,
+            "urlResolution": true,
+            "chapterPagination": false,
+            "pageProcessing": false,
+            "mediaProcessing": false,
+            "authentication": false,
+            "unmetered": false
+          },
+          "listings": [
+            {
+              "id": "popular",
+              "name": "Popular"
+            },
+            {
+              "id": "latest",
+              "name": "Latest"
+            }
+          ],
+          "urlPatterns": [
+            {
+              "pattern": "https://anime3rb.com/titles/*",
+              "kind": "item"
+            },
+            {
+              "pattern": "https://anime3rb.com/episode/*",
+              "kind": "item-or-episode"
+            }
+          ],
+          "tags": [
+            "anime",
+            "arabic-subtitles"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "schemaVersion": 2,
     "pkgName": "manatan:animeonsen",
     "id": "animeonsen",
     "packageId": "animeonsen",
