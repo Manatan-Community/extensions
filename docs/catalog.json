@@ -169,6 +169,177 @@
   },
   {
     "schemaVersion": 2,
+    "pkgName": "manatan:shuku52",
+    "id": "shuku52",
+    "packageId": "shuku52",
+    "name": "52书库",
+    "versionName": "1.0.0",
+    "version": "1.0.0",
+    "versionCode": 1,
+    "contentType": "novel",
+    "media": "novel",
+    "mediaKind": "novel",
+    "lang": "zh",
+    "language": "zh",
+    "contentRating": "suggestive",
+    "extensionType": "manatan2",
+    "packageUrl": "packages/novel/zh/shuku52.manatan2",
+    "packagePath": "packages/novel/zh/shuku52.manatan2",
+    "sha256": "258dc838d920045354927c98ee9d0b44a86f48ed59f3e7471634dcc5231d4cd6",
+    "size": 2085497,
+    "sizeBytes": 2085497,
+    "iconUrl": "icons/novel/zh/shuku52.png",
+    "sourceIds": [
+      "shuku52"
+    ],
+    "sourceNames": [
+      "52书库"
+    ],
+    "publisher": {
+      "id": "org.manatan.community.extensions",
+      "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+      "signature": "ae2b7beea474998c801c8ae80733f5bca455945f55321ea8907fa08d9514232f65124d7619d465d10082e0f50bf8d1146acefda64679ba6437ecc1642ac08000"
+    },
+    "sources": [
+      {
+        "id": "shuku52",
+        "name": "52书库",
+        "lang": "zh",
+        "contentType": "novel",
+        "baseUrl": "https://www.52shuku.net",
+        "contentRating": "suggestive",
+        "capabilities": {
+          "operations": [],
+          "search": true,
+          "latest": true,
+          "filters": true,
+          "preferences": false,
+          "home": false,
+          "hosterResolution": false,
+          "seasons": false,
+          "urlResolution": true,
+          "chapterPagination": false,
+          "pageProcessing": false,
+          "mediaProcessing": false,
+          "authentication": false,
+          "unmetered": false
+        },
+        "listings": [
+          {
+            "id": "popular",
+            "name": "热门排行"
+          },
+          {
+            "id": "latest",
+            "name": "最近更新"
+          }
+        ],
+        "urlPatterns": [
+          {
+            "pattern": "https://www.52shuku.net/*/*.html",
+            "kind": "item"
+          },
+          {
+            "pattern": "https://www.52shuku.net/*/*/*.html",
+            "kind": "item"
+          }
+        ],
+        "tags": []
+      }
+    ],
+    "manifest": {
+      "schemaVersion": 2,
+      "id": "shuku52",
+      "name": "52书库",
+      "version": "1.0.0",
+      "versionCode": 1,
+      "apiVersion": 2,
+      "wasm": "extension.wasm",
+      "contentType": "novel",
+      "publisher": {
+        "id": "org.manatan.community.extensions",
+        "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
+        "signature": "ae2b7beea474998c801c8ae80733f5bca455945f55321ea8907fa08d9514232f65124d7619d465d10082e0f50bf8d1146acefda64679ba6437ecc1642ac08000"
+      },
+      "description": "Chinese raw novels from 52书库.",
+      "author": "Manatan Community",
+      "homepage": "https://www.52shuku.net",
+      "repository": "https://github.com/Manatan-Community/extensions-source",
+      "license": "Apache-2.0",
+      "icon": "assets/icon.png",
+      "minimumManatanVersion": "0.3.1",
+      "permissions": {
+        "network": {
+          "allow": [
+            "https://www.52shuku.net",
+            "https://52shuku.net"
+          ]
+        },
+        "webview": false,
+        "cookies": false,
+        "storage": false,
+        "assets": false,
+        "javascript": false,
+        "services": []
+      },
+      "assets": [
+        {
+          "path": "assets/icon.png",
+          "mimeType": "image/png",
+          "sha256": "38f4b34d7fe8766e2ef3d925b5e025c43828767f7ee7c35644c8430fcd6b6813"
+        }
+      ],
+      "sources": [
+        {
+          "id": "shuku52",
+          "name": "52书库",
+          "lang": "zh",
+          "contentType": "novel",
+          "baseUrl": "https://www.52shuku.net",
+          "contentRating": "suggestive",
+          "capabilities": {
+            "operations": [],
+            "search": true,
+            "latest": true,
+            "filters": true,
+            "preferences": false,
+            "home": false,
+            "hosterResolution": false,
+            "seasons": false,
+            "urlResolution": true,
+            "chapterPagination": false,
+            "pageProcessing": false,
+            "mediaProcessing": false,
+            "authentication": false,
+            "unmetered": false
+          },
+          "listings": [
+            {
+              "id": "popular",
+              "name": "热门排行"
+            },
+            {
+              "id": "latest",
+              "name": "最近更新"
+            }
+          ],
+          "urlPatterns": [
+            {
+              "pattern": "https://www.52shuku.net/*/*.html",
+              "kind": "item"
+            },
+            {
+              "pattern": "https://www.52shuku.net/*/*/*.html",
+              "kind": "item"
+            }
+          ],
+          "tags": []
+        }
+      ]
+    }
+  },
+  {
+    "schemaVersion": 2,
     "pkgName": "manatan:shuba69",
     "id": "shuba69",
     "packageId": "shuba69",
