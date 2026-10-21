@@ -1292,9 +1292,9 @@
     "id": "animeav1",
     "packageId": "animeav1",
     "name": "AnimeAv1",
-    "versionName": "0.1.5",
-    "version": "0.1.5",
-    "versionCode": 6,
+    "versionName": "0.2.2",
+    "version": "0.2.2",
+    "versionCode": 13,
     "contentType": "video",
     "media": "video",
     "mediaKind": "video",
@@ -1304,9 +1304,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/video/es/animeav1.manatan2",
     "packagePath": "packages/video/es/animeav1.manatan2",
-    "sha256": "a4b200985786992bb7f20ef26eb259d963cfb2b8c7002548019cd49494e2543f",
-    "size": 2129877,
-    "sizeBytes": 2129877,
+    "sha256": "c33ac8be19d14032c896b0b82b9a300530e410d8d3290bd0ee30803c9035bcff",
+    "size": 2251729,
+    "sizeBytes": 2251729,
     "iconUrl": "icons/video/es/animeav1.png",
     "sourceIds": [
       "animeav1"
@@ -1317,7 +1317,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "535a281b0039696e02a6a007ba8f22da2faf40037067e7daf71b43d74d7a3e5471dc118a2567a5e325580964c9e2492180ba932b8945d13c4894f8e2f4b16a09"
+      "signature": "5cef62aa13a491e94ee5fce270ed13a76236113d24cc5504b17047e5f36b27ed8020323cb1bb6df7f3f6028181b05bfc1603bc3ff72b1c966f64dd84cdb63505"
     },
     "sources": [
       {
@@ -1370,15 +1370,15 @@
       "schemaVersion": 2,
       "id": "animeav1",
       "name": "AnimeAv1",
-      "version": "0.1.5",
-      "versionCode": 6,
+      "version": "0.2.2",
+      "versionCode": 13,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "video",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "535a281b0039696e02a6a007ba8f22da2faf40037067e7daf71b43d74d7a3e5471dc118a2567a5e325580964c9e2492180ba932b8945d13c4894f8e2f4b16a09"
+        "signature": "5cef62aa13a491e94ee5fce270ed13a76236113d24cc5504b17047e5f36b27ed8020323cb1bb6df7f3f6028181b05bfc1603bc3ff72b1c966f64dd84cdb63505"
       },
       "description": "Spanish-subtitled and dubbed anime from AnimeAv1 with resilient mirror selection.",
       "author": "Manatan Community",
@@ -1392,12 +1392,24 @@
           "allow": [
             "https://animeav1.com",
             "https://cdn.animeav1.com",
-            "https://player.zilla-networks.com",
             "https://streamtape.com",
-            "https://*.tapecontent.net"
+            "https://*.tapecontent.net",
+            "https://voe.sx",
+            "https://derricknationtop.com",
+            "https://*.cloudwindow-route.com",
+            "https://byselapuix.com",
+            "https://animeav1.uns.bio",
+            "https://mp4upload.com",
+            "https://www.mp4upload.com",
+            "https://*.mp4upload.com",
+            "https://*.mp4upload.com:183",
+            "https://a1.mp4upload.com:183",
+            "https://a2.mp4upload.com:183",
+            "https://a3.mp4upload.com:183",
+            "https://a4.mp4upload.com:183"
           ]
         },
-        "webview": false,
+        "webview": true,
         "cookies": true,
         "storage": false,
         "assets": false,
@@ -1466,9 +1478,9 @@
     "id": "animejl",
     "packageId": "animejl",
     "name": "AnimeJL",
-    "versionName": "0.1.1",
-    "version": "0.1.1",
-    "versionCode": 2,
+    "versionName": "0.1.6",
+    "version": "0.1.6",
+    "versionCode": 7,
     "contentType": "video",
     "media": "video",
     "mediaKind": "video",
@@ -1478,9 +1490,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/video/es/animejl.manatan2",
     "packagePath": "packages/video/es/animejl.manatan2",
-    "sha256": "2baec40d2235c2e646c512ab4a7397eda29cb282ae2a38da3a0b310a0b95ff75",
-    "size": 2224722,
-    "sizeBytes": 2224722,
+    "sha256": "ebc7f4fad53b2e3dbc06954a3addc1f3ec20cf6f39cb5a7282101c8ebd60abd1",
+    "size": 2251187,
+    "sizeBytes": 2251187,
     "iconUrl": "icons/video/es/animejl.png",
     "sourceIds": [
       "animejl"
@@ -1491,7 +1503,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "56a89aee2cc090885004c8efaae7570eb2f4b128dfc1ef9aeaf1918955b7516c5b9d7a8ab99b3e5b2e57f05e92c0812a45b8fb2bdbce88357d79d44325726b08"
+      "signature": "4e8fd3097bea388faaec2b939d818aea8b429035a8da8382655f6aecc11abda696d0d003dafd95fa229abae390c437869762b68b22a73adfdcd585433abbab0c"
     },
     "sources": [
       {
@@ -1544,15 +1556,15 @@
       "schemaVersion": 2,
       "id": "animejl",
       "name": "AnimeJL",
-      "version": "0.1.1",
-      "versionCode": 2,
+      "version": "0.1.6",
+      "versionCode": 7,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "video",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "56a89aee2cc090885004c8efaae7570eb2f4b128dfc1ef9aeaf1918955b7516c5b9d7a8ab99b3e5b2e57f05e92c0812a45b8fb2bdbce88357d79d44325726b08"
+        "signature": "4e8fd3097bea388faaec2b939d818aea8b429035a8da8382655f6aecc11abda696d0d003dafd95fa229abae390c437869762b68b22a73adfdcd585433abbab0c"
       },
       "description": "Spanish-subtitled and dubbed anime from AnimeJL with resilient mirror selection.",
       "author": "Manatan Community",
@@ -1574,7 +1586,38 @@
             "https://sbfull.com",
             "https://www.sbfull.com",
             "https://animejl.top",
-            "https://www.animejl.top"
+            "https://www.animejl.top",
+            "https://sendvid.com",
+            "https://*.sendvid.com",
+            "https://streamtape.com",
+            "https://*.tapecontent.net",
+            "https://flaswish.com",
+            "https://voe.sx",
+            "https://uqload.io",
+            "https://uqload.vc",
+            "https://uqload.is",
+            "https://uqload.net",
+            "https://uqload.cx",
+            "https://mp4upload.com",
+            "https://www.mp4upload.com",
+            "https://*.mp4upload.com",
+            "https://*.mp4upload.com:183",
+            "https://a1.mp4upload.com:183",
+            "https://a2.mp4upload.com:183",
+            "https://a3.mp4upload.com:183",
+            "https://a4.mp4upload.com:183",
+            "https://bysezoxexe.com",
+            "https://vidhidepre.com",
+            "https://strwish.com",
+            "https://dhtpre.com",
+            "https://iplayerhls.com",
+            "https://listeamed.net",
+            "https://mivalyo.com",
+            "https://hglink.to",
+            "https://savefiles.com",
+            "https://mxdrop.to",
+            "https://powvideo.org",
+            "https://streamplay.to"
           ]
         },
         "webview": true,
