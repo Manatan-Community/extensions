@@ -1860,9 +1860,9 @@
     "id": "animeav1",
     "packageId": "animeav1",
     "name": "AnimeAv1",
-    "versionName": "0.2.2",
-    "version": "0.2.2",
-    "versionCode": 13,
+    "versionName": "0.2.3",
+    "version": "0.2.3",
+    "versionCode": 14,
     "contentType": "video",
     "media": "video",
     "mediaKind": "video",
@@ -1872,9 +1872,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/video/es/animeav1.manatan2",
     "packagePath": "packages/video/es/animeav1.manatan2",
-    "sha256": "c33ac8be19d14032c896b0b82b9a300530e410d8d3290bd0ee30803c9035bcff",
-    "size": 2251729,
-    "sizeBytes": 2251729,
+    "sha256": "2d2b16dafd167a5b928750ea7ab067669fd3e28b3a790e9e25db8df356eb90a1",
+    "size": 2290298,
+    "sizeBytes": 2290298,
     "iconUrl": "icons/video/es/animeav1.png",
     "sourceIds": [
       "animeav1"
@@ -1885,7 +1885,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "5cef62aa13a491e94ee5fce270ed13a76236113d24cc5504b17047e5f36b27ed8020323cb1bb6df7f3f6028181b05bfc1603bc3ff72b1c966f64dd84cdb63505"
+      "signature": "5f4919e741812fc872b975a998f4a50436345383970d8a0eb82286556e475a491ad935203a01d133369162364f219b22d0e2180eed1c558d1aa76c29f2f6d50a"
     },
     "sources": [
       {
@@ -1938,15 +1938,15 @@
       "schemaVersion": 2,
       "id": "animeav1",
       "name": "AnimeAv1",
-      "version": "0.2.2",
-      "versionCode": 13,
+      "version": "0.2.3",
+      "versionCode": 14,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "video",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "5cef62aa13a491e94ee5fce270ed13a76236113d24cc5504b17047e5f36b27ed8020323cb1bb6df7f3f6028181b05bfc1603bc3ff72b1c966f64dd84cdb63505"
+        "signature": "5f4919e741812fc872b975a998f4a50436345383970d8a0eb82286556e475a491ad935203a01d133369162364f219b22d0e2180eed1c558d1aa76c29f2f6d50a"
       },
       "description": "Spanish-subtitled and dubbed anime from AnimeAv1 with resilient mirror selection.",
       "author": "Manatan Community",
@@ -1966,6 +1966,8 @@
             "https://derricknationtop.com",
             "https://*.cloudwindow-route.com",
             "https://byselapuix.com",
+            "https://n1mwq.org",
+            "https://*.owphbf24.com",
             "https://animeav1.uns.bio",
             "https://mp4upload.com",
             "https://www.mp4upload.com",
@@ -2046,9 +2048,9 @@
     "id": "animejl",
     "packageId": "animejl",
     "name": "AnimeJL",
-    "versionName": "0.1.6",
-    "version": "0.1.6",
-    "versionCode": 7,
+    "versionName": "0.1.7",
+    "version": "0.1.7",
+    "versionCode": 8,
     "contentType": "video",
     "media": "video",
     "mediaKind": "video",
@@ -2058,9 +2060,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/video/es/animejl.manatan2",
     "packagePath": "packages/video/es/animejl.manatan2",
-    "sha256": "ebc7f4fad53b2e3dbc06954a3addc1f3ec20cf6f39cb5a7282101c8ebd60abd1",
-    "size": 2251187,
-    "sizeBytes": 2251187,
+    "sha256": "dd5800f4e9965ddabea3bdd23a7094c61d7197f52a360a43f3f3e1cd09e0e23c",
+    "size": 2337592,
+    "sizeBytes": 2337592,
     "iconUrl": "icons/video/es/animejl.png",
     "sourceIds": [
       "animejl"
@@ -2071,7 +2073,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "4e8fd3097bea388faaec2b939d818aea8b429035a8da8382655f6aecc11abda696d0d003dafd95fa229abae390c437869762b68b22a73adfdcd585433abbab0c"
+      "signature": "63dea8c5c8fb813b916fb281e1f203941bb04dd914fcade70611545392da2aef5db09de7c8f6af500733f4a8ac886c6d5f98291714bdd00852f98652e748930a"
     },
     "sources": [
       {
@@ -2085,7 +2087,7 @@
           "operations": [],
           "search": true,
           "latest": true,
-          "filters": false,
+          "filters": true,
           "preferences": false,
           "home": false,
           "hosterResolution": false,
@@ -2124,15 +2126,15 @@
       "schemaVersion": 2,
       "id": "animejl",
       "name": "AnimeJL",
-      "version": "0.1.6",
-      "versionCode": 7,
+      "version": "0.1.7",
+      "versionCode": 8,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "video",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "4e8fd3097bea388faaec2b939d818aea8b429035a8da8382655f6aecc11abda696d0d003dafd95fa229abae390c437869762b68b22a73adfdcd585433abbab0c"
+        "signature": "63dea8c5c8fb813b916fb281e1f203941bb04dd914fcade70611545392da2aef5db09de7c8f6af500733f4a8ac886c6d5f98291714bdd00852f98652e748930a"
       },
       "description": "Spanish-subtitled and dubbed anime from AnimeJL with resilient mirror selection.",
       "author": "Manatan Community",
@@ -2161,8 +2163,14 @@
             "https://*.tapecontent.net",
             "https://flaswish.com",
             "https://voe.sx",
+            "https://derricknationtop.com",
+            "https://*.cloudwindow-route.com",
+            "https://callistanise.com",
+            "https://*.orchidcrestperformance.sbs",
+            "https://*.dramiyos-cdn.com",
             "https://uqload.io",
             "https://uqload.vc",
+            "https://*.uqload.vc",
             "https://uqload.is",
             "https://uqload.net",
             "https://uqload.cx",
@@ -2175,6 +2183,8 @@
             "https://a3.mp4upload.com:183",
             "https://a4.mp4upload.com:183",
             "https://bysezoxexe.com",
+            "https://n1mwq.org",
+            "https://*.owphbf24.com",
             "https://vidhidepre.com",
             "https://strwish.com",
             "https://dhtpre.com",
@@ -2214,7 +2224,7 @@
             "operations": [],
             "search": true,
             "latest": true,
-            "filters": false,
+            "filters": true,
             "preferences": false,
             "home": false,
             "hosterResolution": false,
