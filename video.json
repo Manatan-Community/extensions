@@ -2048,9 +2048,9 @@
     "id": "animejl",
     "packageId": "animejl",
     "name": "AnimeJL",
-    "versionName": "0.1.7",
-    "version": "0.1.7",
-    "versionCode": 8,
+    "versionName": "0.1.8",
+    "version": "0.1.8",
+    "versionCode": 9,
     "contentType": "video",
     "media": "video",
     "mediaKind": "video",
@@ -2060,9 +2060,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/video/es/animejl.manatan2",
     "packagePath": "packages/video/es/animejl.manatan2",
-    "sha256": "dd5800f4e9965ddabea3bdd23a7094c61d7197f52a360a43f3f3e1cd09e0e23c",
-    "size": 2337592,
-    "sizeBytes": 2337592,
+    "sha256": "6082e469becc8e337cc5280b3648c9d56c7d97cea570f4ad5bcb18d1896554c7",
+    "size": 2338019,
+    "sizeBytes": 2338019,
     "iconUrl": "icons/video/es/animejl.png",
     "sourceIds": [
       "animejl"
@@ -2073,7 +2073,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "63dea8c5c8fb813b916fb281e1f203941bb04dd914fcade70611545392da2aef5db09de7c8f6af500733f4a8ac886c6d5f98291714bdd00852f98652e748930a"
+      "signature": "336b174e0f81ac5c0346ce42f77a3d87c84136053ff15b0affc631b3199ed55c95c425923431dd81eb2151c7d64c678d390af7462977eeff16d921345e79070f"
     },
     "sources": [
       {
@@ -2126,15 +2126,15 @@
       "schemaVersion": 2,
       "id": "animejl",
       "name": "AnimeJL",
-      "version": "0.1.7",
-      "versionCode": 8,
+      "version": "0.1.8",
+      "versionCode": 9,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "video",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "63dea8c5c8fb813b916fb281e1f203941bb04dd914fcade70611545392da2aef5db09de7c8f6af500733f4a8ac886c6d5f98291714bdd00852f98652e748930a"
+        "signature": "336b174e0f81ac5c0346ce42f77a3d87c84136053ff15b0affc631b3199ed55c95c425923431dd81eb2151c7d64c678d390af7462977eeff16d921345e79070f"
       },
       "description": "Spanish-subtitled and dubbed anime from AnimeJL with resilient mirror selection.",
       "author": "Manatan Community",
