@@ -5,9 +5,9 @@
     "id": "animeonsen",
     "packageId": "animeonsen",
     "name": "AnimeOnsen",
-    "versionName": "0.1.3",
-    "version": "0.1.3",
-    "versionCode": 4,
+    "versionName": "0.1.4",
+    "version": "0.1.4",
+    "versionCode": 5,
     "contentType": "video",
     "media": "video",
     "mediaKind": "video",
@@ -17,9 +17,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/video/all/animeonsen.manatan2",
     "packagePath": "packages/video/all/animeonsen.manatan2",
-    "sha256": "1e750602b44560336b2556aadf26506cd65c0c3a3d818ecb2e410c06fc5cf71d",
-    "size": 1649978,
-    "sizeBytes": 1649978,
+    "sha256": "ca2af75448f9d0bd7803d552361f8911a3087b0b7e724178c51d399ee3daa4fb",
+    "size": 1658751,
+    "sizeBytes": 1658751,
     "iconUrl": "icons/video/all/animeonsen.png",
     "sourceIds": [
       "animeonsen"
@@ -30,7 +30,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "995a158bbd17da301652f70380198e4c7052b4601041691b914f761036835c81d47e83281f6932e2abf354d77a135e9d2ad7bafc6eebd32389f5dd11efa40808"
+      "signature": "c047b1b12d08717caa8faf5a20cccd6ffde25f038c2f7a36bee63f26d784236e612482cb0ab7e68507b4a5b38979840ae6fb44565bb58f0322db747b1ac2af04"
     },
     "sources": [
       {
@@ -41,7 +41,9 @@
         "baseUrl": "https://www.animeonsen.xyz",
         "contentRating": "suggestive",
         "capabilities": {
-          "operations": [],
+          "operations": [
+            "video.refresh-episodes"
+          ],
           "search": true,
           "latest": false,
           "filters": true,
@@ -78,15 +80,15 @@
       "schemaVersion": 2,
       "id": "animeonsen",
       "name": "AnimeOnsen",
-      "version": "0.1.3",
-      "versionCode": 4,
+      "version": "0.1.4",
+      "versionCode": 5,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "video",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "995a158bbd17da301652f70380198e4c7052b4601041691b914f761036835c81d47e83281f6932e2abf354d77a135e9d2ad7bafc6eebd32389f5dd11efa40808"
+        "signature": "c047b1b12d08717caa8faf5a20cccd6ffde25f038c2f7a36bee63f26d784236e612482cb0ab7e68507b4a5b38979840ae6fb44565bb58f0322db747b1ac2af04"
       },
       "description": "All-language anime catalog and streams from AnimeOnsen with Play-safe catalog filtering.",
       "author": "Manatan Community",
@@ -128,7 +130,9 @@
           "baseUrl": "https://www.animeonsen.xyz",
           "contentRating": "suggestive",
           "capabilities": {
-            "operations": [],
+            "operations": [
+              "video.refresh-episodes"
+            ],
             "search": true,
             "latest": false,
             "filters": true,
@@ -169,9 +173,9 @@
     "id": "anizone",
     "packageId": "anizone",
     "name": "AniZone",
-    "versionName": "0.1.4",
-    "version": "0.1.4",
-    "versionCode": 5,
+    "versionName": "0.1.5",
+    "version": "0.1.5",
+    "versionCode": 6,
     "contentType": "video",
     "media": "video",
     "mediaKind": "video",
@@ -181,9 +185,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/video/all/anizone.manatan2",
     "packagePath": "packages/video/all/anizone.manatan2",
-    "sha256": "02d87ef5926a53ea63f3784c5674c1d3288a952cdc50fc1b3227e11924f9e283",
-    "size": 2277714,
-    "sizeBytes": 2277714,
+    "sha256": "b4959ce60aaf11196f32c4d357dc291f755d0ecd317678992ad6b4734f90cc4b",
+    "size": 2278730,
+    "sizeBytes": 2278730,
     "iconUrl": "icons/video/all/anizone.png",
     "sourceIds": [
       "anizone"
@@ -194,7 +198,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "11a54e593d7308bd10e64c0bdbec7c6270fc143358aa87a36202e9e8753fe3f0604d098935771bcbfc37855275feb80aac672f24843392b6c7fb0615adcb2a08"
+      "signature": "80223ff29cb0d020d8b541e9a480b6b070b814ea549f7d706ea32f409bc2cf0c69c30f2a56b14ff452b1f5e8f469788f7513a97d8f93a902eae1249afc50480c"
     },
     "sources": [
       {
@@ -246,15 +250,15 @@
       "schemaVersion": 2,
       "id": "anizone",
       "name": "AniZone",
-      "version": "0.1.4",
-      "versionCode": 5,
+      "version": "0.1.5",
+      "versionCode": 6,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "video",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "11a54e593d7308bd10e64c0bdbec7c6270fc143358aa87a36202e9e8753fe3f0604d098935771bcbfc37855275feb80aac672f24843392b6c7fb0615adcb2a08"
+        "signature": "80223ff29cb0d020d8b541e9a480b6b070b814ea549f7d706ea32f409bc2cf0c69c30f2a56b14ff452b1f5e8f469788f7513a97d8f93a902eae1249afc50480c"
       },
       "description": "All-language anime catalog, subtitles, and streams from AniZone with enforced safe-search filtering.",
       "author": "Manatan Community",
@@ -954,9 +958,9 @@
     "id": "aniwave",
     "packageId": "aniwave",
     "name": "AniWave (Unoriginal)",
-    "versionName": "0.2.3",
-    "version": "0.2.3",
-    "versionCode": 14,
+    "versionName": "0.2.4",
+    "version": "0.2.4",
+    "versionCode": 15,
     "contentType": "video",
     "media": "video",
     "mediaKind": "video",
@@ -966,9 +970,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/video/en/aniwave.manatan2",
     "packagePath": "packages/video/en/aniwave.manatan2",
-    "sha256": "535be6fc284632c3d8a17fff2a77f6045580c5f81eea322af039a7a44241ae95",
-    "size": 2445052,
-    "sizeBytes": 2445052,
+    "sha256": "62b64ff5fb4ca1d5ac1508a6c6219bfb0b765a3a3a2fd3b685a1e281c7c6f1d7",
+    "size": 2446099,
+    "sizeBytes": 2446099,
     "iconUrl": "icons/video/en/aniwave.png",
     "sourceIds": [
       "aniwave"
@@ -979,7 +983,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "1a87736a7119dc5ae728165fd9a7f784937f97a352fd3ae3e958939a21f8190bf581e84e6064f70edeb5931eb697b047d7b15cb9ed9e87ad4b6c37fc2ebbce07"
+      "signature": "ecea0087d6d9dcfafd9df4e56e77d50039502bbaef819a6ad79acf3d5cc85cc7eef674679699c6b59942a68fe2e7e40b6c0dd8327d55b3838e28e20ea654fe0c"
     },
     "sources": [
       {
@@ -991,7 +995,8 @@
         "contentRating": "suggestive",
         "capabilities": {
           "operations": [
-            "video.refresh-episodes"
+            "video.refresh-episodes",
+            "video.seek-previews"
           ],
           "search": true,
           "latest": true,
@@ -1036,15 +1041,15 @@
       "schemaVersion": 2,
       "id": "aniwave",
       "name": "AniWave (Unoriginal)",
-      "version": "0.2.3",
-      "versionCode": 14,
+      "version": "0.2.4",
+      "versionCode": 15,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "video",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "1a87736a7119dc5ae728165fd9a7f784937f97a352fd3ae3e958939a21f8190bf581e84e6064f70edeb5931eb697b047d7b15cb9ed9e87ad4b6c37fc2ebbce07"
+        "signature": "ecea0087d6d9dcfafd9df4e56e77d50039502bbaef819a6ad79acf3d5cc85cc7eef674679699c6b59942a68fe2e7e40b6c0dd8327d55b3838e28e20ea654fe0c"
       },
       "description": "English anime catalog and streams from AniWave.",
       "author": "Manatan Community",
@@ -1100,10 +1105,12 @@
         },
         "webview": false,
         "cookies": true,
-        "storage": false,
+        "storage": true,
         "assets": false,
         "javascript": false,
-        "services": []
+        "services": [
+          "html.select.v1"
+        ]
       },
       "assets": [
         {
@@ -1122,7 +1129,8 @@
           "contentRating": "suggestive",
           "capabilities": {
             "operations": [
-              "video.refresh-episodes"
+              "video.refresh-episodes",
+              "video.seek-previews"
             ],
             "search": true,
             "latest": true,
@@ -1538,9 +1546,9 @@
     "id": "reanime",
     "packageId": "reanime",
     "name": "ReAnime",
-    "versionName": "0.1.2",
-    "version": "0.1.2",
-    "versionCode": 3,
+    "versionName": "0.1.3",
+    "version": "0.1.3",
+    "versionCode": 4,
     "contentType": "video",
     "media": "video",
     "mediaKind": "video",
@@ -1550,9 +1558,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/video/en/reanime.manatan2",
     "packagePath": "packages/video/en/reanime.manatan2",
-    "sha256": "76c171854c57d8757c2facfb02379b33d5a7396faace7d02ca253e73947d10d6",
-    "size": 789800,
-    "sizeBytes": 789800,
+    "sha256": "b474d46da559beb42f066973e5cf68973fcce809d5af7f57d270c6e92be8697b",
+    "size": 823887,
+    "sizeBytes": 823887,
     "iconUrl": "icons/video/en/reanime.png",
     "sourceIds": [
       "reanime"
@@ -1563,7 +1571,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "a200bc42288411770bc2ef146683aba29ff25435aa169387675c60e8d883cbe5c747e48d19fc0b95a4aba16070b2b98221f53723d23756fc8404bf3104ba3d03"
+      "signature": "a42e38df1fbd3fb89b41e587254b5437f572bc94f397e558aa14268f602a74c1e1f81a1ba4e63e39566f26ebef7b5731357fae0343bf36825b3359657034760d"
     },
     "sources": [
       {
@@ -1571,11 +1579,12 @@
         "name": "ReAnime",
         "lang": "en",
         "contentType": "video",
-        "baseUrl": "https://reanime.to",
+        "baseUrl": "https://reanime.cz",
         "contentRating": "suggestive",
         "capabilities": {
           "operations": [
-            "video.refresh-episodes"
+            "video.refresh-episodes",
+            "video.seek-previews"
           ],
           "search": true,
           "latest": true,
@@ -1609,6 +1618,30 @@
           {
             "pattern": "https://reanime.to/watch/*",
             "kind": "item-or-episode"
+          },
+          {
+            "pattern": "https://reanime.cz/anime/*",
+            "kind": "item"
+          },
+          {
+            "pattern": "https://reanime.cz/watch/*",
+            "kind": "item-or-episode"
+          },
+          {
+            "pattern": "https://reanime.bz/anime/*",
+            "kind": "item"
+          },
+          {
+            "pattern": "https://reanime.bz/watch/*",
+            "kind": "item-or-episode"
+          },
+          {
+            "pattern": "https://reanime.wtf/anime/*",
+            "kind": "item"
+          },
+          {
+            "pattern": "https://reanime.wtf/watch/*",
+            "kind": "item-or-episode"
           }
         ],
         "tags": [
@@ -1622,19 +1655,19 @@
       "schemaVersion": 2,
       "id": "reanime",
       "name": "ReAnime",
-      "version": "0.1.2",
-      "versionCode": 3,
+      "version": "0.1.3",
+      "versionCode": 4,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "video",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "a200bc42288411770bc2ef146683aba29ff25435aa169387675c60e8d883cbe5c747e48d19fc0b95a4aba16070b2b98221f53723d23756fc8404bf3104ba3d03"
+        "signature": "a42e38df1fbd3fb89b41e587254b5437f572bc94f397e558aa14268f602a74c1e1f81a1ba4e63e39566f26ebef7b5731357fae0343bf36825b3359657034760d"
       },
       "description": "English-subbed and dubbed anime from ReAnime.",
       "author": "Manatan Community",
-      "homepage": "https://reanime.to/home",
+      "homepage": "https://reanime.cz/home",
       "repository": "https://github.com/Manatan-Community/extensions-source",
       "license": "Apache-2.0",
       "icon": "assets/icon.png",
@@ -1651,7 +1684,10 @@
             "https://flixcloud.cc",
             "https://*.flixcloud.cc",
             "https://*.atomic4cdn.top",
-            "https://*.rundowncdn.top"
+            "https://*.rundowncdn.top",
+            "https://reanime.cz",
+            "https://reanime.bz",
+            "https://reanime.wtf"
           ]
         },
         "webview": true,
@@ -1674,11 +1710,12 @@
           "name": "ReAnime",
           "lang": "en",
           "contentType": "video",
-          "baseUrl": "https://reanime.to",
+          "baseUrl": "https://reanime.cz",
           "contentRating": "suggestive",
           "capabilities": {
             "operations": [
-              "video.refresh-episodes"
+              "video.refresh-episodes",
+              "video.seek-previews"
             ],
             "search": true,
             "latest": true,
@@ -1712,6 +1749,30 @@
             {
               "pattern": "https://reanime.to/watch/*",
               "kind": "item-or-episode"
+            },
+            {
+              "pattern": "https://reanime.cz/anime/*",
+              "kind": "item"
+            },
+            {
+              "pattern": "https://reanime.cz/watch/*",
+              "kind": "item-or-episode"
+            },
+            {
+              "pattern": "https://reanime.bz/anime/*",
+              "kind": "item"
+            },
+            {
+              "pattern": "https://reanime.bz/watch/*",
+              "kind": "item-or-episode"
+            },
+            {
+              "pattern": "https://reanime.wtf/anime/*",
+              "kind": "item"
+            },
+            {
+              "pattern": "https://reanime.wtf/watch/*",
+              "kind": "item-or-episode"
             }
           ],
           "tags": [
@@ -1729,9 +1790,9 @@
     "id": "shuttletv",
     "packageId": "shuttletv",
     "name": "ShuttleTV",
-    "versionName": "0.1.5",
-    "version": "0.1.5",
-    "versionCode": 6,
+    "versionName": "0.1.6",
+    "version": "0.1.6",
+    "versionCode": 7,
     "contentType": "video",
     "media": "video",
     "mediaKind": "video",
@@ -1741,9 +1802,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/video/en/shuttletv.manatan2",
     "packagePath": "packages/video/en/shuttletv.manatan2",
-    "sha256": "4f476cef85a7988c3b15dc665ba4fdcfd77d89a1eb2fb21b78dd9df5c1d8f955",
-    "size": 1283240,
-    "sizeBytes": 1283240,
+    "sha256": "2a8110532e0ded3cef9c1db158948b24e7d31ac3408069b419e4ba8895cf8c93",
+    "size": 1283267,
+    "sizeBytes": 1283267,
     "iconUrl": "icons/video/en/shuttletv.png",
     "sourceIds": [
       "shuttletv"
@@ -1754,7 +1815,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "f5c403736eecc0f0d438428a170a9dc3103fcaa73a26dc255255308c6dcf15b72a6919352fc31f32df7ba6044a1d58ce17e5343070cd40c610fd48b5c2271807"
+      "signature": "676d1c53fc6d486e13ebc42ca42b488d3ea2891ed970a117cb9fb7a3b821c8c7d17a4f8cca71936fcc4bd3224fe7280a8463dfa10f6089b2f144aa063b01220b"
     },
     "sources": [
       {
@@ -1762,7 +1823,7 @@
         "name": "ShuttleTV",
         "lang": "en",
         "contentType": "video",
-        "baseUrl": "https://shuttletv.su",
+        "baseUrl": "https://shuttletv.pk",
         "contentRating": "suggestive",
         "capabilities": {
           "operations": [
@@ -1801,6 +1862,14 @@
           {
             "pattern": "https://shuttletv.su/watch/*",
             "kind": "item-or-episode"
+          },
+          {
+            "pattern": "https://shuttletv.pk/title/*",
+            "kind": "item"
+          },
+          {
+            "pattern": "https://shuttletv.pk/watch/*",
+            "kind": "item-or-episode"
           }
         ],
         "tags": [
@@ -1813,19 +1882,19 @@
       "schemaVersion": 2,
       "id": "shuttletv",
       "name": "ShuttleTV",
-      "version": "0.1.5",
-      "versionCode": 6,
+      "version": "0.1.6",
+      "versionCode": 7,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "video",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "f5c403736eecc0f0d438428a170a9dc3103fcaa73a26dc255255308c6dcf15b72a6919352fc31f32df7ba6044a1d58ce17e5343070cd40c610fd48b5c2271807"
+        "signature": "676d1c53fc6d486e13ebc42ca42b488d3ea2891ed970a117cb9fb7a3b821c8c7d17a4f8cca71936fcc4bd3224fe7280a8463dfa10f6089b2f144aa063b01220b"
       },
       "description": "Movies and television from ShuttleTV.",
       "author": "Manatan Community",
-      "homepage": "https://shuttletv.su",
+      "homepage": "https://shuttletv.pk",
       "repository": "https://github.com/Manatan-Community/extensions-source",
       "license": "Apache-2.0",
       "icon": "assets/icon.png",
@@ -1840,7 +1909,8 @@
             "https://a.cineflix.st",
             "https://*.bright67.online",
             "https://fembox.aether.bar",
-            "https://enc-dec.app"
+            "https://enc-dec.app",
+            "https://shuttletv.pk"
           ]
         },
         "webview": true,
@@ -1863,7 +1933,7 @@
           "name": "ShuttleTV",
           "lang": "en",
           "contentType": "video",
-          "baseUrl": "https://shuttletv.su",
+          "baseUrl": "https://shuttletv.pk",
           "contentRating": "suggestive",
           "capabilities": {
             "operations": [
@@ -1902,6 +1972,14 @@
             {
               "pattern": "https://shuttletv.su/watch/*",
               "kind": "item-or-episode"
+            },
+            {
+              "pattern": "https://shuttletv.pk/title/*",
+              "kind": "item"
+            },
+            {
+              "pattern": "https://shuttletv.pk/watch/*",
+              "kind": "item-or-episode"
             }
           ],
           "tags": [
@@ -1918,9 +1996,9 @@
     "id": "animeav1",
     "packageId": "animeav1",
     "name": "AnimeAv1",
-    "versionName": "0.2.5",
-    "version": "0.2.5",
-    "versionCode": 16,
+    "versionName": "0.2.6",
+    "version": "0.2.6",
+    "versionCode": 17,
     "contentType": "video",
     "media": "video",
     "mediaKind": "video",
@@ -1930,9 +2008,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/video/es/animeav1.manatan2",
     "packagePath": "packages/video/es/animeav1.manatan2",
-    "sha256": "68db71403e951a27d040e6fbd334bbf6c4da75e181f9adf39f070d8e990674d8",
-    "size": 2309687,
-    "sizeBytes": 2309687,
+    "sha256": "32b0b1682da36067ff2ba8ac67428a0283e3a5610f0ae1ec9e03d5ce723639aa",
+    "size": 2333494,
+    "sizeBytes": 2333494,
     "iconUrl": "icons/video/es/animeav1.png",
     "sourceIds": [
       "animeav1"
@@ -1943,7 +2021,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "375dd2a6e77c62f7cbfd42e54cccce6e32e409bf3889a20942b8e05d832189862a817875bdcb6575eaaa13f90c20b9ea3f38b55f65c4393752900271e6252c09"
+      "signature": "4864dd89c37b502f8e88c569354f554aab528a5e55912733f9f599c701e47d4992279372d4a36100eeab8e783ecfd4947a72fa21d27ca683cc7d3ae621d79c0a"
     },
     "sources": [
       {
@@ -1955,7 +2033,8 @@
         "contentRating": "suggestive",
         "capabilities": {
           "operations": [
-            "video.refresh-episodes"
+            "video.refresh-episodes",
+            "video.resolve-stream"
           ],
           "search": true,
           "latest": true,
@@ -1998,15 +2077,15 @@
       "schemaVersion": 2,
       "id": "animeav1",
       "name": "AnimeAv1",
-      "version": "0.2.5",
-      "versionCode": 16,
+      "version": "0.2.6",
+      "versionCode": 17,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "video",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "375dd2a6e77c62f7cbfd42e54cccce6e32e409bf3889a20942b8e05d832189862a817875bdcb6575eaaa13f90c20b9ea3f38b55f65c4393752900271e6252c09"
+        "signature": "4864dd89c37b502f8e88c569354f554aab528a5e55912733f9f599c701e47d4992279372d4a36100eeab8e783ecfd4947a72fa21d27ca683cc7d3ae621d79c0a"
       },
       "description": "Spanish-subtitled and dubbed anime from AnimeAv1 with resilient mirror selection.",
       "author": "Manatan Community",
@@ -2064,7 +2143,8 @@
           "contentRating": "suggestive",
           "capabilities": {
             "operations": [
-              "video.refresh-episodes"
+              "video.refresh-episodes",
+              "video.resolve-stream"
             ],
             "search": true,
             "latest": true,
