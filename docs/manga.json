@@ -11669,9 +11669,9 @@
     "id": "soraraw",
     "packageId": "soraraw",
     "name": "SoraRaw",
-    "versionName": "1.0.5",
-    "version": "1.0.5",
-    "versionCode": 6,
+    "versionName": "1.0.7",
+    "version": "1.0.7",
+    "versionCode": 8,
     "contentType": "manga",
     "media": "manga",
     "mediaKind": "manga",
@@ -11681,9 +11681,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/manga/ja/soraraw.manatan2",
     "packagePath": "packages/manga/ja/soraraw.manatan2",
-    "sha256": "d6842e56bcce3dd334b465e8fcd071fa546deb76fad49047f303f91ffd44dc93",
-    "size": 1730578,
-    "sizeBytes": 1730578,
+    "sha256": "aa8aacb00a85ea8b3eb3e4793f6fd9975052f9db1eeda64920ba2a43b8669580",
+    "size": 1746016,
+    "sizeBytes": 1746016,
     "iconUrl": "icons/manga/ja/soraraw.png",
     "sourceIds": [
       "soraraw"
@@ -11694,7 +11694,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "9a2c034df03d87c2beaff095392c238db12ca75e0aa82d073f92dc21618da35f3b724d933f450abb6f856143657a77636b451755632f4d78d9d619dcf9399704"
+      "signature": "628da94da739d17c1706a7ca0ef699359f42af36233032dc0a67cead112d8bfeae2d88fc906c60f24982844490cd49b24d22563fcd8bd3220eae98c69fb0e004"
     },
     "sources": [
       {
@@ -11748,15 +11748,15 @@
       "schemaVersion": 2,
       "id": "soraraw",
       "name": "SoraRaw",
-      "version": "1.0.5",
-      "versionCode": 6,
+      "version": "1.0.7",
+      "versionCode": 8,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "manga",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "9a2c034df03d87c2beaff095392c238db12ca75e0aa82d073f92dc21618da35f3b724d933f450abb6f856143657a77636b451755632f4d78d9d619dcf9399704"
+        "signature": "628da94da739d17c1706a7ca0ef699359f42af36233032dc0a67cead112d8bfeae2d88fc906c60f24982844490cd49b24d22563fcd8bd3220eae98c69fb0e004"
       },
       "description": "Japanese raw manga from SoraRaw.",
       "author": "Manatan Community",
@@ -11782,7 +11782,9 @@
         "storage": false,
         "assets": false,
         "javascript": false,
-        "services": []
+        "services": [
+          "image.raster.v1"
+        ]
       },
       "assets": [
         {
