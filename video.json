@@ -5,9 +5,9 @@
     "id": "animeonsen",
     "packageId": "animeonsen",
     "name": "AnimeOnsen",
-    "versionName": "0.1.4",
-    "version": "0.1.4",
-    "versionCode": 5,
+    "versionName": "0.1.5",
+    "version": "0.1.5",
+    "versionCode": 6,
     "contentType": "video",
     "media": "video",
     "mediaKind": "video",
@@ -17,9 +17,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/video/all/animeonsen.manatan2",
     "packagePath": "packages/video/all/animeonsen.manatan2",
-    "sha256": "ca2af75448f9d0bd7803d552361f8911a3087b0b7e724178c51d399ee3daa4fb",
-    "size": 1658751,
-    "sizeBytes": 1658751,
+    "sha256": "b15fe508a392e3436e0d404dd6aa6fedfd0465c46cdab024442079f1da066921",
+    "size": 1659389,
+    "sizeBytes": 1659389,
     "iconUrl": "icons/video/all/animeonsen.png",
     "sourceIds": [
       "animeonsen"
@@ -30,7 +30,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "c047b1b12d08717caa8faf5a20cccd6ffde25f038c2f7a36bee63f26d784236e612482cb0ab7e68507b4a5b38979840ae6fb44565bb58f0322db747b1ac2af04"
+      "signature": "a8e74cf68a8b8913ec267067c4c2daa48e94cc7d619a73fccc9846ef36a458c942851836f2a2871ef09538644e8056ed82bff53ea965d9e9834ab2cb35eeb704"
     },
     "sources": [
       {
@@ -80,15 +80,15 @@
       "schemaVersion": 2,
       "id": "animeonsen",
       "name": "AnimeOnsen",
-      "version": "0.1.4",
-      "versionCode": 5,
+      "version": "0.1.5",
+      "versionCode": 6,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "video",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "c047b1b12d08717caa8faf5a20cccd6ffde25f038c2f7a36bee63f26d784236e612482cb0ab7e68507b4a5b38979840ae6fb44565bb58f0322db747b1ac2af04"
+        "signature": "a8e74cf68a8b8913ec267067c4c2daa48e94cc7d619a73fccc9846ef36a458c942851836f2a2871ef09538644e8056ed82bff53ea965d9e9834ab2cb35eeb704"
       },
       "description": "All-language anime catalog and streams from AnimeOnsen with Play-safe catalog filtering.",
       "author": "Manatan Community",
@@ -735,9 +735,9 @@
     "id": "anikoto",
     "packageId": "anikoto",
     "name": "Anikoto",
-    "versionName": "0.1.15",
-    "version": "0.1.15",
-    "versionCode": 15,
+    "versionName": "0.1.16",
+    "version": "0.1.16",
+    "versionCode": 16,
     "contentType": "video",
     "media": "video",
     "mediaKind": "video",
@@ -747,9 +747,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/video/en/anikoto.manatan2",
     "packagePath": "packages/video/en/anikoto.manatan2",
-    "sha256": "1b4adddbc154b2547c573391c98c3a564d779014cdd16d424db526381e97e42f",
-    "size": 2446433,
-    "sizeBytes": 2446433,
+    "sha256": "2d3465d74096fe847c08cf00096c27af26bb2a0c2d82d38e3eb7849d3b8737cd",
+    "size": 2447935,
+    "sizeBytes": 2447935,
     "iconUrl": "icons/video/en/anikoto.png",
     "sourceIds": [
       "anikoto"
@@ -760,7 +760,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "ffa9ca236b82b91273811d5ee5bbd9da6375e427ab157a1a1852d1ed0b5e44e72e8faf192260ca5d6217a4d43c249ed489c6aa36ee4d653696f6161139407508"
+      "signature": "735536db3467ee5052aeaf62f21fe79eee2965f935d0c339fb94f05623da5f884e6289a6ec8857963c26e8b9f74c980d36e21d7db0bacbbb538fec0d71b9c60a"
     },
     "sources": [
       {
@@ -818,15 +818,15 @@
       "schemaVersion": 2,
       "id": "anikoto",
       "name": "Anikoto",
-      "version": "0.1.15",
-      "versionCode": 15,
+      "version": "0.1.16",
+      "versionCode": 16,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "video",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "ffa9ca236b82b91273811d5ee5bbd9da6375e427ab157a1a1852d1ed0b5e44e72e8faf192260ca5d6217a4d43c249ed489c6aa36ee4d653696f6161139407508"
+        "signature": "735536db3467ee5052aeaf62f21fe79eee2965f935d0c339fb94f05623da5f884e6289a6ec8857963c26e8b9f74c980d36e21d7db0bacbbb538fec0d71b9c60a"
       },
       "description": "English anime catalog and streams from Anikoto.",
       "author": "Manatan Community",
@@ -958,9 +958,9 @@
     "id": "aniwave",
     "packageId": "aniwave",
     "name": "AniWave (Unoriginal)",
-    "versionName": "0.2.4",
-    "version": "0.2.4",
-    "versionCode": 15,
+    "versionName": "0.2.5",
+    "version": "0.2.5",
+    "versionCode": 16,
     "contentType": "video",
     "media": "video",
     "mediaKind": "video",
@@ -970,9 +970,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/video/en/aniwave.manatan2",
     "packagePath": "packages/video/en/aniwave.manatan2",
-    "sha256": "62b64ff5fb4ca1d5ac1508a6c6219bfb0b765a3a3a2fd3b685a1e281c7c6f1d7",
-    "size": 2446099,
-    "sizeBytes": 2446099,
+    "sha256": "56086b8368a5ecbc6bdcdb37474d135eea1715a8bf32357fdd5b0ac8eaa738d7",
+    "size": 2446512,
+    "sizeBytes": 2446512,
     "iconUrl": "icons/video/en/aniwave.png",
     "sourceIds": [
       "aniwave"
@@ -983,7 +983,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "ecea0087d6d9dcfafd9df4e56e77d50039502bbaef819a6ad79acf3d5cc85cc7eef674679699c6b59942a68fe2e7e40b6c0dd8327d55b3838e28e20ea654fe0c"
+      "signature": "13419eb61fb8934ae1403fcd340c283950fa2dc8ebb3d19f28b7b88f13c20d2f4e720fd66fb5e6fd3f8d78d78c49ba4a29431295a745328564a6744558db350d"
     },
     "sources": [
       {
@@ -1041,15 +1041,15 @@
       "schemaVersion": 2,
       "id": "aniwave",
       "name": "AniWave (Unoriginal)",
-      "version": "0.2.4",
-      "versionCode": 15,
+      "version": "0.2.5",
+      "versionCode": 16,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "video",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "ecea0087d6d9dcfafd9df4e56e77d50039502bbaef819a6ad79acf3d5cc85cc7eef674679699c6b59942a68fe2e7e40b6c0dd8327d55b3838e28e20ea654fe0c"
+        "signature": "13419eb61fb8934ae1403fcd340c283950fa2dc8ebb3d19f28b7b88f13c20d2f4e720fd66fb5e6fd3f8d78d78c49ba4a29431295a745328564a6744558db350d"
       },
       "description": "English anime catalog and streams from AniWave.",
       "author": "Manatan Community",
@@ -1997,9 +1997,9 @@
     "id": "animeav1",
     "packageId": "animeav1",
     "name": "AnimeAv1",
-    "versionName": "0.2.6",
-    "version": "0.2.6",
-    "versionCode": 17,
+    "versionName": "0.2.7",
+    "version": "0.2.7",
+    "versionCode": 18,
     "contentType": "video",
     "media": "video",
     "mediaKind": "video",
@@ -2009,9 +2009,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/video/es/animeav1.manatan2",
     "packagePath": "packages/video/es/animeav1.manatan2",
-    "sha256": "32b0b1682da36067ff2ba8ac67428a0283e3a5610f0ae1ec9e03d5ce723639aa",
-    "size": 2333494,
-    "sizeBytes": 2333494,
+    "sha256": "c9e6d48d1c9105970b31180d83e530c0af2d64b3fc74691cac8ffa41dc506221",
+    "size": 2333353,
+    "sizeBytes": 2333353,
     "iconUrl": "icons/video/es/animeav1.png",
     "sourceIds": [
       "animeav1"
@@ -2022,7 +2022,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "4864dd89c37b502f8e88c569354f554aab528a5e55912733f9f599c701e47d4992279372d4a36100eeab8e783ecfd4947a72fa21d27ca683cc7d3ae621d79c0a"
+      "signature": "5c457afd98562ae7e9c5ce15c1f601b6c219db5b5d64de2e4653e915cdcfa018a79e491c6f3fea24ff1154acb885059342c9e45f030860c8c3e8c4c5a3b2710d"
     },
     "sources": [
       {
@@ -2078,15 +2078,15 @@
       "schemaVersion": 2,
       "id": "animeav1",
       "name": "AnimeAv1",
-      "version": "0.2.6",
-      "versionCode": 17,
+      "version": "0.2.7",
+      "versionCode": 18,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "video",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "4864dd89c37b502f8e88c569354f554aab528a5e55912733f9f599c701e47d4992279372d4a36100eeab8e783ecfd4947a72fa21d27ca683cc7d3ae621d79c0a"
+        "signature": "5c457afd98562ae7e9c5ce15c1f601b6c219db5b5d64de2e4653e915cdcfa018a79e491c6f3fea24ff1154acb885059342c9e45f030860c8c3e8c4c5a3b2710d"
       },
       "description": "Spanish-subtitled and dubbed anime from AnimeAv1 with resilient mirror selection.",
       "author": "Manatan Community",
