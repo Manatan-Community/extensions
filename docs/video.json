@@ -1546,9 +1546,9 @@
     "id": "reanime",
     "packageId": "reanime",
     "name": "ReAnime",
-    "versionName": "0.1.4",
-    "version": "0.1.4",
-    "versionCode": 5,
+    "versionName": "0.1.5",
+    "version": "0.1.5",
+    "versionCode": 6,
     "contentType": "video",
     "media": "video",
     "mediaKind": "video",
@@ -1558,9 +1558,9 @@
     "extensionType": "manatan2",
     "packageUrl": "packages/video/en/reanime.manatan2",
     "packagePath": "packages/video/en/reanime.manatan2",
-    "sha256": "2befb3d0f3efb628e2076e66d569f959e64ae27ce8820a86d05f7d8458a8d5c9",
-    "size": 842825,
-    "sizeBytes": 842825,
+    "sha256": "d99a37e960ca4d76bd23226c8645733610ae1b33f5830933299f5c2a3aceeae5",
+    "size": 839280,
+    "sizeBytes": 839280,
     "iconUrl": "icons/video/en/reanime.png",
     "sourceIds": [
       "reanime"
@@ -1571,7 +1571,7 @@
     "publisher": {
       "id": "org.manatan.community.extensions",
       "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-      "signature": "39507acb8de0527ac505828fffbdd36efc7e80ba36a97f954c7039b4e09db1a46fda20b8f38cfbb0638588603c7877ccc5a4307b6458a72dfcfb46960e774b0c"
+      "signature": "4d9450fd4c02b563d5d09a0c42f793a12a15010a9eec9bac03dc13abfc14fdd71a4ccf7820b3609cf66724023a0bc9f920fd41e77b2644ce653b7d4bf97c990c"
     },
     "sources": [
       {
@@ -1655,15 +1655,15 @@
       "schemaVersion": 2,
       "id": "reanime",
       "name": "ReAnime",
-      "version": "0.1.4",
-      "versionCode": 5,
+      "version": "0.1.5",
+      "versionCode": 6,
       "apiVersion": 2,
       "wasm": "extension.wasm",
       "contentType": "video",
       "publisher": {
         "id": "org.manatan.community.extensions",
         "publicKey": "88b67d201d387960b96b64b5c4ca39d5edceef6e8a088316449a2d5437a889ac",
-        "signature": "39507acb8de0527ac505828fffbdd36efc7e80ba36a97f954c7039b4e09db1a46fda20b8f38cfbb0638588603c7877ccc5a4307b6458a72dfcfb46960e774b0c"
+        "signature": "4d9450fd4c02b563d5d09a0c42f793a12a15010a9eec9bac03dc13abfc14fdd71a4ccf7820b3609cf66724023a0bc9f920fd41e77b2644ce653b7d4bf97c990c"
       },
       "description": "English-subbed and dubbed anime from ReAnime.",
       "author": "Manatan Community",
